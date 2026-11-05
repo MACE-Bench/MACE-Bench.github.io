@@ -20,6 +20,8 @@ RES = json.loads((OUT / "results.json").read_text())
 A = RES["accuracy"]
 
 OI = {"blue": "#0072B2", "green": "#009E73", "verm": "#D55E00", "pink": "#CC79A7", "gold": "#E69F00", "sky": "#56B4E9", "grey": "#8a8a8a"}
+import matplotlib.patheffects as _pe  # noqa: E402
+plt.rcParams["path.effects"] = [_pe.Normal()]   # draw text as outlines: AAAI bans Identity-H and Type 3 fonts
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 7.2, "axes.spines.top": False, "axes.spines.right": False, "axes.linewidth": 0.6,
                      "pdf.fonttype": 42, "xtick.major.width": 0.6, "ytick.major.width": 0.6, "legend.frameon": False})
 

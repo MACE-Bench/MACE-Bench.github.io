@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 
 HERE = Path(__file__).resolve().parent; OUT = HERE / "out"; LOCK = HERE / "locked"
-PAPER = HERE.parent.parent.parent / "papers/2026_mace_agriai_AAAI"
+PAPER = HERE / "paper_src"   # editable multi-file source; mace10/build_submission.py writes the single-file Overleaf paper
 PILOT = HERE.parent / "runs"
 NR = "\\nr{}"; NA = "\\na{}"
 cells: list[dict] = []; mac: dict[str, str] = {}
