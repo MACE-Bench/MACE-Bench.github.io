@@ -368,3 +368,8 @@ tr.grp td { background:var(--tint); font-style:italic; color:var(--muted); font-
 .fig-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.1rem; max-width:1000px; margin:1.1rem auto 0; }
 .fig-grid .fig-card { max-width:none; margin:0; }
 @media (max-width:768px){ .mosaic{grid-template-columns:repeat(5,1fr);} .steps,.fig-grid{grid-template-columns:1fr;} .team{grid-template-columns:repeat(2,1fr);} }
+
+/* Team: rows wrap and a partly filled last row stays centered */
+.team { display:flex; flex-wrap:wrap; justify-content:center; gap:1.4rem 0; }
+.team .member { flex:0 0 25%; padding:0 .5rem; }
+@media (max-width:768px){ .team .member { flex-basis:50%; } }
