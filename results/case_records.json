@@ -1,0 +1,91 @@
+{
+ "S": {
+  "Truth": "Bacterial Wilt",
+  "Sage": "Downy Mildew",
+  "Labels": "Downy Mildew",
+  "Mace": "Bacterial Wilt",
+  "Why": "Leaves show dry, papery, tan desiccated margins with yellow blotches on a low-growing vine near the soil, resembling Bacterial Wilt references m_s15_r12371 and m_s15_r12256; downy mildew is a possible alternative.",
+  "Conf": "0.35",
+  "Id": "s15_r12385",
+  "Coll": "Cucumber Zen",
+  "Crop": "Cucumber",
+  "Split": "IID",
+  "Cap": "Lower foreground leaves and stem near cracked soil; Irregular yellow patches at leaf edges; margins diffuse, blending into green; Green centers, yellow patches, tan-brown dried edges and surfaces; Dry, papery, crinkled edges; surface appears dull and slightly powdery; Edges and interveinal areas; several leaves affected, older ones most; Yellowing between veins, necrotic tan margins, curled dried leaves, cracked dry soil; Cucumber identity assumed; lighting and angle limit view of leaf undersides",
+  "La": "Gummy Stem Blight",
+  "Lb": "Bacterial Wilt",
+  "Lc": "Bacterial Wilt",
+  "Ld": "Anthracnose",
+  "MemLabel": "Bacterial Wilt",
+  "MemCap": "Vine with leaves lying over soil; older leaves lower and at right; Irregular dried patches spreading from leaf edges; margins diffuse, tan-to-green transition; Green leaves; some yellowing; dried areas beige to tan-brown; Dry, papery, crinkled dead tissue; healthy leaves rough with visible veins; Several leaves affected, mostly edges and tips; others fully green; Wilted, curled leaves; yellow-green blotching; dark soil; thin tendrils; small yellow flower; Cannot tell extent of damage on undersides; some leaf areas shadowed or overlapping",
+  "Organ": "leaf",
+  "Ranked": "Bacterial Wilt, Downy Mildew, Gummy Stem Blight",
+  "KbId": "c_9668e1086c",
+  "KbText": "Bacterial Wilt affects the leaf of cucumber.",
+  "ExTest": "Green centers, yellow patches, tan-brown dried edges and surfaces",
+  "ExMem": "margins diffuse, tan-to-green transition",
+  "memory_ids": [
+   "m_s16_r4423",
+   "m_s15_r12256",
+   "m_s15_r12371",
+   "m_s15_r12553"
+  ],
+  "shown": [
+   "Gummy Stem Blight",
+   "Bacterial Wilt",
+   "Bacterial Wilt",
+   "Anthracnose"
+  ],
+  "cited": [
+   "c_9668e1086c",
+   "m_s15_r12371",
+   "m_s15_r12256",
+   "c_5788ef1cda",
+   "m_s16_r4423"
+  ],
+  "job_id": "P1|mace|s0|r2|K4|s15_r12385"
+ },
+ "F": {
+  "Truth": "Downy Mildew",
+  "Sage": "Downy Mildew",
+  "Labels": "Downy Mildew",
+  "Mace": "Anthracnose",
+  "Why": "Cucumber leaf with yellow patches, small torn holes and dark-edged perforations; matches Anthracnose reference observations m_s15_r12604, m_s15_r12665 and yellow-spot note c_eff8a45fa0.",
+  "Conf": "0.50",
+  "Id": "s16_r491",
+  "Coll": "Cucumber Zen",
+  "Crop": "Cucumber",
+  "Split": "IID",
+  "Cap": "Upper surface of a broad leaf, spread across blade and near edges; Irregular yellow patches with diffuse margins; small torn holes and ragged edge notches; Green blade with pale yellow-green patches; small dark brown holes; Smooth surface with slightly puckered veins; tiny pale speckles; Scattered patches across blade, more concentrated toward lower right and edges; Diffuse yellow blotches, small dark perforations, ragged margin tears, fine pale stippling, no visible fungal growth; Cause of holes unclear; yellow patches may vary in depth; underside not visible",
+  "La": "Anthracnose",
+  "Lb": "Anthracnose",
+  "Lc": "Gummy Stem Blight",
+  "Ld": "Angular Leaf Spot",
+  "MemLabel": "Anthracnose",
+  "MemCap": "Upper leaf surface, mid-blade, close to central veins; Irregular torn holes and small round specks with yellowish margins; Green leaf with pale yellow-cream patches and brown-dark hole edges; Smooth surface with thinned, dry, papery areas around holes; Scattered across blade; larger holes near top and right, specks throughout; Ragged perforations, tiny pale stippling, yellow halos, prominent palmate venation, no visible insects; Cannot tell whether holes are tissue loss or fallen-out dead spots",
+  "Organ": "leaf",
+  "Ranked": "Anthracnose, Angular Leaf Spot, Downy Mildew",
+  "KbId": "c_eff8a45fa0",
+  "KbText": "(Anthracnose) Cucumber leaves tend to have more yellow leaf spots whereas watermelon has dark brown or black spots;",
+  "ExTest": "small torn holes and ragged edge notches",
+  "ExMem": "Irregular torn holes and small round specks with yellowish margins",
+  "memory_ids": [
+   "m_s15_r12604",
+   "m_s15_r12665",
+   "m_s16_r4446",
+   "m_s15_r12138"
+  ],
+  "shown": [
+   "Anthracnose",
+   "Anthracnose",
+   "Gummy Stem Blight",
+   "Angular Leaf Spot"
+  ],
+  "cited": [
+   "m_s15_r12604",
+   "m_s15_r12665",
+   "c_eff8a45fa0",
+   "c_7f8cc330ca"
+  ],
+  "job_id": "P1|mace|s0|r0|K4|s16_r491"
+ }
+}

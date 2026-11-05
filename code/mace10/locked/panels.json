@@ -1,0 +1,106 @@
+{
+ "crops": [
+  "Soybean",
+  "Corn",
+  "Tomato",
+  "Cucumber",
+  "Wheat",
+  "Mango",
+  "Apple",
+  "Grape",
+  "Rice",
+  "Potato"
+ ],
+ "rule": "(fixed before any comparative accuracy is read):\n- Cohort: Soybean, Corn, Tomato, plus seven crops from those with a held-out collection, eligible if they have\n  >= 60 held-out in-scope images, >= 4 IID diseases and >= 2 IID collections; ranked by held-out disease count, then\n  held-out image count.\n- Hero panel: per crop up to 100 unique IID and 60 unique held-out (OOD) images, round-robin over diseases in the\n  release's seeded budget_rank order (near-balanced; sparse diseases run out naturally; no padding).\n- Memory selections: release seeds 0 (primary), 1, 2. For each seed, an IID query uses run 0 if it is a test image of\n  run 0, otherwise run 2 (runs 0 and 2 together test every fold), so memory never contains the query. OOD queries use\n  run 0. Memory = the release's nested facility-location set for that (seed, run, K).\n- Nested panels: ablation = first 20 IID + 20 OOD per crop of the hero order (400); efficiency = the ablation items of\n  five crops (Soybean, Corn, Tomato, Mango, Rice; 200); development calibration = 4 IID + 4 OOD per efficiency crop\n  taken after the hero items (40, disjoint); source panel = first 20 IID per crop that are paired-eligible for\n  same- vs other-source memory under seed 0 (optional).",
+ "counts": {
+  "hero": 1600,
+  "ablation": 400,
+  "efficiency": 200,
+  "dev": 40,
+  "source": 199
+ },
+ "per_crop": {
+  "Apple": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Corn": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Cucumber": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Grape": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Mango": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Potato": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Rice": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Soybean": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Tomato": {
+   "iid": 100,
+   "ood": 60
+  },
+  "Wheat": {
+   "iid": 100,
+   "ood": 60
+  }
+ },
+ "per_crop_diseases": {
+  "Apple": {
+   "iid": 8,
+   "ood": 5
+  },
+  "Corn": {
+   "iid": 31,
+   "ood": 17
+  },
+  "Cucumber": {
+   "iid": 8,
+   "ood": 8
+  },
+  "Grape": {
+   "iid": 6,
+   "ood": 5
+  },
+  "Mango": {
+   "iid": 5,
+   "ood": 5
+  },
+  "Potato": {
+   "iid": 4,
+   "ood": 4
+  },
+  "Rice": {
+   "iid": 8,
+   "ood": 4
+  },
+  "Soybean": {
+   "iid": 26,
+   "ood": 20
+  },
+  "Tomato": {
+   "iid": 20,
+   "ood": 8
+  },
+  "Wheat": {
+   "iid": 7,
+   "ood": 7
+  }
+ }
+}

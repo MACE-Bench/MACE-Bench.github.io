@@ -1,0 +1,1641 @@
+crop,image_id,split,label,collection,order,hero,ablation,efficiency,dev,run_s0,run_s1,run_s2,source
+Soybean,s38_r19821,iid,Alfalfa Mosaic,Soybean_Dise,0,True,True,True,False,0,0,0,True
+Soybean,s39_r24456,iid,Anthracnose,Soybean_Dise,1,True,True,True,False,0,2,0,False
+Soybean,s14_r14476,iid,Bacterial Blight,Soybean_Dise,2,True,True,True,False,2,0,0,True
+Soybean,s14_r6906,iid,Bacterial Pustule,Soybean_Dise,3,True,True,True,False,2,0,0,True
+Soybean,s38_r19929,iid,Brown Spot,Soybean_PNAS,4,True,True,True,False,2,0,0,True
+Soybean,s14_r13644,iid,Brown Stem Rot,Soybean_Dise,5,True,True,True,False,2,2,0,False
+Soybean,s14_r6992,iid,Cercospora,Soybean_Dise,6,True,True,True,False,2,2,0,False
+Soybean,s14_r23661,iid,Charcoal Rot,Soybean_Dise,7,True,True,True,False,2,0,2,False
+Soybean,s14_r14368,iid,Diaporthe,Soybean_Dise,8,True,True,True,False,2,0,2,False
+Soybean,s14_r13615,iid,Downy Mildew,PlantWild,9,True,True,True,False,0,0,0,True
+Soybean,s14_r14349,iid,Frog Eye Leaf Spot,PlantWild,10,True,True,True,False,2,2,2,True
+Soybean,s39_r12519,iid,Fusarium Disease,Soybean_Dise,11,True,True,True,False,2,0,2,True
+Soybean,s39_r18933,iid,Green Stem,Soybean_Dise,12,True,True,True,False,0,2,0,False
+Soybean,s38_r16999,iid,Herbicide Injury,Soybean_PNAS,13,True,True,True,False,2,2,2,False
+Soybean,s39_r2392,iid,Phyllosticta Leaf Spot,Soybean_Dise,14,True,True,True,False,0,0,0,False
+Soybean,s39_r19054,iid,Phytophthora,Soybean_Dise,15,True,True,True,False,2,0,2,False
+Soybean,s39_r24154,iid,Powdery Mildew,Soybean_Dise,16,True,True,True,False,0,2,0,True
+Soybean,s14_r14243,iid,Rhizoctonia,Soybean_Dise,17,True,True,True,False,2,2,0,False
+Soybean,s14_r6345,iid,Rust,PlantWild,18,True,True,True,False,0,2,2,True
+Soybean,s39_r12921,iid,Soybean Cyst Nematode,Soybean_Dise,19,True,True,True,False,0,0,2,False
+Soybean,s39_r20525,iid,Soybean Dwarf Virus,Soybean_Dise,20,True,False,False,False,2,0,0,False
+Soybean,s39_r7750,iid,Soybean Mosaic Virus,PlantWild,21,True,False,False,False,0,0,2,True
+Soybean,s39_r24557,iid,Soybean Vein Necrosis Virus,Soybean_Dise,22,True,False,False,False,0,2,0,False
+Soybean,s40_r138,iid,Tobacco Streak Virus,Soybean_Dise,23,True,False,False,False,2,0,0,False
+Soybean,s39_r12649,iid,Top Dieback,Soybean_Dise,24,True,False,False,False,2,2,0,False
+Soybean,s38_r25670,iid,White Mold,Soybean_Dise,25,True,False,False,False,0,2,2,False
+Soybean,s38_r22647,iid,Alfalfa Mosaic,Soybean_Dise,26,True,False,False,False,2,2,0,True
+Soybean,s39_r24449,iid,Anthracnose,Soybean_Dise,27,True,False,False,False,0,0,0,False
+Soybean,s14_r23718,iid,Bacterial Blight,VQAPlantDise,28,True,False,False,False,0,0,2,True
+Soybean,s14_r6661,iid,Bacterial Pustule,Soybean_Dise,29,True,False,False,False,0,0,0,True
+Soybean,s39_r6810,iid,Brown Spot,Soybean_Dise,30,True,False,False,False,2,0,0,True
+Soybean,s14_r13518,iid,Brown Stem Rot,Soybean_Dise,31,True,False,False,False,0,2,0,False
+Soybean,s14_r7084,iid,Cercospora,Soybean_Dise,32,True,False,False,False,2,2,2,False
+Soybean,s14_r23686,iid,Charcoal Rot,Soybean_Dise,33,True,False,False,False,2,0,0,False
+Soybean,s14_r14538,iid,Diaporthe,Soybean_Dise,34,True,False,False,False,0,2,0,False
+Soybean,s14_r13572,iid,Downy Mildew,PlantWild,35,True,False,False,False,2,0,0,True
+Soybean,s14_r24547,iid,Frog Eye Leaf Spot,Soybean_Dise,36,True,False,False,False,0,0,0,True
+Soybean,s39_r19612,iid,Fusarium Disease,Soybean_Dise,37,True,False,False,False,2,2,2,True
+Soybean,s39_r19107,iid,Green Stem,Soybean_Dise,38,True,False,False,False,0,0,0,False
+Soybean,s38_r15021,iid,Herbicide Injury,Soybean_PNAS,39,True,False,False,False,0,0,0,False
+Soybean,s39_r5104,iid,Phyllosticta Leaf Spot,Soybean_Dise,40,True,False,False,False,0,0,0,False
+Soybean,s39_r12323,iid,Phytophthora,Soybean_Dise,41,True,False,False,False,2,0,0,False
+Soybean,s40_r674,iid,Powdery Mildew,VQAPlantDise,42,True,False,False,False,2,0,0,True
+Soybean,s14_r14616,iid,Rhizoctonia,Soybean_Dise,43,True,False,False,False,0,2,0,False
+Soybean,s14_r6329,iid,Rust,PlantWild,44,True,False,False,False,0,0,0,True
+Soybean,s39_r12924,iid,Soybean Cyst Nematode,Soybean_Dise,45,True,False,False,False,0,0,0,False
+Soybean,s39_r20218,iid,Soybean Dwarf Virus,Soybean_Dise,46,True,False,False,False,0,2,2,False
+Soybean,s39_r11016,iid,Soybean Mosaic Virus,Soybean_Dise,47,True,False,False,False,0,0,2,True
+Soybean,s39_r24692,iid,Soybean Vein Necrosis Virus,Soybean_Dise,48,True,False,False,False,2,2,0,False
+Soybean,s40_r1899,iid,Tobacco Streak Virus,Soybean_Dise,49,True,False,False,False,2,0,2,False
+Soybean,s39_r12890,iid,Top Dieback,Soybean_Dise,50,True,False,False,False,2,0,2,False
+Soybean,s38_r25699,iid,White Mold,Soybean_Dise,51,True,False,False,False,0,0,2,False
+Soybean,s39_r19433,iid,Alfalfa Mosaic,VQAPlantDise,52,True,False,False,False,2,0,0,False
+Soybean,s39_r24520,iid,Anthracnose,Soybean_Dise,53,True,False,False,False,2,0,2,False
+Soybean,s14_r14462,iid,Bacterial Blight,Soybean_Dise,54,True,False,False,False,0,2,2,False
+Soybean,s14_r6931,iid,Bacterial Pustule,Soybean_Dise,55,True,False,False,False,0,0,2,False
+Soybean,s39_r19952,iid,Brown Spot,PlantWild,56,True,False,False,False,0,2,0,False
+Soybean,s14_r13911,iid,Brown Stem Rot,Soybean_Dise,57,True,False,False,False,0,0,0,False
+Soybean,s14_r6990,iid,Cercospora,Soybean_Dise,58,True,False,False,False,2,2,0,False
+Soybean,s14_r24146,iid,Charcoal Rot,Soybean_Dise,59,True,False,False,False,0,2,0,False
+Soybean,s14_r7331,iid,Diaporthe,Soybean_Dise,60,True,False,False,False,0,2,2,False
+Soybean,s14_r13607,iid,Downy Mildew,PlantWild,61,True,False,False,False,2,0,2,False
+Soybean,s14_r14222,iid,Frog Eye Leaf Spot,PlantWild,62,True,False,False,False,2,2,2,False
+Soybean,s39_r3707,iid,Fusarium Disease,Soybean_PNAS,63,True,False,False,False,2,0,2,False
+Soybean,s39_r19022,iid,Green Stem,Soybean_Dise,64,True,False,False,False,0,2,0,False
+Soybean,s38_r15751,iid,Herbicide Injury,Soybean_PNAS,65,True,False,False,False,0,0,2,False
+Soybean,s39_r4786,iid,Phyllosticta Leaf Spot,Soybean_Dise,66,True,False,False,False,0,2,0,False
+Soybean,s39_r19061,iid,Phytophthora,Soybean_Dise,67,True,False,False,False,0,2,2,False
+Soybean,s40_r519,iid,Powdery Mildew,Soybean_Dise,68,True,False,False,False,0,2,0,False
+Soybean,s14_r14258,iid,Rhizoctonia,Soybean_Dise,69,True,False,False,False,0,0,2,False
+Soybean,s14_r6299,iid,Rust,PlantWild,70,True,False,False,False,0,2,0,False
+Soybean,s39_r12929,iid,Soybean Cyst Nematode,Soybean_Dise,71,True,False,False,False,0,2,0,False
+Soybean,s39_r20208,iid,Soybean Dwarf Virus,Soybean_Dise,72,True,False,False,False,0,0,2,False
+Soybean,s39_r6453,iid,Soybean Mosaic Virus,PlantWild,73,True,False,False,False,2,0,2,False
+Soybean,s39_r24578,iid,Soybean Vein Necrosis Virus,Soybean_Dise,74,True,False,False,False,2,2,0,False
+Soybean,s40_r1235,iid,Tobacco Streak Virus,Soybean_Dise,75,True,False,False,False,2,2,0,False
+Soybean,s39_r12896,iid,Top Dieback,Soybean_Dise,76,True,False,False,False,0,0,0,False
+Soybean,s38_r25763,iid,White Mold,Soybean_Dise,77,True,False,False,False,2,2,2,False
+Soybean,s38_r19824,iid,Alfalfa Mosaic,Soybean_Dise,78,True,False,False,False,2,2,0,False
+Soybean,s39_r24448,iid,Anthracnose,Soybean_Dise,79,True,False,False,False,2,2,2,False
+Soybean,s14_r23716,iid,Bacterial Blight,VQAPlantDise,80,True,False,False,False,0,0,0,False
+Soybean,s14_r6888,iid,Bacterial Pustule,Soybean_Dise,81,True,False,False,False,2,0,2,False
+Soybean,s39_r19958,iid,Brown Spot,PlantWild,82,True,False,False,False,0,2,0,False
+Soybean,s14_r13526,iid,Brown Stem Rot,Soybean_Dise,83,True,False,False,False,0,0,2,False
+Soybean,s14_r7058,iid,Cercospora,Soybean_Dise,84,True,False,False,False,2,0,0,False
+Soybean,s14_r23680,iid,Charcoal Rot,Soybean_Dise,85,True,False,False,False,2,2,0,False
+Soybean,s14_r14564,iid,Diaporthe,Soybean_Dise,86,True,False,False,False,0,2,0,False
+Soybean,s14_r13804,iid,Downy Mildew,PlantWild,87,True,False,False,False,0,0,0,False
+Soybean,s14_r14206,iid,Frog Eye Leaf Spot,PlantWild,88,True,False,False,False,0,0,0,False
+Soybean,s39_r12530,iid,Fusarium Disease,Soybean_Dise,89,True,False,False,False,0,0,0,False
+Soybean,s39_r18964,iid,Green Stem,Soybean_Dise,90,True,False,False,False,0,0,2,False
+Soybean,s38_r15526,iid,Herbicide Injury,Soybean_PNAS,91,True,False,False,False,0,0,0,False
+Soybean,s39_r3686,iid,Phyllosticta Leaf Spot,Soybean_Dise,92,True,False,False,False,2,0,2,False
+Soybean,s39_r12937,iid,Phytophthora,Soybean_Dise,93,True,False,False,False,2,2,2,False
+Soybean,s39_r24165,iid,Powdery Mildew,Soybean_Dise,94,True,False,False,False,0,2,2,False
+Soybean,s14_r24335,iid,Rhizoctonia,Soybean_Dise,95,True,False,False,False,0,2,0,False
+Soybean,s14_r13845,iid,Rust,Soybean_Dise,96,True,False,False,False,0,0,0,False
+Soybean,s39_r12910,iid,Soybean Cyst Nematode,Soybean_Dise,97,True,False,False,False,2,2,0,False
+Soybean,s39_r19933,iid,Soybean Dwarf Virus,Soybean_Dise,98,True,False,False,False,0,2,0,False
+Soybean,s39_r12355,iid,Soybean Mosaic Virus,PlantWild,99,True,False,False,False,2,0,0,False
+Soybean,s40_r243,iid,Soybean Vein Necrosis Virus,Soybean_Dise,100,False,False,False,True,2,0,2,False
+Soybean,s40_r1223,iid,Tobacco Streak Virus,Soybean_Dise,101,False,False,False,True,2,0,2,False
+Soybean,s39_r12892,iid,Top Dieback,Soybean_Dise,102,False,False,False,True,0,2,0,False
+Soybean,s38_r25629,iid,White Mold,Soybean_Dise,103,False,False,False,True,0,0,0,False
+Soybean,s40_r161,ood,Anthracnose,Bugwood,0,True,True,True,False,0,0,0,False
+Soybean,s14_r13855,ood,Bacterial Blight,Bugwood,1,True,True,True,False,0,0,0,False
+Soybean,s14_r6526,ood,Bacterial Pustule,Bugwood,2,True,True,True,False,0,0,0,False
+Soybean,s39_r15586,ood,Brown Spot,Bugwood,3,True,True,True,False,0,0,0,False
+Soybean,s14_r11472,ood,Brown Stem Rot,Bugwood,4,True,True,True,False,0,0,0,False
+Soybean,s14_r14235,ood,Cercospora,Bugwood,5,True,True,True,False,0,0,0,False
+Soybean,s14_r15242,ood,Charcoal Rot,Bugwood,6,True,True,True,False,0,0,0,False
+Soybean,s14_r6577,ood,Diaporthe,Bugwood,7,True,True,True,False,0,0,0,False
+Soybean,s14_r14162,ood,Downy Mildew,Bugwood,8,True,True,True,False,0,0,0,False
+Soybean,s14_r23789,ood,Frog Eye Leaf Spot,Bugwood,9,True,True,True,False,0,0,0,False
+Soybean,s39_r15896,ood,Fusarium Disease,Bugwood,10,True,True,True,False,0,0,0,False
+Soybean,s38_r19123,ood,Phyllosticta Leaf Spot,Bugwood,11,True,True,True,False,0,0,0,False
+Soybean,s39_r15891,ood,Phytophthora,Bugwood,12,True,True,True,False,0,0,0,False
+Soybean,s39_r24146,ood,Powdery Mildew,Bugwood,13,True,True,True,False,0,0,0,False
+Soybean,s14_r6745,ood,Rhizoctonia,Bugwood,14,True,True,True,False,0,0,0,False
+Soybean,s14_r10127,ood,Rust,Bugwood,15,True,True,True,False,0,0,0,False
+Soybean,s39_r15898,ood,Soybean Dwarf Virus,Bugwood,16,True,True,True,False,0,0,0,False
+Soybean,s39_r12334,ood,Soybean Mosaic Virus,Bugwood,17,True,True,True,False,0,0,0,False
+Soybean,s39_r20649,ood,Soybean Vein Necrosis Virus,Bugwood,18,True,True,True,False,0,0,0,False
+Soybean,s39_r24282,ood,White Mold,Bugwood,19,True,True,True,False,0,0,0,False
+Soybean,s40_r158,ood,Anthracnose,Bugwood,20,True,False,False,False,0,0,0,False
+Soybean,s14_r13866,ood,Bacterial Blight,Bugwood,21,True,False,False,False,0,0,0,False
+Soybean,s14_r6520,ood,Bacterial Pustule,Bugwood,22,True,False,False,False,0,0,0,False
+Soybean,s39_r15581,ood,Brown Spot,Bugwood,23,True,False,False,False,0,0,0,False
+Soybean,s14_r11474,ood,Brown Stem Rot,Bugwood,24,True,False,False,False,0,0,0,False
+Soybean,s14_r6572,ood,Cercospora,Bugwood,25,True,False,False,False,0,0,0,False
+Soybean,s14_r15250,ood,Charcoal Rot,Bugwood,26,True,False,False,False,0,0,0,False
+Soybean,s14_r14384,ood,Diaporthe,Bugwood,27,True,False,False,False,0,0,0,False
+Soybean,s14_r14146,ood,Downy Mildew,Bugwood,28,True,False,False,False,0,0,0,False
+Soybean,s14_r23780,ood,Frog Eye Leaf Spot,Bugwood,29,True,False,False,False,0,0,0,False
+Soybean,s39_r12666,ood,Fusarium Disease,Bugwood,30,True,False,False,False,0,0,0,False
+Soybean,s39_r3657,ood,Phyllosticta Leaf Spot,Bugwood,31,True,False,False,False,0,0,0,False
+Soybean,s39_r15885,ood,Phytophthora,Bugwood,32,True,False,False,False,0,0,0,False
+Soybean,s39_r24147,ood,Powdery Mildew,Bugwood,33,True,False,False,False,0,0,0,False
+Soybean,s14_r6579,ood,Rhizoctonia,Bugwood,34,True,False,False,False,0,0,0,False
+Soybean,s14_r13661,ood,Rust,Bugwood,35,True,False,False,False,0,0,0,False
+Soybean,s39_r12335,ood,Soybean Mosaic Virus,Bugwood,36,True,False,False,False,0,0,0,False
+Soybean,s39_r20652,ood,Soybean Vein Necrosis Virus,Bugwood,37,True,False,False,False,0,0,0,False
+Soybean,s39_r24635,ood,White Mold,Bugwood,38,True,False,False,False,0,0,0,False
+Soybean,s40_r155,ood,Anthracnose,Bugwood,39,True,False,False,False,0,0,0,False
+Soybean,s14_r13865,ood,Bacterial Blight,Bugwood,40,True,False,False,False,0,0,0,False
+Soybean,s14_r6523,ood,Bacterial Pustule,Bugwood,41,True,False,False,False,0,0,0,False
+Soybean,s39_r15583,ood,Brown Spot,Bugwood,42,True,False,False,False,0,0,0,False
+Soybean,s14_r11476,ood,Brown Stem Rot,Bugwood,43,True,False,False,False,0,0,0,False
+Soybean,s14_r6589,ood,Cercospora,Bugwood,44,True,False,False,False,0,0,0,False
+Soybean,s14_r15249,ood,Charcoal Rot,Bugwood,45,True,False,False,False,0,0,0,False
+Soybean,s14_r6578,ood,Diaporthe,Bugwood,46,True,False,False,False,0,0,0,False
+Soybean,s14_r14145,ood,Downy Mildew,Bugwood,47,True,False,False,False,0,0,0,False
+Soybean,s14_r23788,ood,Frog Eye Leaf Spot,Bugwood,48,True,False,False,False,0,0,0,False
+Soybean,s39_r15893,ood,Fusarium Disease,Bugwood,49,True,False,False,False,0,0,0,False
+Soybean,s39_r3658,ood,Phyllosticta Leaf Spot,Bugwood,50,True,False,False,False,0,0,0,False
+Soybean,s39_r15886,ood,Phytophthora,Bugwood,51,True,False,False,False,0,0,0,False
+Soybean,s39_r24150,ood,Powdery Mildew,Bugwood,52,True,False,False,False,0,0,0,False
+Soybean,s14_r6747,ood,Rhizoctonia,Bugwood,53,True,False,False,False,0,0,0,False
+Soybean,s14_r10115,ood,Rust,Bugwood,54,True,False,False,False,0,0,0,False
+Soybean,s39_r20661,ood,Soybean Vein Necrosis Virus,Bugwood,55,True,False,False,False,0,0,0,False
+Soybean,s39_r24293,ood,White Mold,Bugwood,56,True,False,False,False,0,0,0,False
+Soybean,s14_r13856,ood,Bacterial Blight,Bugwood,57,True,False,False,False,0,0,0,False
+Soybean,s14_r6517,ood,Bacterial Pustule,Bugwood,58,True,False,False,False,0,0,0,False
+Soybean,s39_r15580,ood,Brown Spot,Bugwood,59,True,False,False,False,0,0,0,False
+Soybean,s14_r11470,ood,Brown Stem Rot,Bugwood,60,False,False,False,True,0,0,0,False
+Soybean,s14_r6606,ood,Cercospora,Bugwood,61,False,False,False,True,0,0,0,False
+Soybean,s14_r15238,ood,Charcoal Rot,Bugwood,62,False,False,False,True,0,0,0,False
+Soybean,s14_r14385,ood,Diaporthe,Bugwood,63,False,False,False,True,0,0,0,False
+Corn,s30_r7009,iid,Anthracnose,Corn_Disease,0,True,True,True,False,2,0,2,False
+Corn,s30_r2136,iid,Bacterial Rot And Blight,BDCropVegeta,1,True,True,True,False,0,2,2,False
+Corn,s8_r894,iid,Bacterial Stalk Rot,Corn_Disease,2,True,True,True,False,0,0,0,False
+Corn,s30_r14047,iid,Brown Spot,Corn_Disease,3,True,True,True,False,0,0,0,False
+Corn,s5_r10353,iid,Carbonum Leaf Spot,Corn_Disease,4,True,True,True,False,2,2,0,False
+Corn,s4_r10753,iid,Common Rust,BDCropVegeta,5,True,True,True,False,0,0,0,True
+Corn,s5_r10456,iid,Corn Stunt Spiroplasma,Corn_Disease,6,True,True,True,False,0,2,2,False
+Corn,s4_r15474,iid,Crazy Top,Corn_Disease,7,True,True,True,False,0,2,0,False
+Corn,s7_r4445,iid,Diplodia,Corn_Disease,8,True,True,True,False,2,0,0,False
+Corn,s4_r5072,iid,Diplodia Stalk Rot,Corn_Disease,9,True,True,True,False,0,2,0,False
+Corn,s5_r224,iid,Ear Rots,Corn_Disease,10,True,True,True,False,2,0,2,False
+Corn,s7_r568,iid,Eyespot,Corn_Disease,11,True,True,True,False,0,2,0,False
+Corn,s30_r6438,iid,Fusarium Disease,Corn_Disease,12,True,True,True,False,2,0,0,False
+Corn,s7_r351,iid,General And Mixed Stalk Rots,Corn_Disease,13,True,True,True,False,2,0,0,False
+Corn,s7_r652,iid,Genetic Flecking Or Striping,Corn_Disease,14,True,True,True,False,0,0,0,False
+Corn,s31_r14914,iid,Goss,Corn_Disease,15,True,True,True,False,2,0,0,False
+Corn,s5_r9706,iid,Gray Leaf Spot,PlantWild,16,True,True,True,False,2,0,2,True
+Corn,s5_r10471,iid,Head Smut,Corn_Disease,17,True,True,True,False,0,0,0,False
+Corn,s7_r540,iid,Holcus Spot,Corn_Disease,18,True,True,True,False,2,2,0,False
+Corn,s30_r8293,iid,Leaf Blight,PlantDoc,19,True,True,True,False,2,0,2,True
+Corn,s5_r645,iid,Leaf Spot,CDDM,20,True,False,False,False,0,0,0,False
+Corn,s9_r6940,iid,Maize Chlorotic Dwarf,Corn_Disease,21,True,False,False,False,0,0,0,False
+Corn,s3_r6068,iid,Maize Lethal Necrosis,LeafNet,22,True,False,False,False,0,0,2,False
+Corn,s7_r1288,iid,Maize Streak,LeafNet,23,True,False,False,False,0,0,0,True
+Corn,s5_r10793,iid,Northern Leaf Blight,Corn_Disease,24,True,False,False,False,0,0,0,True
+Corn,s31_r991,iid,Pantoea,Corn_Disease,25,True,False,False,False,2,2,2,False
+Corn,s4_r15336,iid,Physoderma Stalk Rot,Corn_Disease,26,True,False,False,False,0,2,0,False
+Corn,s7_r2853,iid,Smut,PlantWild,27,True,False,False,False,2,2,0,True
+Corn,s5_r1359,iid,Southern Corn Leaf Blight,Corn_Disease,28,True,False,False,False,0,0,0,False
+Corn,s6_r5803,iid,Southern Rust,Corn_Disease,29,True,False,False,False,0,0,0,False
+Corn,s5_r736,iid,Tar Spot,Corn_Disease,30,True,False,False,False,0,2,0,False
+Corn,s30_r5984,iid,Anthracnose,Corn_Disease,31,True,False,False,False,0,0,2,False
+Corn,s30_r3104,iid,Bacterial Rot And Blight,BDCropVegeta,32,True,False,False,False,2,2,2,False
+Corn,s8_r520,iid,Bacterial Stalk Rot,Corn_Disease,33,True,False,False,False,2,0,0,False
+Corn,s31_r701,iid,Brown Spot,Corn_Disease,34,True,False,False,False,0,0,0,False
+Corn,s5_r1407,iid,Carbonum Leaf Spot,Corn_Disease,35,True,False,False,False,2,2,0,False
+Corn,s4_r4246,iid,Common Rust,PlantDoc,36,True,False,False,False,2,2,2,True
+Corn,s5_r1289,iid,Corn Stunt Spiroplasma,Corn_Disease,37,True,False,False,False,2,0,0,False
+Corn,s4_r15263,iid,Crazy Top,Corn_Disease,38,True,False,False,False,0,2,2,False
+Corn,s7_r3645,iid,Diplodia,Corn_Disease,39,True,False,False,False,0,0,0,False
+Corn,s4_r5074,iid,Diplodia Stalk Rot,Corn_Disease,40,True,False,False,False,0,0,2,False
+Corn,s4_r1202,iid,Ear Rots,Corn_Disease,41,True,False,False,False,2,2,2,False
+Corn,s7_r551,iid,Eyespot,Corn_Disease,42,True,False,False,False,2,0,2,False
+Corn,s30_r6953,iid,Fusarium Disease,Corn_Disease,43,True,False,False,False,2,0,2,False
+Corn,s7_r345,iid,General And Mixed Stalk Rots,Corn_Disease,44,True,False,False,False,0,2,0,False
+Corn,s7_r1428,iid,Genetic Flecking Or Striping,Corn_Disease,45,True,False,False,False,0,0,0,False
+Corn,s31_r16115,iid,Goss,Corn_Disease,46,True,False,False,False,0,2,0,False
+Corn,s6_r5210,iid,Gray Leaf Spot,AvinashPlant,47,True,False,False,False,0,2,0,True
+Corn,s5_r10465,iid,Head Smut,Corn_Disease,48,True,False,False,False,0,2,0,False
+Corn,s7_r538,iid,Holcus Spot,Corn_Disease,49,True,False,False,False,0,0,2,False
+Corn,s30_r4589,iid,Leaf Blight,AvinashPlant,50,True,False,False,False,2,2,2,True
+Corn,s5_r22,iid,Leaf Spot,CDDM,51,True,False,False,False,2,2,2,False
+Corn,s9_r6944,iid,Maize Chlorotic Dwarf,Corn_Disease,52,True,False,False,False,2,0,2,False
+Corn,s3_r7881,iid,Maize Lethal Necrosis,LeafNet,53,True,False,False,False,0,0,0,False
+Corn,s7_r3811,iid,Maize Streak,Corn_Disease,54,True,False,False,False,2,0,2,True
+Corn,s6_r5282,iid,Northern Leaf Blight,PlantWild,55,True,False,False,False,0,2,0,True
+Corn,s30_r6308,iid,Pantoea,Corn_Disease,56,True,False,False,False,0,2,2,False
+Corn,s5_r834,iid,Physoderma Stalk Rot,Corn_Disease,57,True,False,False,False,0,2,0,False
+Corn,s7_r3040,iid,Smut,PlantWild,58,True,False,False,False,0,2,0,True
+Corn,s5_r1358,iid,Southern Corn Leaf Blight,Corn_Disease,59,True,False,False,False,2,0,2,False
+Corn,s6_r5785,iid,Southern Rust,Corn_Disease,60,True,False,False,False,0,2,0,False
+Corn,s5_r1812,iid,Tar Spot,Corn_Disease,61,True,False,False,False,2,2,0,False
+Corn,s30_r5998,iid,Anthracnose,Corn_Disease,62,True,False,False,False,0,0,0,False
+Corn,s30_r3119,iid,Bacterial Rot And Blight,BDCropVegeta,63,True,False,False,False,2,2,0,False
+Corn,s8_r563,iid,Bacterial Stalk Rot,Corn_Disease,64,True,False,False,False,2,2,0,False
+Corn,s30_r6213,iid,Brown Spot,Corn_Disease,65,True,False,False,False,2,0,0,False
+Corn,s5_r10359,iid,Carbonum Leaf Spot,Corn_Disease,66,True,False,False,False,0,0,2,False
+Corn,s4_r12209,iid,Common Rust,New_Plant_Di,67,True,False,False,False,0,2,2,True
+Corn,s5_r10454,iid,Corn Stunt Spiroplasma,Corn_Disease,68,True,False,False,False,0,0,0,False
+Corn,s4_r15269,iid,Crazy Top,Corn_Disease,69,True,False,False,False,2,0,2,False
+Corn,s8_r600,iid,Diplodia,Corn_Disease,70,True,False,False,False,0,2,2,False
+Corn,s4_r5055,iid,Diplodia Stalk Rot,Corn_Disease,71,True,False,False,False,2,2,0,False
+Corn,s5_r196,iid,Ear Rots,Corn_Disease,72,True,False,False,False,0,0,2,False
+Corn,s7_r589,iid,Eyespot,Corn_Disease,73,True,False,False,False,0,2,2,False
+Corn,s30_r6947,iid,Fusarium Disease,Corn_Disease,74,True,False,False,False,0,0,2,False
+Corn,s7_r352,iid,General And Mixed Stalk Rots,Corn_Disease,75,True,False,False,False,2,0,2,False
+Corn,s7_r1417,iid,Genetic Flecking Or Striping,Corn_Disease,76,True,False,False,False,0,0,2,False
+Corn,s31_r14924,iid,Goss,Corn_Disease,77,True,False,False,False,0,2,2,False
+Corn,s5_r771,iid,Gray Leaf Spot,BDCropVegeta,78,True,False,False,False,2,0,0,True
+Corn,s5_r10476,iid,Head Smut,Corn_Disease,79,True,False,False,False,0,0,2,False
+Corn,s6_r7955,iid,Holcus Spot,Corn_Disease,80,True,False,False,False,0,2,2,False
+Corn,s30_r11950,iid,Leaf Blight,RadyPlantDis,81,True,False,False,False,0,0,0,True
+Corn,s5_r162,iid,Leaf Spot,CDDM,82,True,False,False,False,0,0,0,False
+Corn,s9_r6896,iid,Maize Chlorotic Dwarf,Corn_Disease,83,True,False,False,False,0,0,2,False
+Corn,s3_r7644,iid,Maize Lethal Necrosis,LeafNet,84,True,False,False,False,2,0,2,False
+Corn,s7_r2386,iid,Maize Streak,LeafNet,85,True,False,False,False,2,0,2,True
+Corn,s6_r472,iid,Northern Leaf Blight,LeafNet,86,True,False,False,False,0,2,0,True
+Corn,s30_r6322,iid,Pantoea,Corn_Disease,87,True,False,False,False,0,0,0,False
+Corn,s5_r852,iid,Physoderma Stalk Rot,Corn_Disease,88,True,False,False,False,0,0,0,False
+Corn,s7_r2966,iid,Smut,PlantWild,89,True,False,False,False,2,0,2,True
+Corn,s5_r356,iid,Southern Corn Leaf Blight,Corn_Disease,90,True,False,False,False,0,2,0,False
+Corn,s6_r2178,iid,Southern Rust,Corn_Disease,91,True,False,False,False,0,2,2,False
+Corn,s5_r2031,iid,Tar Spot,Corn_Disease,92,True,False,False,False,0,2,0,False
+Corn,s30_r6001,iid,Anthracnose,Corn_Disease,93,True,False,False,False,0,2,2,False
+Corn,s30_r1914,iid,Bacterial Rot And Blight,BDCropVegeta,94,True,False,False,False,0,0,0,False
+Corn,s8_r580,iid,Bacterial Stalk Rot,Corn_Disease,95,True,False,False,False,0,2,2,False
+Corn,s31_r566,iid,Brown Spot,Corn_Disease,96,True,False,False,False,0,2,0,False
+Corn,s5_r1406,iid,Carbonum Leaf Spot,Corn_Disease,97,True,False,False,False,0,0,0,False
+Corn,s4_r6320,iid,Common Rust,PlantDoc,98,True,False,False,False,0,2,0,True
+Corn,s5_r1291,iid,Corn Stunt Spiroplasma,Corn_Disease,99,True,False,False,False,2,0,2,False
+Corn,s4_r15268,iid,Crazy Top,Corn_Disease,100,False,False,False,True,0,0,0,False
+Corn,s7_r4434,iid,Diplodia,Corn_Disease,101,False,False,False,True,2,0,2,False
+Corn,s4_r5059,iid,Diplodia Stalk Rot,Corn_Disease,102,False,False,False,True,0,2,2,False
+Corn,s5_r253,iid,Ear Rots,Corn_Disease,103,False,False,False,True,0,0,2,False
+Corn,s30_r5719,ood,Anthracnose,Bugwood,0,True,True,True,False,0,0,0,False
+Corn,s31_r778,ood,Bacterial Rot And Blight,Bugwood,1,True,True,True,False,0,0,0,False
+Corn,s30_r11393,ood,Brown Spot,Bugwood,2,True,True,True,False,0,0,0,False
+Corn,s8_r503,ood,Common Rust,Bugwood,3,True,True,True,False,0,0,0,False
+Corn,s7_r479,ood,Diplodia,Bugwood,4,True,True,True,False,0,0,0,False
+Corn,s6_r6593,ood,Diplodia Stalk Rot,Bugwood,5,True,True,True,False,0,0,0,False
+Corn,s7_r660,ood,Eyespot,Bugwood,6,True,True,True,False,0,0,0,False
+Corn,s31_r810,ood,Fusarium Disease,Bugwood,7,True,True,True,False,0,0,0,False
+Corn,s31_r794,ood,Goss,Bugwood,8,True,True,True,False,0,0,0,False
+Corn,s5_r2360,ood,Gray Leaf Spot,Bugwood,9,True,True,True,False,0,0,0,False
+Corn,s5_r1418,ood,Leaf Spot,Bugwood,10,True,True,True,False,0,0,0,False
+Corn,s6_r608,ood,Northern Leaf Blight,Bugwood,11,True,True,True,False,0,0,0,False
+Corn,s30_r11385,ood,Pantoea,Bugwood,12,True,True,True,False,0,0,0,False
+Corn,s5_r387,ood,Smut,Bugwood,13,True,True,True,False,0,0,0,False
+Corn,s4_r3947,ood,Southern Corn Leaf Blight,Bugwood,14,True,True,True,False,0,0,0,False
+Corn,s4_r3939,ood,Southern Rust,Bugwood,15,True,True,True,False,0,0,0,False
+Corn,s5_r1887,ood,Tar Spot,Bugwood,16,True,True,True,False,0,0,0,False
+Corn,s31_r670,ood,Anthracnose,Bugwood,17,True,True,True,False,0,0,0,False
+Corn,s31_r781,ood,Bacterial Rot And Blight,Bugwood,18,True,True,True,False,0,0,0,False
+Corn,s30_r11398,ood,Brown Spot,Bugwood,19,True,True,True,False,0,0,0,False
+Corn,s8_r508,ood,Common Rust,Bugwood,20,True,False,False,False,0,0,0,False
+Corn,s7_r464,ood,Diplodia,Bugwood,21,True,False,False,False,0,0,0,False
+Corn,s6_r6585,ood,Diplodia Stalk Rot,Bugwood,22,True,False,False,False,0,0,0,False
+Corn,s7_r661,ood,Eyespot,Bugwood,23,True,False,False,False,0,0,0,False
+Corn,s31_r812,ood,Fusarium Disease,Bugwood,24,True,False,False,False,0,0,0,False
+Corn,s30_r11383,ood,Goss,Bugwood,25,True,False,False,False,0,0,0,False
+Corn,s5_r12452,ood,Gray Leaf Spot,Bugwood,26,True,False,False,False,0,0,0,False
+Corn,s5_r1417,ood,Leaf Spot,Bugwood,27,True,False,False,False,0,0,0,False
+Corn,s6_r624,ood,Northern Leaf Blight,Bugwood,28,True,False,False,False,0,0,0,False
+Corn,s30_r11386,ood,Pantoea,Bugwood,29,True,False,False,False,0,0,0,False
+Corn,s5_r390,ood,Smut,Bugwood,30,True,False,False,False,0,0,0,False
+Corn,s4_r3948,ood,Southern Corn Leaf Blight,Bugwood,31,True,False,False,False,0,0,0,False
+Corn,s4_r3944,ood,Southern Rust,Bugwood,32,True,False,False,False,0,0,0,False
+Corn,s5_r1886,ood,Tar Spot,Bugwood,33,True,False,False,False,0,0,0,False
+Corn,s30_r5720,ood,Anthracnose,Bugwood,34,True,False,False,False,0,0,0,False
+Corn,s31_r776,ood,Bacterial Rot And Blight,Bugwood,35,True,False,False,False,0,0,0,False
+Corn,s30_r5965,ood,Brown Spot,Bugwood,36,True,False,False,False,0,0,0,False
+Corn,s8_r505,ood,Common Rust,Bugwood,37,True,False,False,False,0,0,0,False
+Corn,s7_r422,ood,Diplodia,Bugwood,38,True,False,False,False,0,0,0,False
+Corn,s6_r6591,ood,Diplodia Stalk Rot,Bugwood,39,True,False,False,False,0,0,0,False
+Corn,s31_r811,ood,Fusarium Disease,Bugwood,40,True,False,False,False,0,0,0,False
+Corn,s31_r791,ood,Goss,Bugwood,41,True,False,False,False,0,0,0,False
+Corn,s5_r12449,ood,Gray Leaf Spot,Bugwood,42,True,False,False,False,0,0,0,False
+Corn,s5_r1422,ood,Leaf Spot,Bugwood,43,True,False,False,False,0,0,0,False
+Corn,s5_r10364,ood,Northern Leaf Blight,Bugwood,44,True,False,False,False,0,0,0,False
+Corn,s30_r5614,ood,Pantoea,Bugwood,45,True,False,False,False,0,0,0,False
+Corn,s5_r378,ood,Smut,Bugwood,46,True,False,False,False,0,0,0,False
+Corn,s4_r3949,ood,Southern Corn Leaf Blight,Bugwood,47,True,False,False,False,0,0,0,False
+Corn,s4_r3943,ood,Southern Rust,Bugwood,48,True,False,False,False,0,0,0,False
+Corn,s5_r1885,ood,Tar Spot,Bugwood,49,True,False,False,False,0,0,0,False
+Corn,s30_r5725,ood,Anthracnose,Bugwood,50,True,False,False,False,0,0,0,False
+Corn,s31_r777,ood,Bacterial Rot And Blight,Bugwood,51,True,False,False,False,0,0,0,False
+Corn,s30_r11388,ood,Brown Spot,Bugwood,52,True,False,False,False,0,0,0,False
+Corn,s8_r506,ood,Common Rust,Bugwood,53,True,False,False,False,0,0,0,False
+Corn,s7_r472,ood,Diplodia,Bugwood,54,True,False,False,False,0,0,0,False
+Corn,s6_r6587,ood,Diplodia Stalk Rot,Bugwood,55,True,False,False,False,0,0,0,False
+Corn,s31_r821,ood,Fusarium Disease,Bugwood,56,True,False,False,False,0,0,0,False
+Corn,s31_r793,ood,Goss,Bugwood,57,True,False,False,False,0,0,0,False
+Corn,s5_r2358,ood,Gray Leaf Spot,Bugwood,58,True,False,False,False,0,0,0,False
+Corn,s5_r10361,ood,Northern Leaf Blight,Bugwood,59,True,False,False,False,0,0,0,False
+Corn,s30_r5615,ood,Pantoea,Bugwood,60,False,False,False,True,0,0,0,False
+Corn,s5_r394,ood,Smut,Bugwood,61,False,False,False,True,0,0,0,False
+Corn,s4_r3950,ood,Southern Corn Leaf Blight,Bugwood,62,False,False,False,True,0,0,0,False
+Corn,s4_r3936,ood,Southern Rust,Bugwood,63,False,False,False,True,0,0,0,False
+Tomato,s34_r999,iid,Alfalfa Mosaic,Bugwood,0,True,True,True,False,0,2,2,True
+Tomato,s38_r12656,iid,Alternaria Black Molds Stem Cankers,RadyPlantDis,1,True,True,True,False,2,0,0,True
+Tomato,s10_r5164,iid,Anthracnose,Bugwood,2,True,True,True,False,2,0,0,False
+Tomato,s35_r860,iid,Bacterial Leaf Spot,PlantDoc,3,True,True,True,False,0,0,0,True
+Tomato,s12_r14681,iid,Bacterial Wilt,Bugwood,4,True,True,True,False,0,0,0,False
+Tomato,s12_r14579,iid,Early Blight,Bugwood,5,True,True,True,False,2,2,0,True
+Tomato,s34_r3967,iid,Fusarium Wilt,Bugwood,6,True,True,True,False,0,2,0,False
+Tomato,s12_r16602,iid,Gray Mold,Bugwood,7,True,True,True,False,2,2,0,False
+Tomato,s13_r1187,iid,Late Blight,AvinashPlant,8,True,True,True,False,2,2,0,True
+Tomato,s38_r43,iid,Leaf Mold,AvinashPlant,9,True,True,True,False,0,2,2,True
+Tomato,s34_r9380,iid,Leaf Mosaic Virus,PlantWild,10,True,True,True,False,0,0,0,True
+Tomato,s34_r783,iid,Phytophthora Blight,Bugwood,11,True,True,True,False,0,0,0,False
+Tomato,s35_r1219,iid,Sclerotinia Rots,Bugwood,12,True,True,True,False,2,0,0,False
+Tomato,s12_r11415,iid,Septoria Leaf Blotch,VQAPlantDise,13,True,True,True,False,2,2,0,False
+Tomato,s11_r10147,iid,Septoria Leaf Spot,PlantDoc,14,True,True,True,False,0,0,0,True
+Tomato,s10_r5171,iid,Southern Blight,Bugwood,15,True,True,True,False,2,2,0,False
+Tomato,s36_r6041,iid,Target Spot,RadyPlantDis,16,True,True,True,False,2,0,0,True
+Tomato,s37_r20380,iid,Tomato Leaf Curl Virus,PlantWild,17,True,True,True,False,0,0,2,True
+Tomato,s10_r7790,iid,Tomato Spotted Wilt,Bugwood,18,True,True,True,False,2,0,2,False
+Tomato,s12_r17417,iid,Verticillium Wilt,RadyPlantDis,19,True,True,True,False,2,2,0,True
+Tomato,s40_r9352,iid,Alfalfa Mosaic,A2H0H0R1Plan,20,True,False,False,False,0,0,2,True
+Tomato,s38_r12639,iid,Alternaria Black Molds Stem Cankers,RadyPlantDis,21,True,False,False,False,0,0,0,True
+Tomato,s12_r11429,iid,Anthracnose,Bugwood,22,True,False,False,False,0,0,0,False
+Tomato,s35_r1114,iid,Bacterial Leaf Spot,PlantVillage,23,True,False,False,False,2,2,0,True
+Tomato,s12_r14672,iid,Bacterial Wilt,Bugwood,24,True,False,False,False,0,0,0,False
+Tomato,s12_r2274,iid,Early Blight,AvinashPlant,25,True,False,False,False,0,2,0,True
+Tomato,s34_r3969,iid,Fusarium Wilt,Bugwood,26,True,False,False,False,2,0,0,False
+Tomato,s12_r16598,iid,Gray Mold,Bugwood,27,True,False,False,False,0,2,2,False
+Tomato,s13_r14074,iid,Late Blight,PlantDoc,28,True,False,False,False,2,2,0,True
+Tomato,s38_r12854,iid,Leaf Mold,PlantWild,29,True,False,False,False,2,2,2,True
+Tomato,s34_r4295,iid,Leaf Mosaic Virus,RadyPlantDis,30,True,False,False,False,2,2,2,True
+Tomato,s34_r1374,iid,Phytophthora Blight,Bugwood,31,True,False,False,False,0,2,0,False
+Tomato,s35_r1169,iid,Sclerotinia Rots,Bugwood,32,True,False,False,False,0,0,0,False
+Tomato,s12_r4130,iid,Septoria Leaf Blotch,VQAPlantDise,33,True,False,False,False,2,2,0,False
+Tomato,s17_r18798,iid,Septoria Leaf Spot,A2H0H0R1Plan,34,True,False,False,False,2,0,0,True
+Tomato,s10_r12757,iid,Southern Blight,Bugwood,35,True,False,False,False,0,0,0,False
+Tomato,s36_r215,iid,Target Spot,PlantVillage,36,True,False,False,False,2,0,0,True
+Tomato,s37_r23012,iid,Tomato Leaf Curl Virus,PlantWild,37,True,False,False,False,2,2,2,False
+Tomato,s11_r5006,iid,Tomato Spotted Wilt,Bugwood,38,True,False,False,False,2,0,0,False
+Tomato,s13_r13992,iid,Verticillium Wilt,Bugwood,39,True,False,False,False,2,0,2,False
+Tomato,s40_r9909,iid,Alfalfa Mosaic,A2H0H0R1Plan,40,True,False,False,False,0,2,2,False
+Tomato,s38_r12658,iid,Alternaria Black Molds Stem Cankers,RadyPlantDis,41,True,False,False,False,2,0,0,False
+Tomato,s10_r5162,iid,Anthracnose,Bugwood,42,True,False,False,False,0,0,0,False
+Tomato,s35_r6121,iid,Bacterial Leaf Spot,PlantWild,43,True,False,False,False,0,0,2,False
+Tomato,s12_r14724,iid,Bacterial Wilt,Bugwood,44,True,False,False,False,2,2,2,False
+Tomato,s12_r12576,iid,Early Blight,PlantWild,45,True,False,False,False,0,0,0,False
+Tomato,s34_r3972,iid,Fusarium Wilt,Bugwood,46,True,False,False,False,0,2,0,False
+Tomato,s12_r16607,iid,Gray Mold,Bugwood,47,True,False,False,False,2,0,0,False
+Tomato,s18_r3034,iid,Late Blight,A2H0H0R1Plan,48,True,False,False,False,2,0,0,False
+Tomato,s38_r13099,iid,Leaf Mold,PlantDoc,49,True,False,False,False,0,0,0,False
+Tomato,s34_r6839,iid,Leaf Mosaic Virus,PlantWild,50,True,False,False,False,0,0,0,False
+Tomato,s34_r811,iid,Phytophthora Blight,Bugwood,51,True,False,False,False,0,2,0,False
+Tomato,s35_r1165,iid,Sclerotinia Rots,Bugwood,52,True,False,False,False,0,0,0,False
+Tomato,s12_r4120,iid,Septoria Leaf Blotch,VQAPlantDise,53,True,False,False,False,0,0,0,False
+Tomato,s11_r10162,iid,Septoria Leaf Spot,PlantDoc,54,True,False,False,False,0,0,0,False
+Tomato,s10_r5201,iid,Southern Blight,Bugwood,55,True,False,False,False,2,2,0,False
+Tomato,s35_r8134,iid,Target Spot,AvinashPlant,56,True,False,False,False,2,0,0,False
+Tomato,s37_r4996,iid,Tomato Leaf Curl Virus,LeafNet,57,True,False,False,False,0,2,0,False
+Tomato,s10_r7764,iid,Tomato Spotted Wilt,Bugwood,58,True,False,False,False,2,0,0,False
+Tomato,s12_r18056,iid,Verticillium Wilt,LeafNet,59,True,False,False,False,2,0,0,False
+Tomato,s40_r9498,iid,Alfalfa Mosaic,A2H0H0R1Plan,60,True,False,False,False,0,0,2,False
+Tomato,s38_r12648,iid,Alternaria Black Molds Stem Cankers,RadyPlantDis,61,True,False,False,False,0,0,2,False
+Tomato,s10_r5154,iid,Anthracnose,Bugwood,62,True,False,False,False,0,2,0,False
+Tomato,s35_r1028,iid,Bacterial Leaf Spot,PlantDoc,63,True,False,False,False,0,2,2,False
+Tomato,s12_r14682,iid,Bacterial Wilt,Bugwood,64,True,False,False,False,0,2,0,False
+Tomato,s12_r2425,iid,Early Blight,BDCropVegeta,65,True,False,False,False,2,2,0,False
+Tomato,s34_r3979,iid,Fusarium Wilt,Bugwood,66,True,False,False,False,0,0,2,False
+Tomato,s12_r16596,iid,Gray Mold,Bugwood,67,True,False,False,False,0,2,2,False
+Tomato,s13_r14071,iid,Late Blight,PlantDoc,68,True,False,False,False,0,2,2,False
+Tomato,s38_r12812,iid,Leaf Mold,PlantWild,69,True,False,False,False,0,0,2,False
+Tomato,s33_r18839,iid,Leaf Mosaic Virus,AvinashPlant,70,True,False,False,False,0,2,2,False
+Tomato,s34_r759,iid,Phytophthora Blight,Bugwood,71,True,False,False,False,0,0,0,False
+Tomato,s35_r1215,iid,Sclerotinia Rots,Bugwood,72,True,False,False,False,2,2,2,False
+Tomato,s12_r4118,iid,Septoria Leaf Blotch,VQAPlantDise,73,True,False,False,False,2,0,2,False
+Tomato,s10_r5128,iid,Septoria Leaf Spot,AvinashPlant,74,True,False,False,False,0,0,2,False
+Tomato,s10_r5199,iid,Southern Blight,Bugwood,75,True,False,False,False,2,0,2,False
+Tomato,s35_r8544,iid,Target Spot,AvinashPlant,76,True,False,False,False,2,0,2,False
+Tomato,s41_r21473,iid,Tomato Leaf Curl Virus,A2H0H0R1Plan,77,True,False,False,False,2,0,2,False
+Tomato,s10_r6651,iid,Tomato Spotted Wilt,Bugwood,78,True,False,False,False,2,0,2,False
+Tomato,s12_r17318,iid,Verticillium Wilt,RadyPlantDis,79,True,False,False,False,2,2,2,False
+Tomato,s40_r9359,iid,Alfalfa Mosaic,A2H0H0R1Plan,80,True,False,False,False,2,0,2,False
+Tomato,s33_r18215,iid,Alternaria Black Molds Stem Cankers,Bugwood,81,True,False,False,False,0,0,2,False
+Tomato,s12_r11422,iid,Anthracnose,Bugwood,82,True,False,False,False,2,0,2,False
+Tomato,s34_r5582,iid,Bacterial Leaf Spot,AvinashPlant,83,True,False,False,False,2,0,0,False
+Tomato,s12_r14667,iid,Bacterial Wilt,Bugwood,84,True,False,False,False,2,0,2,False
+Tomato,s12_r1888,iid,Early Blight,BDCropVegeta,85,True,False,False,False,0,0,0,False
+Tomato,s34_r3970,iid,Fusarium Wilt,Bugwood,86,True,False,False,False,2,0,0,False
+Tomato,s12_r16608,iid,Gray Mold,Bugwood,87,True,False,False,False,2,0,0,False
+Tomato,s14_r6268,iid,Late Blight,PlantWild,88,True,False,False,False,0,2,0,False
+Tomato,s38_r2015,iid,Leaf Mold,BDCropVegeta,89,True,False,False,False,2,0,0,False
+Tomato,s34_r5834,iid,Leaf Mosaic Virus,PlantDoc,90,True,False,False,False,2,2,0,False
+Tomato,s34_r2800,iid,Phytophthora Blight,Bugwood,91,True,False,False,False,2,2,0,False
+Tomato,s35_r1216,iid,Sclerotinia Rots,Bugwood,92,True,False,False,False,0,2,0,False
+Tomato,s12_r11418,iid,Septoria Leaf Blotch,VQAPlantDise,93,True,False,False,False,0,2,0,False
+Tomato,s11_r9978,iid,Septoria Leaf Spot,PlantWild,94,True,False,False,False,0,2,2,False
+Tomato,s10_r5195,iid,Southern Blight,Bugwood,95,True,False,False,False,2,2,0,False
+Tomato,s36_r998,iid,Target Spot,PlantVillage,96,True,False,False,False,0,0,2,False
+Tomato,s37_r14973,iid,Tomato Leaf Curl Virus,PlantDoc,97,True,False,False,False,2,0,0,False
+Tomato,s10_r5533,iid,Tomato Spotted Wilt,Bugwood,98,True,False,False,False,0,0,0,False
+Tomato,s12_r17794,iid,Verticillium Wilt,LeafNet,99,True,False,False,False,2,2,0,False
+Tomato,s40_r9549,iid,Alfalfa Mosaic,A2H0H0R1Plan,100,False,False,False,True,2,2,0,False
+Tomato,s38_r12651,iid,Alternaria Black Molds Stem Cankers,RadyPlantDis,101,False,False,False,True,2,2,2,False
+Tomato,s10_r5158,iid,Anthracnose,Bugwood,102,False,False,False,True,0,2,0,False
+Tomato,s35_r9737,iid,Bacterial Leaf Spot,PlantWild,103,False,False,False,True,2,2,0,False
+Tomato,s34_r15001,ood,Bacterial Leaf Spot,CDDM,0,True,True,True,False,0,0,0,False
+Tomato,s12_r5118,ood,Early Blight,CDDM,1,True,True,True,False,0,0,0,False
+Tomato,s13_r4430,ood,Late Blight,CDDM,2,True,True,True,False,0,0,0,False
+Tomato,s38_r6016,ood,Leaf Mold,CDDM,3,True,True,True,False,0,0,0,False
+Tomato,s34_r578,ood,Leaf Mosaic Virus,CDDM,4,True,True,True,False,0,0,0,False
+Tomato,s10_r10450,ood,Septoria Leaf Spot,CDDM,5,True,True,True,False,0,0,0,False
+Tomato,s35_r12842,ood,Target Spot,CDDM,6,True,True,True,False,0,0,0,False
+Tomato,s37_r1405,ood,Tomato Leaf Curl Virus,CDDM,7,True,True,True,False,0,0,0,False
+Tomato,s34_r13393,ood,Bacterial Leaf Spot,CDDM,8,True,True,True,False,0,0,0,False
+Tomato,s12_r2600,ood,Early Blight,CDDM,9,True,True,True,False,0,0,0,False
+Tomato,s13_r7337,ood,Late Blight,CDDM,10,True,True,True,False,0,0,0,False
+Tomato,s38_r6239,ood,Leaf Mold,CDDM,11,True,True,True,False,0,0,0,False
+Tomato,s33_r22168,ood,Leaf Mosaic Virus,CDDM,12,True,True,True,False,0,0,0,False
+Tomato,s10_r10021,ood,Septoria Leaf Spot,CDDM,13,True,True,True,False,0,0,0,False
+Tomato,s35_r12530,ood,Target Spot,CDDM,14,True,True,True,False,0,0,0,False
+Tomato,s37_r1028,ood,Tomato Leaf Curl Virus,CDDM,15,True,True,True,False,0,0,0,False
+Tomato,s34_r14804,ood,Bacterial Leaf Spot,CDDM,16,True,True,True,False,0,0,0,False
+Tomato,s12_r4724,ood,Early Blight,CDDM,17,True,True,True,False,0,0,0,False
+Tomato,s13_r7191,ood,Late Blight,CDDM,18,True,True,True,False,0,0,0,False
+Tomato,s38_r3263,ood,Leaf Mold,CDDM,19,True,True,True,False,0,0,0,False
+Tomato,s33_r22610,ood,Leaf Mosaic Virus,CDDM,20,True,False,False,False,0,0,0,False
+Tomato,s10_r9755,ood,Septoria Leaf Spot,CDDM,21,True,False,False,False,0,0,0,False
+Tomato,s35_r14962,ood,Target Spot,CDDM,22,True,False,False,False,0,0,0,False
+Tomato,s37_r328,ood,Tomato Leaf Curl Virus,CDDM,23,True,False,False,False,0,0,0,False
+Tomato,s34_r11245,ood,Bacterial Leaf Spot,CDDM,24,True,False,False,False,0,0,0,False
+Tomato,s12_r4368,ood,Early Blight,CDDM,25,True,False,False,False,0,0,0,False
+Tomato,s13_r7446,ood,Late Blight,CDDM,26,True,False,False,False,0,0,0,False
+Tomato,s38_r6954,ood,Leaf Mold,CDDM,27,True,False,False,False,0,0,0,False
+Tomato,s33_r22963,ood,Leaf Mosaic Virus,CDDM,28,True,False,False,False,0,0,0,False
+Tomato,s10_r13393,ood,Septoria Leaf Spot,CDDM,29,True,False,False,False,0,0,0,False
+Tomato,s36_r16575,ood,Tomato Leaf Curl Virus,CDDM,30,True,False,False,False,0,0,0,False
+Tomato,s34_r13448,ood,Bacterial Leaf Spot,CDDM,31,True,False,False,False,0,0,0,False
+Tomato,s12_r4094,ood,Early Blight,CDDM,32,True,False,False,False,0,0,0,False
+Tomato,s13_r5809,ood,Late Blight,CDDM,33,True,False,False,False,0,0,0,False
+Tomato,s38_r7131,ood,Leaf Mold,CDDM,34,True,False,False,False,0,0,0,False
+Tomato,s34_r121,ood,Leaf Mosaic Virus,CDDM,35,True,False,False,False,0,0,0,False
+Tomato,s10_r13883,ood,Septoria Leaf Spot,CDDM,36,True,False,False,False,0,0,0,False
+Tomato,s36_r17581,ood,Tomato Leaf Curl Virus,CDDM,37,True,False,False,False,0,0,0,False
+Tomato,s34_r15000,ood,Bacterial Leaf Spot,CDDM,38,True,False,False,False,0,0,0,False
+Tomato,s12_r2749,ood,Early Blight,CDDM,39,True,False,False,False,0,0,0,False
+Tomato,s13_r4891,ood,Late Blight,CDDM,40,True,False,False,False,0,0,0,False
+Tomato,s38_r6909,ood,Leaf Mold,CDDM,41,True,False,False,False,0,0,0,False
+Tomato,s33_r23286,ood,Leaf Mosaic Virus,CDDM,42,True,False,False,False,0,0,0,False
+Tomato,s10_r9571,ood,Septoria Leaf Spot,CDDM,43,True,False,False,False,0,0,0,False
+Tomato,s37_r2578,ood,Tomato Leaf Curl Virus,CDDM,44,True,False,False,False,0,0,0,False
+Tomato,s12_r3751,ood,Early Blight,CDDM,45,True,False,False,False,0,0,0,False
+Tomato,s13_r9546,ood,Late Blight,CDDM,46,True,False,False,False,0,0,0,False
+Tomato,s38_r6839,ood,Leaf Mold,CDDM,47,True,False,False,False,0,0,0,False
+Tomato,s33_r20959,ood,Leaf Mosaic Virus,CDDM,48,True,False,False,False,0,0,0,False
+Tomato,s10_r9829,ood,Septoria Leaf Spot,CDDM,49,True,False,False,False,0,0,0,False
+Tomato,s37_r4346,ood,Tomato Leaf Curl Virus,CDDM,50,True,False,False,False,0,0,0,False
+Tomato,s12_r4884,ood,Early Blight,CDDM,51,True,False,False,False,0,0,0,False
+Tomato,s13_r4437,ood,Late Blight,CDDM,52,True,False,False,False,0,0,0,False
+Tomato,s38_r6514,ood,Leaf Mold,CDDM,53,True,False,False,False,0,0,0,False
+Tomato,s33_r20830,ood,Leaf Mosaic Virus,CDDM,54,True,False,False,False,0,0,0,False
+Tomato,s10_r9696,ood,Septoria Leaf Spot,CDDM,55,True,False,False,False,0,0,0,False
+Tomato,s36_r18270,ood,Tomato Leaf Curl Virus,CDDM,56,True,False,False,False,0,0,0,False
+Tomato,s13_r4980,ood,Late Blight,CDDM,57,True,False,False,False,0,0,0,False
+Tomato,s38_r6134,ood,Leaf Mold,CDDM,58,True,False,False,False,0,0,0,False
+Tomato,s34_r366,ood,Leaf Mosaic Virus,CDDM,59,True,False,False,False,0,0,0,False
+Tomato,s10_r14129,ood,Septoria Leaf Spot,CDDM,60,False,False,False,True,0,0,0,False
+Tomato,s37_r1173,ood,Tomato Leaf Curl Virus,CDDM,61,False,False,False,True,0,0,0,False
+Tomato,s13_r6822,ood,Late Blight,CDDM,62,False,False,False,True,0,0,0,False
+Tomato,s38_r7061,ood,Leaf Mold,CDDM,63,False,False,False,True,0,0,0,False
+Cucumber,s15_r12422,iid,Angular Leaf Spot,PlantWild,0,True,True,False,False,0,0,2,False
+Cucumber,s15_r12628,iid,Anthracnose,LeafNet,1,True,True,False,False,2,2,0,True
+Cucumber,s15_r12263,iid,Bacterial Wilt,Cucumber_Zen,2,True,True,False,False,0,0,0,True
+Cucumber,s16_r4036,iid,Belly Rot,Cucumber_Zen,3,True,True,False,False,2,0,0,False
+Cucumber,s16_r355,iid,Downy Mildew,Cucumber_Zen,4,True,True,False,False,0,2,0,True
+Cucumber,s17_r1061,iid,Gummy Stem Blight,LeafNet,5,True,True,False,False,0,0,0,False
+Cucumber,s15_r11922,iid,Powdery Mildew,PlantWild,6,True,True,False,False,0,0,0,False
+Cucumber,s40_r1121,iid,Pythium Diseases,Cucumber_Zen,7,True,True,False,False,2,0,2,False
+Cucumber,s16_r8,iid,Angular Leaf Spot,PlantWild,8,True,True,False,False,2,0,0,False
+Cucumber,s15_r12512,iid,Anthracnose,Cucumber_Zen,9,True,True,False,False,0,0,2,True
+Cucumber,s15_r12342,iid,Bacterial Wilt,LeafNet,10,True,True,False,False,2,2,2,True
+Cucumber,s16_r306,iid,Belly Rot,Cucumber_Zen,11,True,True,False,False,0,2,2,False
+Cucumber,s16_r1527,iid,Downy Mildew,Cucumber_Zen,12,True,True,False,False,0,0,2,True
+Cucumber,s17_r1048,iid,Gummy Stem Blight,LeafNet,13,True,True,False,False,0,0,0,False
+Cucumber,s15_r11761,iid,Powdery Mildew,PlantWild,14,True,True,False,False,0,0,2,False
+Cucumber,s40_r1094,iid,Pythium Diseases,Cucumber_Zen,15,True,True,False,False,0,0,2,False
+Cucumber,s15_r12187,iid,Angular Leaf Spot,PlantWild,16,True,True,False,False,2,0,2,False
+Cucumber,s16_r102,iid,Anthracnose,LeafNet,17,True,True,False,False,0,2,0,True
+Cucumber,s15_r12332,iid,Bacterial Wilt,LeafNet,18,True,True,False,False,0,0,0,True
+Cucumber,s16_r314,iid,Belly Rot,Cucumber_Zen,19,True,True,False,False,0,0,0,False
+Cucumber,s16_r491,iid,Downy Mildew,Cucumber_Zen,20,True,False,False,False,0,0,0,True
+Cucumber,s17_r1057,iid,Gummy Stem Blight,LeafNet,21,True,False,False,False,0,2,0,False
+Cucumber,s15_r11739,iid,Powdery Mildew,PlantWild,22,True,False,False,False,2,0,0,False
+Cucumber,s40_r1073,iid,Pythium Diseases,Cucumber_Zen,23,True,False,False,False,0,0,0,False
+Cucumber,s15_r12410,iid,Angular Leaf Spot,PlantWild,24,True,False,False,False,0,0,0,False
+Cucumber,s15_r12662,iid,Anthracnose,Cucumber_Zen,25,True,False,False,False,0,0,0,True
+Cucumber,s15_r12385,iid,Bacterial Wilt,Cucumber_Zen,26,True,False,False,False,2,0,0,True
+Cucumber,s16_r4065,iid,Belly Rot,Cucumber_Zen,27,True,False,False,False,0,2,2,False
+Cucumber,s16_r645,iid,Downy Mildew,Cucumber_Zen,28,True,False,False,False,2,0,0,True
+Cucumber,s17_r1045,iid,Gummy Stem Blight,LeafNet,29,True,False,False,False,2,2,2,False
+Cucumber,s15_r11897,iid,Powdery Mildew,PlantWild,30,True,False,False,False,2,2,2,False
+Cucumber,s40_r2145,iid,Pythium Diseases,Cucumber_Zen,31,True,False,False,False,0,0,2,False
+Cucumber,s15_r12409,iid,Angular Leaf Spot,PlantWild,32,True,False,False,False,0,0,0,False
+Cucumber,s15_r12522,iid,Anthracnose,Cucumber_Zen,33,True,False,False,False,2,0,2,True
+Cucumber,s15_r12465,iid,Bacterial Wilt,Cucumber_Zen,34,True,False,False,False,0,0,2,True
+Cucumber,s16_r4806,iid,Belly Rot,Cucumber_Zen,35,True,False,False,False,0,2,2,False
+Cucumber,s16_r671,iid,Downy Mildew,Cucumber_Zen,36,True,False,False,False,0,2,0,True
+Cucumber,s16_r7225,iid,Gummy Stem Blight,LeafNet,37,True,False,False,False,2,2,0,False
+Cucumber,s15_r11920,iid,Powdery Mildew,PlantWild,38,True,False,False,False,2,0,0,False
+Cucumber,s40_r1972,iid,Pythium Diseases,Cucumber_Zen,39,True,False,False,False,0,0,0,False
+Cucumber,s15_r12245,iid,Angular Leaf Spot,PlantWild,40,True,False,False,False,0,0,0,False
+Cucumber,s15_r12715,iid,Anthracnose,LeafNet,41,True,False,False,False,0,2,0,True
+Cucumber,s15_r11937,iid,Bacterial Wilt,LeafNet,42,True,False,False,False,0,0,2,True
+Cucumber,s16_r4052,iid,Belly Rot,Cucumber_Zen,43,True,False,False,False,2,0,2,False
+Cucumber,s16_r493,iid,Downy Mildew,Cucumber_Zen,44,True,False,False,False,0,0,0,True
+Cucumber,s16_r4121,iid,Gummy Stem Blight,LeafNet,45,True,False,False,False,0,0,2,False
+Cucumber,s15_r11886,iid,Powdery Mildew,PlantWild,46,True,False,False,False,2,2,0,False
+Cucumber,s40_r2086,iid,Pythium Diseases,Cucumber_Zen,47,True,False,False,False,0,0,2,False
+Cucumber,s15_r12062,iid,Angular Leaf Spot,PlantWild,48,True,False,False,False,0,0,2,False
+Cucumber,s15_r12746,iid,Anthracnose,LeafNet,49,True,False,False,False,0,0,0,True
+Cucumber,s15_r11938,iid,Bacterial Wilt,LeafNet,50,True,False,False,False,2,2,0,True
+Cucumber,s16_r4046,iid,Belly Rot,Cucumber_Zen,51,True,False,False,False,0,2,0,False
+Cucumber,s16_r3008,iid,Downy Mildew,Cucumber_Zen,52,True,False,False,False,0,2,0,False
+Cucumber,s16_r7202,iid,Gummy Stem Blight,LeafNet,53,True,False,False,False,0,0,0,False
+Cucumber,s15_r11911,iid,Powdery Mildew,PlantWild,54,True,False,False,False,2,2,0,False
+Cucumber,s40_r1088,iid,Pythium Diseases,Cucumber_Zen,55,True,False,False,False,0,0,2,False
+Cucumber,s15_r12070,iid,Angular Leaf Spot,PlantWild,56,True,False,False,False,0,0,2,False
+Cucumber,s15_r12557,iid,Anthracnose,Cucumber_Zen,57,True,False,False,False,0,0,0,False
+Cucumber,s15_r11557,iid,Bacterial Wilt,PlantWild,58,True,False,False,False,0,2,2,False
+Cucumber,s16_r2835,iid,Belly Rot,Cucumber_Zen,59,True,False,False,False,2,0,0,False
+Cucumber,s16_r1820,iid,Downy Mildew,LeafNet,60,True,False,False,False,2,2,0,False
+Cucumber,s16_r4425,iid,Gummy Stem Blight,LeafNet,61,True,False,False,False,2,0,2,False
+Cucumber,s15_r11872,iid,Powdery Mildew,PlantWild,62,True,False,False,False,0,2,2,False
+Cucumber,s40_r1980,iid,Pythium Diseases,Cucumber_Zen,63,True,False,False,False,2,2,2,False
+Cucumber,s15_r12425,iid,Angular Leaf Spot,PlantWild,64,True,False,False,False,2,0,2,False
+Cucumber,s15_r12505,iid,Anthracnose,Cucumber_Zen,65,True,False,False,False,0,2,2,False
+Cucumber,s15_r12451,iid,Bacterial Wilt,Cucumber_Zen,66,True,False,False,False,0,0,2,False
+Cucumber,s16_r291,iid,Belly Rot,Cucumber_Zen,67,True,False,False,False,2,2,2,False
+Cucumber,s16_r371,iid,Downy Mildew,Cucumber_Zen,68,True,False,False,False,0,0,2,False
+Cucumber,s16_r4127,iid,Gummy Stem Blight,LeafNet,69,True,False,False,False,0,2,0,False
+Cucumber,s15_r11871,iid,Powdery Mildew,PlantWild,70,True,False,False,False,2,2,2,False
+Cucumber,s40_r2100,iid,Pythium Diseases,Cucumber_Zen,71,True,False,False,False,0,2,0,False
+Cucumber,s15_r12232,iid,Angular Leaf Spot,PlantWild,72,True,False,False,False,2,0,0,False
+Cucumber,s15_r12607,iid,Anthracnose,LeafNet,73,True,False,False,False,0,0,2,False
+Cucumber,s15_r11605,iid,Bacterial Wilt,PlantWild,74,True,False,False,False,2,0,2,False
+Cucumber,s16_r9096,iid,Belly Rot,Cucumber_Zen,75,True,False,False,False,0,0,2,False
+Cucumber,s16_r417,iid,Downy Mildew,LeafNet,76,True,False,False,False,2,0,2,False
+Cucumber,s16_r7233,iid,Gummy Stem Blight,LeafNet,77,True,False,False,False,0,0,0,False
+Cucumber,s15_r11850,iid,Powdery Mildew,PlantWild,78,True,False,False,False,2,0,0,False
+Cucumber,s40_r1967,iid,Pythium Diseases,Cucumber_Zen,79,True,False,False,False,2,0,0,False
+Cucumber,s15_r12081,iid,Angular Leaf Spot,PlantWild,80,True,False,False,False,0,0,0,False
+Cucumber,s16_r99,iid,Anthracnose,LeafNet,81,True,False,False,False,2,2,2,False
+Cucumber,s15_r12256,iid,Bacterial Wilt,Cucumber_Zen,82,True,False,False,False,0,0,0,False
+Cucumber,s16_r318,iid,Belly Rot,Cucumber_Zen,83,True,False,False,False,0,0,0,False
+Cucumber,s16_r409,iid,Downy Mildew,LeafNet,84,True,False,False,False,2,2,2,False
+Cucumber,s16_r4434,iid,Gummy Stem Blight,LeafNet,85,True,False,False,False,0,0,2,False
+Cucumber,s15_r11858,iid,Powdery Mildew,PlantWild,86,True,False,False,False,2,0,0,False
+Cucumber,s40_r1987,iid,Pythium Diseases,Cucumber_Zen,87,True,False,False,False,0,0,2,False
+Cucumber,s16_r20,iid,Angular Leaf Spot,PlantWild,88,True,False,False,False,2,2,0,False
+Cucumber,s15_r12711,iid,Anthracnose,LeafNet,89,True,False,False,False,0,0,2,False
+Cucumber,s15_r12318,iid,Bacterial Wilt,LeafNet,90,True,False,False,False,0,0,0,False
+Cucumber,s16_r4056,iid,Belly Rot,Cucumber_Zen,91,True,False,False,False,2,0,0,False
+Cucumber,s16_r649,iid,Downy Mildew,Cucumber_Zen,92,True,False,False,False,0,0,0,False
+Cucumber,s16_r7210,iid,Gummy Stem Blight,LeafNet,93,True,False,False,False,0,2,0,False
+Cucumber,s15_r11984,iid,Powdery Mildew,PlantWild,94,True,False,False,False,0,2,0,False
+Cucumber,s40_r2148,iid,Pythium Diseases,Cucumber_Zen,95,True,False,False,False,0,0,0,False
+Cucumber,s15_r12234,iid,Angular Leaf Spot,PlantWild,96,True,False,False,False,0,0,2,False
+Cucumber,s15_r12568,iid,Anthracnose,Cucumber_Zen,97,True,False,False,False,0,0,0,False
+Cucumber,s15_r12360,iid,Bacterial Wilt,LeafNet,98,True,False,False,False,2,0,0,False
+Cucumber,s16_r308,iid,Belly Rot,Cucumber_Zen,99,True,False,False,False,2,2,0,False
+Cucumber,s16_r41,ood,Angular Leaf Spot,Bugwood,0,True,True,False,False,0,0,0,False
+Cucumber,s16_r233,ood,Anthracnose,Bugwood,1,True,True,False,False,0,0,0,False
+Cucumber,s15_r11822,ood,Bacterial Wilt,Bugwood,2,True,True,False,False,0,0,0,False
+Cucumber,s16_r8496,ood,Belly Rot,Bugwood,3,True,True,False,False,0,0,0,False
+Cucumber,s16_r3698,ood,Downy Mildew,Bugwood,4,True,True,False,False,0,0,0,False
+Cucumber,s16_r4104,ood,Gummy Stem Blight,Bugwood,5,True,True,False,False,0,0,0,False
+Cucumber,s16_r118,ood,Powdery Mildew,Bugwood,6,True,True,False,False,0,0,0,False
+Cucumber,s40_r2196,ood,Pythium Diseases,Bugwood,7,True,True,False,False,0,0,0,False
+Cucumber,s16_r43,ood,Angular Leaf Spot,Bugwood,8,True,True,False,False,0,0,0,False
+Cucumber,s16_r204,ood,Anthracnose,Bugwood,9,True,True,False,False,0,0,0,False
+Cucumber,s15_r11823,ood,Bacterial Wilt,Bugwood,10,True,True,False,False,0,0,0,False
+Cucumber,s16_r8486,ood,Belly Rot,Bugwood,11,True,True,False,False,0,0,0,False
+Cucumber,s16_r4396,ood,Downy Mildew,Bugwood,12,True,True,False,False,0,0,0,False
+Cucumber,s16_r9114,ood,Gummy Stem Blight,Bugwood,13,True,True,False,False,0,0,0,False
+Cucumber,s16_r115,ood,Powdery Mildew,Bugwood,14,True,True,False,False,0,0,0,False
+Cucumber,s40_r2203,ood,Pythium Diseases,Bugwood,15,True,True,False,False,0,0,0,False
+Cucumber,s16_r35,ood,Angular Leaf Spot,Bugwood,16,True,True,False,False,0,0,0,False
+Cucumber,s16_r267,ood,Anthracnose,Bugwood,17,True,True,False,False,0,0,0,False
+Cucumber,s15_r12444,ood,Bacterial Wilt,Bugwood,18,True,True,False,False,0,0,0,False
+Cucumber,s16_r8487,ood,Belly Rot,Bugwood,19,True,True,False,False,0,0,0,False
+Cucumber,s16_r2312,ood,Downy Mildew,Bugwood,20,True,False,False,False,0,0,0,False
+Cucumber,s16_r4102,ood,Gummy Stem Blight,Bugwood,21,True,False,False,False,0,0,0,False
+Cucumber,s16_r119,ood,Powdery Mildew,Bugwood,22,True,False,False,False,0,0,0,False
+Cucumber,s40_r2201,ood,Pythium Diseases,Bugwood,23,True,False,False,False,0,0,0,False
+Cucumber,s16_r90,ood,Angular Leaf Spot,Bugwood,24,True,False,False,False,0,0,0,False
+Cucumber,s16_r253,ood,Anthracnose,Bugwood,25,True,False,False,False,0,0,0,False
+Cucumber,s15_r11826,ood,Bacterial Wilt,Bugwood,26,True,False,False,False,0,0,0,False
+Cucumber,s16_r8495,ood,Belly Rot,Bugwood,27,True,False,False,False,0,0,0,False
+Cucumber,s16_r1754,ood,Downy Mildew,Bugwood,28,True,False,False,False,0,0,0,False
+Cucumber,s16_r9116,ood,Gummy Stem Blight,Bugwood,29,True,False,False,False,0,0,0,False
+Cucumber,s16_r114,ood,Powdery Mildew,Bugwood,30,True,False,False,False,0,0,0,False
+Cucumber,s40_r3052,ood,Pythium Diseases,Bugwood,31,True,False,False,False,0,0,0,False
+Cucumber,s16_r92,ood,Angular Leaf Spot,Bugwood,32,True,False,False,False,0,0,0,False
+Cucumber,s16_r230,ood,Anthracnose,Bugwood,33,True,False,False,False,0,0,0,False
+Cucumber,s15_r12439,ood,Bacterial Wilt,Bugwood,34,True,False,False,False,0,0,0,False
+Cucumber,s16_r8493,ood,Belly Rot,Bugwood,35,True,False,False,False,0,0,0,False
+Cucumber,s16_r4019,ood,Downy Mildew,Bugwood,36,True,False,False,False,0,0,0,False
+Cucumber,s16_r4100,ood,Gummy Stem Blight,Bugwood,37,True,False,False,False,0,0,0,False
+Cucumber,s16_r120,ood,Powdery Mildew,Bugwood,38,True,False,False,False,0,0,0,False
+Cucumber,s40_r2197,ood,Pythium Diseases,Bugwood,39,True,False,False,False,0,0,0,False
+Cucumber,s16_r50,ood,Angular Leaf Spot,Bugwood,40,True,False,False,False,0,0,0,False
+Cucumber,s16_r182,ood,Anthracnose,Bugwood,41,True,False,False,False,0,0,0,False
+Cucumber,s15_r11824,ood,Bacterial Wilt,Bugwood,42,True,False,False,False,0,0,0,False
+Cucumber,s16_r8489,ood,Belly Rot,Bugwood,43,True,False,False,False,0,0,0,False
+Cucumber,s16_r4412,ood,Downy Mildew,Bugwood,44,True,False,False,False,0,0,0,False
+Cucumber,s16_r4107,ood,Gummy Stem Blight,Bugwood,45,True,False,False,False,0,0,0,False
+Cucumber,s16_r123,ood,Powdery Mildew,Bugwood,46,True,False,False,False,0,0,0,False
+Cucumber,s40_r2190,ood,Pythium Diseases,Bugwood,47,True,False,False,False,0,0,0,False
+Cucumber,s16_r38,ood,Angular Leaf Spot,Bugwood,48,True,False,False,False,0,0,0,False
+Cucumber,s16_r180,ood,Anthracnose,Bugwood,49,True,False,False,False,0,0,0,False
+Cucumber,s15_r11830,ood,Bacterial Wilt,Bugwood,50,True,False,False,False,0,0,0,False
+Cucumber,s16_r8498,ood,Belly Rot,Bugwood,51,True,False,False,False,0,0,0,False
+Cucumber,s16_r5018,ood,Downy Mildew,Bugwood,52,True,False,False,False,0,0,0,False
+Cucumber,s16_r4110,ood,Gummy Stem Blight,Bugwood,53,True,False,False,False,0,0,0,False
+Cucumber,s40_r2194,ood,Pythium Diseases,Bugwood,54,True,False,False,False,0,0,0,False
+Cucumber,s16_r55,ood,Angular Leaf Spot,Bugwood,55,True,False,False,False,0,0,0,False
+Cucumber,s16_r278,ood,Anthracnose,Bugwood,56,True,False,False,False,0,0,0,False
+Cucumber,s15_r12440,ood,Bacterial Wilt,Bugwood,57,True,False,False,False,0,0,0,False
+Cucumber,s16_r8502,ood,Belly Rot,Bugwood,58,True,False,False,False,0,0,0,False
+Cucumber,s16_r2987,ood,Downy Mildew,Bugwood,59,True,False,False,False,0,0,0,False
+Wheat,s39_r25808,iid,Bacterial Leaf Streak Black Chaff,PlantWild,0,True,True,False,False,0,0,0,False
+Wheat,s39_r25866,iid,Head Scab,PlantWild,1,True,True,False,False,2,0,0,True
+Wheat,s15_r6051,iid,Powdery Mildew,PlantWild,2,True,True,False,False,2,0,2,True
+Wheat,s39_r25092,iid,Root Rot,CDDM,3,True,True,False,False,0,2,0,False
+Wheat,s15_r10285,iid,Rust,BDCropVegeta,4,True,True,False,False,0,2,2,True
+Wheat,s39_r24662,iid,Septoria Leaf Blotch,PlantWild,5,True,True,False,False,2,2,0,True
+Wheat,s15_r5570,iid,Smut,PlantWild,6,True,True,False,False,0,2,2,True
+Wheat,s40_r367,iid,Bacterial Leaf Streak Black Chaff,PlantWild,7,True,True,False,False,2,2,0,False
+Wheat,s40_r331,iid,Head Scab,PlantWild,8,True,True,False,False,0,0,0,True
+Wheat,s15_r5811,iid,Powdery Mildew,Wheat_Diseas,9,True,True,False,False,0,0,2,True
+Wheat,s39_r24847,iid,Root Rot,CDDM,10,True,True,False,False,0,0,0,False
+Wheat,s15_r10237,iid,Rust,BDCropVegeta,11,True,True,False,False,2,2,0,True
+Wheat,s39_r24310,iid,Septoria Leaf Blotch,PlantWild,12,True,True,False,False,0,2,0,True
+Wheat,s15_r4153,iid,Smut,CDDM,13,True,True,False,False,0,0,0,True
+Wheat,s39_r25830,iid,Bacterial Leaf Streak Black Chaff,PlantWild,14,True,True,False,False,2,0,2,False
+Wheat,s40_r101,iid,Head Scab,PlantWild,15,True,True,False,False,0,2,0,True
+Wheat,s15_r4048,iid,Powdery Mildew,PlantWild,16,True,True,False,False,0,0,2,True
+Wheat,s40_r430,iid,Root Rot,CDDM,17,True,True,False,False,2,2,2,False
+Wheat,s15_r9866,iid,Rust,CDDM,18,True,True,False,False,0,0,2,True
+Wheat,s39_r24082,iid,Septoria Leaf Blotch,CDDM,19,True,True,False,False,0,0,2,True
+Wheat,s15_r5818,iid,Smut,PlantWild,20,True,False,False,False,0,2,0,True
+Wheat,s39_r25825,iid,Bacterial Leaf Streak Black Chaff,PlantWild,21,True,False,False,False,0,2,0,False
+Wheat,s40_r337,iid,Head Scab,PlantWild,22,True,False,False,False,0,0,2,True
+Wheat,s15_r6067,iid,Powdery Mildew,PlantWild,23,True,False,False,False,2,0,0,True
+Wheat,s39_r25534,iid,Root Rot,CDDM,24,True,False,False,False,0,0,0,False
+Wheat,s15_r11328,iid,Rust,PlantWild,25,True,False,False,False,0,2,0,True
+Wheat,s39_r24354,iid,Septoria Leaf Blotch,PlantWild,26,True,False,False,False,2,0,0,True
+Wheat,s15_r4844,iid,Smut,CDDM,27,True,False,False,False,0,0,0,True
+Wheat,s39_r25774,iid,Bacterial Leaf Streak Black Chaff,PlantWild,28,True,False,False,False,0,0,2,False
+Wheat,s40_r226,iid,Head Scab,PlantWild,29,True,False,False,False,0,0,2,False
+Wheat,s15_r4748,iid,Powdery Mildew,PlantWild,30,True,False,False,False,0,0,2,False
+Wheat,s39_r25256,iid,Root Rot,CDDM,31,True,False,False,False,0,0,2,False
+Wheat,s15_r10343,iid,Rust,BDCropVegeta,32,True,False,False,False,2,0,2,False
+Wheat,s39_r24828,iid,Septoria Leaf Blotch,BDCropVegeta,33,True,False,False,False,0,0,0,False
+Wheat,s15_r4698,iid,Smut,CDDM,34,True,False,False,False,0,0,2,False
+Wheat,s39_r25818,iid,Bacterial Leaf Streak Black Chaff,PlantWild,35,True,False,False,False,0,0,0,False
+Wheat,s40_r216,iid,Head Scab,PlantWild,36,True,False,False,False,0,0,0,False
+Wheat,s15_r4753,iid,Powdery Mildew,PlantWild,37,True,False,False,False,0,0,0,False
+Wheat,s39_r25118,iid,Root Rot,CDDM,38,True,False,False,False,2,0,0,False
+Wheat,s15_r11308,iid,Rust,PlantWild,39,True,False,False,False,0,2,0,False
+Wheat,s39_r24609,iid,Septoria Leaf Blotch,PlantWild,40,True,False,False,False,0,0,0,False
+Wheat,s15_r6214,iid,Smut,PlantWild,41,True,False,False,False,2,0,0,False
+Wheat,s39_r25863,iid,Bacterial Leaf Streak Black Chaff,PlantWild,42,True,False,False,False,0,0,2,False
+Wheat,s40_r16,iid,Head Scab,Wheat_Diseas,43,True,False,False,False,2,2,0,False
+Wheat,s15_r5379,iid,Powdery Mildew,PlantWild,44,True,False,False,False,0,2,0,False
+Wheat,s39_r25528,iid,Root Rot,CDDM,45,True,False,False,False,2,0,2,False
+Wheat,s15_r6431,iid,Rust,VQAPlantDise,46,True,False,False,False,2,0,0,False
+Wheat,s39_r24396,iid,Septoria Leaf Blotch,BDCropVegeta,47,True,False,False,False,2,0,0,False
+Wheat,s15_r5562,iid,Smut,PlantWild,48,True,False,False,False,0,2,2,False
+Wheat,s40_r376,iid,Bacterial Leaf Streak Black Chaff,PlantWild,49,True,False,False,False,2,2,2,False
+Wheat,s40_r214,iid,Head Scab,PlantWild,50,True,False,False,False,0,0,2,False
+Wheat,s15_r5244,iid,Powdery Mildew,PlantWild,51,True,False,False,False,0,0,2,False
+Wheat,s39_r25324,iid,Root Rot,CDDM,52,True,False,False,False,0,2,0,False
+Wheat,s15_r10330,iid,Rust,BDCropVegeta,53,True,False,False,False,0,0,2,False
+Wheat,s40_r2824,iid,Septoria Leaf Blotch,VQAPlantDise,54,True,False,False,False,0,0,2,False
+Wheat,s15_r5815,iid,Smut,PlantWild,55,True,False,False,False,0,2,2,False
+Wheat,s39_r25851,iid,Bacterial Leaf Streak Black Chaff,PlantWild,56,True,False,False,False,2,2,2,False
+Wheat,s40_r487,iid,Head Scab,PlantWild,57,True,False,False,False,0,2,0,False
+Wheat,s15_r5242,iid,Powdery Mildew,PlantWild,58,True,False,False,False,0,0,0,False
+Wheat,s40_r427,iid,Root Rot,CDDM,59,True,False,False,False,0,2,2,False
+Wheat,s15_r6736,iid,Rust,VQAPlantDise,60,True,False,False,False,2,0,2,False
+Wheat,s39_r24466,iid,Septoria Leaf Blotch,PlantWild,61,True,False,False,False,0,2,2,False
+Wheat,s15_r4563,iid,Smut,CDDM,62,True,False,False,False,0,0,2,False
+Wheat,s39_r25820,iid,Bacterial Leaf Streak Black Chaff,PlantWild,63,True,False,False,False,0,0,2,False
+Wheat,s40_r301,iid,Head Scab,PlantWild,64,True,False,False,False,0,0,2,False
+Wheat,s15_r5803,iid,Powdery Mildew,PlantWild,65,True,False,False,False,0,0,0,False
+Wheat,s39_r25045,iid,Root Rot,CDDM,66,True,False,False,False,2,0,0,False
+Wheat,s15_r10208,iid,Rust,BDCropVegeta,67,True,False,False,False,2,0,2,False
+Wheat,s39_r24389,iid,Septoria Leaf Blotch,BDCropVegeta,68,True,False,False,False,2,0,2,False
+Wheat,s15_r4282,iid,Smut,CDDM,69,True,False,False,False,0,2,0,False
+Wheat,s39_r25855,iid,Bacterial Leaf Streak Black Chaff,PlantWild,70,True,False,False,False,0,2,0,False
+Wheat,s40_r598,iid,Head Scab,PlantWild,71,True,False,False,False,2,0,0,False
+Wheat,s15_r4053,iid,Powdery Mildew,PlantWild,72,True,False,False,False,0,2,0,False
+Wheat,s40_r424,iid,Root Rot,CDDM,73,True,False,False,False,0,0,2,False
+Wheat,s15_r12034,iid,Rust,Wheat_Diseas,74,True,False,False,False,0,0,0,False
+Wheat,s39_r25168,iid,Septoria Leaf Blotch,PlantWild,75,True,False,False,False,2,0,0,False
+Wheat,s15_r5887,iid,Smut,PlantWild,76,True,False,False,False,2,0,2,False
+Wheat,s39_r25771,iid,Bacterial Leaf Streak Black Chaff,PlantWild,77,True,False,False,False,0,2,0,False
+Wheat,s39_r25874,iid,Head Scab,PlantWild,78,True,False,False,False,2,0,2,False
+Wheat,s15_r5801,iid,Powdery Mildew,PlantWild,79,True,False,False,False,0,0,2,False
+Wheat,s39_r25501,iid,Root Rot,CDDM,80,True,False,False,False,2,2,0,False
+Wheat,s15_r11083,iid,Rust,PlantWild,81,True,False,False,False,0,2,0,False
+Wheat,s39_r24069,iid,Septoria Leaf Blotch,CDDM,82,True,False,False,False,2,0,0,False
+Wheat,s15_r5507,iid,Smut,PlantWild,83,True,False,False,False,0,2,2,False
+Wheat,s39_r25815,iid,Bacterial Leaf Streak Black Chaff,PlantWild,84,True,False,False,False,0,0,0,False
+Wheat,s40_r123,iid,Head Scab,PlantWild,85,True,False,False,False,2,0,0,False
+Wheat,s15_r6061,iid,Powdery Mildew,PlantWild,86,True,False,False,False,0,2,0,False
+Wheat,s39_r25622,iid,Root Rot,CDDM,87,True,False,False,False,0,0,2,False
+Wheat,s15_r7113,iid,Rust,VQAPlantDise,88,True,False,False,False,0,0,0,False
+Wheat,s39_r25167,iid,Septoria Leaf Blotch,PlantWild,89,True,False,False,False,2,0,2,False
+Wheat,s15_r4539,iid,Smut,CDDM,90,True,False,False,False,0,0,0,False
+Wheat,s39_r25788,iid,Bacterial Leaf Streak Black Chaff,PlantWild,91,True,False,False,False,2,0,2,False
+Wheat,s40_r213,iid,Head Scab,PlantWild,92,True,False,False,False,0,0,2,False
+Wheat,s15_r5380,iid,Powdery Mildew,PlantWild,93,True,False,False,False,2,0,0,False
+Wheat,s39_r25562,iid,Root Rot,CDDM,94,True,False,False,False,0,0,2,False
+Wheat,s15_r8433,iid,Rust,CDDM,95,True,False,False,False,0,0,0,False
+Wheat,s40_r2785,iid,Septoria Leaf Blotch,VQAPlantDise,96,True,False,False,False,2,0,0,False
+Wheat,s15_r7175,iid,Smut,Wheat_Diseas,97,True,False,False,False,0,0,2,False
+Wheat,s39_r25824,iid,Bacterial Leaf Streak Black Chaff,PlantWild,98,True,False,False,False,0,0,2,False
+Wheat,s40_r356,iid,Head Scab,PlantWild,99,True,False,False,False,0,0,2,False
+Wheat,s40_r388,ood,Bacterial Leaf Streak Black Chaff,Bugwood,0,True,True,False,False,0,0,0,False
+Wheat,s39_r25658,ood,Head Scab,Bugwood,1,True,True,False,False,0,0,0,False
+Wheat,s15_r6046,ood,Powdery Mildew,Bugwood,2,True,True,False,False,0,0,0,False
+Wheat,s40_r51,ood,Root Rot,Bugwood,3,True,True,False,False,0,0,0,False
+Wheat,s15_r12497,ood,Rust,Bugwood,4,True,True,False,False,0,0,0,False
+Wheat,s39_r25677,ood,Septoria Leaf Blotch,Bugwood,5,True,True,False,False,0,0,0,False
+Wheat,s15_r11000,ood,Smut,Bugwood,6,True,True,False,False,0,0,0,False
+Wheat,s39_r25762,ood,Bacterial Leaf Streak Black Chaff,Bugwood,7,True,True,False,False,0,0,0,False
+Wheat,s39_r25649,ood,Head Scab,Bugwood,8,True,True,False,False,0,0,0,False
+Wheat,s15_r6043,ood,Powdery Mildew,Bugwood,9,True,True,False,False,0,0,0,False
+Wheat,s39_r25758,ood,Root Rot,Bugwood,10,True,True,False,False,0,0,0,False
+Wheat,s15_r12501,ood,Rust,Bugwood,11,True,True,False,False,0,0,0,False
+Wheat,s40_r30,ood,Septoria Leaf Blotch,Bugwood,12,True,True,False,False,0,0,0,False
+Wheat,s15_r11204,ood,Smut,Bugwood,13,True,True,False,False,0,0,0,False
+Wheat,s39_r25765,ood,Bacterial Leaf Streak Black Chaff,Bugwood,14,True,True,False,False,0,0,0,False
+Wheat,s39_r25656,ood,Head Scab,Bugwood,15,True,True,False,False,0,0,0,False
+Wheat,s15_r6039,ood,Powdery Mildew,Bugwood,16,True,True,False,False,0,0,0,False
+Wheat,s40_r451,ood,Root Rot,Bugwood,17,True,True,False,False,0,0,0,False
+Wheat,s15_r10770,ood,Rust,Bugwood,18,True,True,False,False,0,0,0,False
+Wheat,s39_r25704,ood,Septoria Leaf Blotch,Bugwood,19,True,True,False,False,0,0,0,False
+Wheat,s15_r6226,ood,Smut,Bugwood,20,True,False,False,False,0,0,0,False
+Wheat,s40_r387,ood,Bacterial Leaf Streak Black Chaff,Bugwood,21,True,False,False,False,0,0,0,False
+Wheat,s39_r25655,ood,Head Scab,Bugwood,22,True,False,False,False,0,0,0,False
+Wheat,s15_r10298,ood,Powdery Mildew,Bugwood,23,True,False,False,False,0,0,0,False
+Wheat,s40_r584,ood,Root Rot,Bugwood,24,True,False,False,False,0,0,0,False
+Wheat,s15_r10797,ood,Rust,Bugwood,25,True,False,False,False,0,0,0,False
+Wheat,s39_r25692,ood,Septoria Leaf Blotch,Bugwood,26,True,False,False,False,0,0,0,False
+Wheat,s15_r11194,ood,Smut,Bugwood,27,True,False,False,False,0,0,0,False
+Wheat,s39_r25760,ood,Bacterial Leaf Streak Black Chaff,Bugwood,28,True,False,False,False,0,0,0,False
+Wheat,s39_r24009,ood,Head Scab,Bugwood,29,True,False,False,False,0,0,0,False
+Wheat,s15_r10301,ood,Powdery Mildew,Bugwood,30,True,False,False,False,0,0,0,False
+Wheat,s40_r443,ood,Root Rot,Bugwood,31,True,False,False,False,0,0,0,False
+Wheat,s15_r12500,ood,Rust,Bugwood,32,True,False,False,False,0,0,0,False
+Wheat,s40_r34,ood,Septoria Leaf Blotch,Bugwood,33,True,False,False,False,0,0,0,False
+Wheat,s15_r11001,ood,Smut,Bugwood,34,True,False,False,False,0,0,0,False
+Wheat,s40_r386,ood,Bacterial Leaf Streak Black Chaff,Bugwood,35,True,False,False,False,0,0,0,False
+Wheat,s39_r25665,ood,Head Scab,Bugwood,36,True,False,False,False,0,0,0,False
+Wheat,s15_r6048,ood,Powdery Mildew,Bugwood,37,True,False,False,False,0,0,0,False
+Wheat,s40_r583,ood,Root Rot,Bugwood,38,True,False,False,False,0,0,0,False
+Wheat,s15_r11135,ood,Rust,Bugwood,39,True,False,False,False,0,0,0,False
+Wheat,s40_r168,ood,Septoria Leaf Blotch,Bugwood,40,True,False,False,False,0,0,0,False
+Wheat,s15_r5912,ood,Smut,Bugwood,41,True,False,False,False,0,0,0,False
+Wheat,s39_r25763,ood,Bacterial Leaf Streak Black Chaff,Bugwood,42,True,False,False,False,0,0,0,False
+Wheat,s39_r25662,ood,Head Scab,Bugwood,43,True,False,False,False,0,0,0,False
+Wheat,s15_r10325,ood,Powdery Mildew,Bugwood,44,True,False,False,False,0,0,0,False
+Wheat,s40_r596,ood,Root Rot,Bugwood,45,True,False,False,False,0,0,0,False
+Wheat,s15_r10796,ood,Rust,Bugwood,46,True,False,False,False,0,0,0,False
+Wheat,s40_r31,ood,Septoria Leaf Blotch,Bugwood,47,True,False,False,False,0,0,0,False
+Wheat,s15_r11008,ood,Smut,Bugwood,48,True,False,False,False,0,0,0,False
+Wheat,s40_r38,ood,Bacterial Leaf Streak Black Chaff,Bugwood,49,True,False,False,False,0,0,0,False
+Wheat,s39_r25661,ood,Head Scab,Bugwood,50,True,False,False,False,0,0,0,False
+Wheat,s15_r10324,ood,Powdery Mildew,Bugwood,51,True,False,False,False,0,0,0,False
+Wheat,s39_r25757,ood,Root Rot,Bugwood,52,True,False,False,False,0,0,0,False
+Wheat,s15_r10806,ood,Rust,Bugwood,53,True,False,False,False,0,0,0,False
+Wheat,s40_r27,ood,Septoria Leaf Blotch,Bugwood,54,True,False,False,False,0,0,0,False
+Wheat,s15_r11014,ood,Smut,Bugwood,55,True,False,False,False,0,0,0,False
+Wheat,s39_r25659,ood,Head Scab,Bugwood,56,True,False,False,False,0,0,0,False
+Wheat,s15_r10326,ood,Powdery Mildew,Bugwood,57,True,False,False,False,0,0,0,False
+Wheat,s40_r452,ood,Root Rot,Bugwood,58,True,False,False,False,0,0,0,False
+Wheat,s15_r11154,ood,Rust,Bugwood,59,True,False,False,False,0,0,0,False
+Mango,s14_r22910,iid,Anthracnose,BDCropVegeta,0,True,True,True,False,0,0,0,True
+Mango,s15_r5848,iid,Bacterial Canker,BDCropVegeta,1,True,True,True,False,0,0,0,True
+Mango,s39_r23677,iid,Dieback,Mango_Leaf,2,True,True,True,False,0,0,0,True
+Mango,s15_r2198,iid,Powdery Mildew,BDCropVegeta,3,True,True,True,False,0,2,0,True
+Mango,s39_r20158,iid,Sooty Mold,BDCropVegeta,4,True,True,True,False,2,2,0,True
+Mango,s14_r21057,iid,Anthracnose,BDCropVegeta,5,True,True,True,False,0,0,2,True
+Mango,s15_r1056,iid,Bacterial Canker,BDCropVegeta,6,True,True,True,False,2,0,2,True
+Mango,s39_r23811,iid,Dieback,Mango_Leaf,7,True,True,True,False,0,2,0,True
+Mango,s15_r2004,iid,Powdery Mildew,BDCropVegeta,8,True,True,True,False,0,0,0,True
+Mango,s39_r20005,iid,Sooty Mold,BDCropVegeta,9,True,True,True,False,0,2,2,True
+Mango,s14_r23051,iid,Anthracnose,Mango_Leaf,10,True,True,True,False,0,0,2,True
+Mango,s15_r5692,iid,Bacterial Canker,BDCropVegeta,11,True,True,True,False,2,0,0,True
+Mango,s39_r22897,iid,Dieback,BDCropVegeta,12,True,True,True,False,0,2,0,True
+Mango,s15_r2075,iid,Powdery Mildew,BDCropVegeta,13,True,True,True,False,2,2,0,True
+Mango,s39_r19805,iid,Sooty Mold,BDCropVegeta,14,True,True,True,False,2,0,2,True
+Mango,s14_r21920,iid,Anthracnose,BDCropVegeta,15,True,True,True,False,0,2,2,True
+Mango,s15_r1889,iid,Bacterial Canker,Mango_Leaf,16,True,True,True,False,0,0,2,True
+Mango,s39_r23622,iid,Dieback,Mango_Leaf,17,True,True,True,False,0,0,2,True
+Mango,s15_r3343,iid,Powdery Mildew,Mango_Leaf,18,True,True,True,False,0,2,2,True
+Mango,s39_r22823,iid,Sooty Mold,BDCropVegeta,19,True,True,True,False,0,0,2,True
+Mango,s14_r23472,iid,Anthracnose,Mango_Leaf,20,True,False,False,False,2,2,2,False
+Mango,s15_r32,iid,Bacterial Canker,BDCropVegeta,21,True,False,False,False,0,2,0,False
+Mango,s39_r23676,iid,Dieback,Mango_Leaf,22,True,False,False,False,0,2,0,False
+Mango,s15_r2129,iid,Powdery Mildew,BDCropVegeta,23,True,False,False,False,2,2,0,False
+Mango,s39_r19904,iid,Sooty Mold,BDCropVegeta,24,True,False,False,False,2,0,0,False
+Mango,s14_r22453,iid,Anthracnose,BDCropVegeta,25,True,False,False,False,0,2,0,False
+Mango,s15_r1032,iid,Bacterial Canker,BDCropVegeta,26,True,False,False,False,2,2,2,False
+Mango,s39_r22670,iid,Dieback,BDCropVegeta,27,True,False,False,False,0,2,2,False
+Mango,s15_r2226,iid,Powdery Mildew,BDCropVegeta,28,True,False,False,False,0,0,0,False
+Mango,s39_r21513,iid,Sooty Mold,Mango_Leaf,29,True,False,False,False,2,0,0,False
+Mango,s14_r21430,iid,Anthracnose,BDCropVegeta,30,True,False,False,False,2,0,2,False
+Mango,s15_r159,iid,Bacterial Canker,BDCropVegeta,31,True,False,False,False,2,0,0,False
+Mango,s39_r23725,iid,Dieback,Mango_Leaf,32,True,False,False,False,0,0,0,False
+Mango,s15_r2676,iid,Powdery Mildew,BDCropVegeta,33,True,False,False,False,2,0,0,False
+Mango,s39_r22425,iid,Sooty Mold,BDCropVegeta,34,True,False,False,False,0,2,0,False
+Mango,s14_r21447,iid,Anthracnose,BDCropVegeta,35,True,False,False,False,2,2,2,False
+Mango,s15_r5147,iid,Bacterial Canker,BDCropVegeta,36,True,False,False,False,2,2,0,False
+Mango,s39_r22627,iid,Dieback,BDCropVegeta,37,True,False,False,False,2,0,0,False
+Mango,s15_r2072,iid,Powdery Mildew,BDCropVegeta,38,True,False,False,False,0,0,0,False
+Mango,s39_r23210,iid,Sooty Mold,Mango_Leaf,39,True,False,False,False,0,2,0,False
+Mango,s14_r21818,iid,Anthracnose,BDCropVegeta,40,True,False,False,False,0,2,0,False
+Mango,s15_r429,iid,Bacterial Canker,BDCropVegeta,41,True,False,False,False,0,2,2,False
+Mango,s39_r22397,iid,Dieback,BDCropVegeta,42,True,False,False,False,2,0,2,False
+Mango,s15_r2125,iid,Powdery Mildew,BDCropVegeta,43,True,False,False,False,2,2,0,False
+Mango,s39_r19476,iid,Sooty Mold,BDCropVegeta,44,True,False,False,False,0,2,2,False
+Mango,s14_r23411,iid,Anthracnose,Mango_Leaf,45,True,False,False,False,2,0,0,False
+Mango,s15_r216,iid,Bacterial Canker,BDCropVegeta,46,True,False,False,False,0,0,0,False
+Mango,s39_r23062,iid,Dieback,BDCropVegeta,47,True,False,False,False,0,2,2,False
+Mango,s15_r2367,iid,Powdery Mildew,BDCropVegeta,48,True,False,False,False,2,0,0,False
+Mango,s39_r20036,iid,Sooty Mold,BDCropVegeta,49,True,False,False,False,2,0,0,False
+Mango,s14_r22562,iid,Anthracnose,BDCropVegeta,50,True,False,False,False,0,0,2,False
+Mango,s15_r4067,iid,Bacterial Canker,BDCropVegeta,51,True,False,False,False,0,0,2,False
+Mango,s39_r22101,iid,Dieback,BDCropVegeta,52,True,False,False,False,2,2,0,False
+Mango,s15_r3381,iid,Powdery Mildew,Mango_Leaf,53,True,False,False,False,0,2,0,False
+Mango,s39_r20560,iid,Sooty Mold,BDCropVegeta,54,True,False,False,False,0,0,2,False
+Mango,s14_r23134,iid,Anthracnose,Mango_Leaf,55,True,False,False,False,2,0,0,False
+Mango,s15_r299,iid,Bacterial Canker,BDCropVegeta,56,True,False,False,False,2,0,2,False
+Mango,s39_r23571,iid,Dieback,Mango_Leaf,57,True,False,False,False,0,0,0,False
+Mango,s15_r3406,iid,Powdery Mildew,Mango_Leaf,58,True,False,False,False,2,0,0,False
+Mango,s39_r20793,iid,Sooty Mold,BDCropVegeta,59,True,False,False,False,2,2,0,False
+Mango,s14_r21623,iid,Anthracnose,BDCropVegeta,60,True,False,False,False,2,0,2,False
+Mango,s15_r995,iid,Bacterial Canker,BDCropVegeta,61,True,False,False,False,0,0,0,False
+Mango,s39_r22678,iid,Dieback,BDCropVegeta,62,True,False,False,False,0,0,0,False
+Mango,s15_r2840,iid,Powdery Mildew,BDCropVegeta,63,True,False,False,False,2,0,0,False
+Mango,s39_r21498,iid,Sooty Mold,Mango_Leaf,64,True,False,False,False,0,2,0,False
+Mango,s14_r23216,iid,Anthracnose,Mango_Leaf,65,True,False,False,False,0,0,2,False
+Mango,s15_r2028,iid,Bacterial Canker,Mango_Leaf,66,True,False,False,False,0,0,2,False
+Mango,s39_r23482,iid,Dieback,Mango_Leaf,67,True,False,False,False,0,2,0,False
+Mango,s15_r5288,iid,Powdery Mildew,Mango_Leaf,68,True,False,False,False,0,0,2,False
+Mango,s39_r21939,iid,Sooty Mold,BDCropVegeta,69,True,False,False,False,0,0,2,False
+Mango,s14_r22998,iid,Anthracnose,Mango_Leaf,70,True,False,False,False,2,0,2,False
+Mango,s15_r5865,iid,Bacterial Canker,BDCropVegeta,71,True,False,False,False,2,2,2,False
+Mango,s39_r21740,iid,Dieback,BDCropVegeta,72,True,False,False,False,0,0,0,False
+Mango,s15_r3358,iid,Powdery Mildew,Mango_Leaf,73,True,False,False,False,0,2,0,False
+Mango,s39_r20111,iid,Sooty Mold,BDCropVegeta,74,True,False,False,False,2,2,0,False
+Mango,s14_r21369,iid,Anthracnose,BDCropVegeta,75,True,False,False,False,0,2,2,False
+Mango,s15_r1678,iid,Bacterial Canker,Mango_Leaf,76,True,False,False,False,2,0,2,False
+Mango,s39_r23740,iid,Dieback,Mango_Leaf,77,True,False,False,False,0,0,2,False
+Mango,s15_r2196,iid,Powdery Mildew,BDCropVegeta,78,True,False,False,False,2,2,2,False
+Mango,s39_r21524,iid,Sooty Mold,Mango_Leaf,79,True,False,False,False,0,0,0,False
+Mango,s14_r21536,iid,Anthracnose,BDCropVegeta,80,True,False,False,False,0,2,0,False
+Mango,s14_r24099,iid,Bacterial Canker,BDCropVegeta,81,True,False,False,False,0,2,0,False
+Mango,s39_r23644,iid,Dieback,Mango_Leaf,82,True,False,False,False,0,0,2,False
+Mango,s15_r2431,iid,Powdery Mildew,BDCropVegeta,83,True,False,False,False,0,0,2,False
+Mango,s39_r21147,iid,Sooty Mold,Mango_Leaf,84,True,False,False,False,2,0,2,False
+Mango,s14_r23007,iid,Anthracnose,Mango_Leaf,85,True,False,False,False,0,0,0,False
+Mango,s15_r5644,iid,Bacterial Canker,BDCropVegeta,86,True,False,False,False,0,0,0,False
+Mango,s39_r23816,iid,Dieback,Mango_Leaf,87,True,False,False,False,0,0,0,False
+Mango,s15_r3565,iid,Powdery Mildew,Mango_Leaf,88,True,False,False,False,2,2,2,False
+Mango,s39_r19387,iid,Sooty Mold,BDCropVegeta,89,True,False,False,False,0,0,2,False
+Mango,s14_r22091,iid,Anthracnose,BDCropVegeta,90,True,False,False,False,2,0,2,False
+Mango,s15_r539,iid,Bacterial Canker,BDCropVegeta,91,True,False,False,False,0,2,0,False
+Mango,s39_r21667,iid,Dieback,BDCropVegeta,92,True,False,False,False,0,0,0,False
+Mango,s15_r2600,iid,Powdery Mildew,BDCropVegeta,93,True,False,False,False,0,0,0,False
+Mango,s39_r21449,iid,Sooty Mold,Mango_Leaf,94,True,False,False,False,0,0,2,False
+Mango,s14_r21579,iid,Anthracnose,BDCropVegeta,95,True,False,False,False,0,2,0,False
+Mango,s15_r3844,iid,Bacterial Canker,BDCropVegeta,96,True,False,False,False,0,2,0,False
+Mango,s39_r22036,iid,Dieback,BDCropVegeta,97,True,False,False,False,2,0,0,False
+Mango,s15_r2164,iid,Powdery Mildew,BDCropVegeta,98,True,False,False,False,2,0,0,False
+Mango,s39_r21297,iid,Sooty Mold,Mango_Leaf,99,True,False,False,False,0,2,0,False
+Mango,s14_r22940,iid,Anthracnose,BDCropVegeta,100,False,False,False,True,0,0,0,False
+Mango,s15_r1628,iid,Bacterial Canker,Mango_Leaf,101,False,False,False,True,0,0,2,False
+Mango,s39_r23646,iid,Dieback,Mango_Leaf,102,False,False,False,True,2,2,0,False
+Mango,s15_r3334,iid,Powdery Mildew,Mango_Leaf,103,False,False,False,True,0,2,0,False
+Mango,s14_r22624,ood,Anthracnose,LeafNet,0,True,True,True,False,0,0,0,False
+Mango,s15_r1117,ood,Bacterial Canker,LeafNet,1,True,True,True,False,0,0,0,False
+Mango,s39_r23102,ood,Dieback,LeafNet,2,True,True,True,False,0,0,0,False
+Mango,s15_r3061,ood,Powdery Mildew,LeafNet,3,True,True,True,False,0,0,0,False
+Mango,s39_r20931,ood,Sooty Mold,LeafNet,4,True,True,True,False,0,0,0,False
+Mango,s14_r22518,ood,Anthracnose,LeafNet,5,True,True,True,False,0,0,0,False
+Mango,s15_r1340,ood,Bacterial Canker,LeafNet,6,True,True,True,False,0,0,0,False
+Mango,s39_r23265,ood,Dieback,LeafNet,7,True,True,True,False,0,0,0,False
+Mango,s15_r3143,ood,Powdery Mildew,LeafNet,8,True,True,True,False,0,0,0,False
+Mango,s39_r21020,ood,Sooty Mold,LeafNet,9,True,True,True,False,0,0,0,False
+Mango,s14_r22365,ood,Anthracnose,LeafNet,10,True,True,True,False,0,0,0,False
+Mango,s15_r1489,ood,Bacterial Canker,LeafNet,11,True,True,True,False,0,0,0,False
+Mango,s39_r23464,ood,Dieback,LeafNet,12,True,True,True,False,0,0,0,False
+Mango,s15_r3206,ood,Powdery Mildew,LeafNet,13,True,True,True,False,0,0,0,False
+Mango,s39_r20880,ood,Sooty Mold,LeafNet,14,True,True,True,False,0,0,0,False
+Mango,s14_r22768,ood,Anthracnose,LeafNet,15,True,True,True,False,0,0,0,False
+Mango,s15_r1354,ood,Bacterial Canker,LeafNet,16,True,True,True,False,0,0,0,False
+Mango,s39_r23103,ood,Dieback,LeafNet,17,True,True,True,False,0,0,0,False
+Mango,s15_r2921,ood,Powdery Mildew,LeafNet,18,True,True,True,False,0,0,0,False
+Mango,s39_r21032,ood,Sooty Mold,LeafNet,19,True,True,True,False,0,0,0,False
+Mango,s14_r22818,ood,Anthracnose,LeafNet,20,True,False,False,False,0,0,0,False
+Mango,s15_r1230,ood,Bacterial Canker,LeafNet,21,True,False,False,False,0,0,0,False
+Mango,s39_r23367,ood,Dieback,LeafNet,22,True,False,False,False,0,0,0,False
+Mango,s15_r3140,ood,Powdery Mildew,LeafNet,23,True,False,False,False,0,0,0,False
+Mango,s39_r20829,ood,Sooty Mold,LeafNet,24,True,False,False,False,0,0,0,False
+Mango,s14_r22695,ood,Anthracnose,LeafNet,25,True,False,False,False,0,0,0,False
+Mango,s15_r1356,ood,Bacterial Canker,LeafNet,26,True,False,False,False,0,0,0,False
+Mango,s39_r23137,ood,Dieback,LeafNet,27,True,False,False,False,0,0,0,False
+Mango,s15_r3193,ood,Powdery Mildew,LeafNet,28,True,False,False,False,0,0,0,False
+Mango,s39_r20844,ood,Sooty Mold,LeafNet,29,True,False,False,False,0,0,0,False
+Mango,s14_r22758,ood,Anthracnose,LeafNet,30,True,False,False,False,0,0,0,False
+Mango,s15_r1229,ood,Bacterial Canker,LeafNet,31,True,False,False,False,0,0,0,False
+Mango,s39_r23301,ood,Dieback,LeafNet,32,True,False,False,False,0,0,0,False
+Mango,s15_r2854,ood,Powdery Mildew,LeafNet,33,True,False,False,False,0,0,0,False
+Mango,s39_r20986,ood,Sooty Mold,LeafNet,34,True,False,False,False,0,0,0,False
+Mango,s14_r22536,ood,Anthracnose,LeafNet,35,True,False,False,False,0,0,0,False
+Mango,s15_r1296,ood,Bacterial Canker,LeafNet,36,True,False,False,False,0,0,0,False
+Mango,s39_r23120,ood,Dieback,LeafNet,37,True,False,False,False,0,0,0,False
+Mango,s15_r2915,ood,Powdery Mildew,LeafNet,38,True,False,False,False,0,0,0,False
+Mango,s39_r21006,ood,Sooty Mold,LeafNet,39,True,False,False,False,0,0,0,False
+Mango,s14_r22606,ood,Anthracnose,LeafNet,40,True,False,False,False,0,0,0,False
+Mango,s15_r1441,ood,Bacterial Canker,LeafNet,41,True,False,False,False,0,0,0,False
+Mango,s39_r23350,ood,Dieback,LeafNet,42,True,False,False,False,0,0,0,False
+Mango,s15_r3005,ood,Powdery Mildew,LeafNet,43,True,False,False,False,0,0,0,False
+Mango,s39_r20854,ood,Sooty Mold,LeafNet,44,True,False,False,False,0,0,0,False
+Mango,s14_r22776,ood,Anthracnose,LeafNet,45,True,False,False,False,0,0,0,False
+Mango,s15_r1459,ood,Bacterial Canker,LeafNet,46,True,False,False,False,0,0,0,False
+Mango,s39_r23141,ood,Dieback,LeafNet,47,True,False,False,False,0,0,0,False
+Mango,s15_r3155,ood,Powdery Mildew,LeafNet,48,True,False,False,False,0,0,0,False
+Mango,s39_r20862,ood,Sooty Mold,LeafNet,49,True,False,False,False,0,0,0,False
+Mango,s14_r22750,ood,Anthracnose,LeafNet,50,True,False,False,False,0,0,0,False
+Mango,s15_r1175,ood,Bacterial Canker,LeafNet,51,True,False,False,False,0,0,0,False
+Mango,s39_r23795,ood,Dieback,LeafNet,52,True,False,False,False,0,0,0,False
+Mango,s15_r3052,ood,Powdery Mildew,LeafNet,53,True,False,False,False,0,0,0,False
+Mango,s39_r20828,ood,Sooty Mold,LeafNet,54,True,False,False,False,0,0,0,False
+Mango,s14_r22682,ood,Anthracnose,LeafNet,55,True,False,False,False,0,0,0,False
+Mango,s15_r1374,ood,Bacterial Canker,LeafNet,56,True,False,False,False,0,0,0,False
+Mango,s39_r23267,ood,Dieback,LeafNet,57,True,False,False,False,0,0,0,False
+Mango,s15_r3156,ood,Powdery Mildew,LeafNet,58,True,False,False,False,0,0,0,False
+Mango,s39_r20742,ood,Sooty Mold,LeafNet,59,True,False,False,False,0,0,0,False
+Mango,s14_r22668,ood,Anthracnose,LeafNet,60,False,False,False,True,0,0,0,False
+Mango,s15_r1464,ood,Bacterial Canker,LeafNet,61,False,False,False,True,0,0,0,False
+Mango,s39_r23294,ood,Dieback,LeafNet,62,False,False,False,True,0,0,0,False
+Mango,s15_r3034,ood,Powdery Mildew,LeafNet,63,False,False,False,True,0,0,0,False
+Apple,s21_r5971,iid,Alternaria Blotch,CDDM,0,True,True,False,False,0,2,0,False
+Apple,s44_r614,iid,Apple Mosaic,PlantWild,1,True,True,False,False,2,2,2,True
+Apple,s20_r12669,iid,Apple Scab,AvinashPlant,2,True,True,False,False,2,2,0,True
+Apple,s19_r11776,iid,Black Rot,PlantWild,3,True,True,False,False,0,2,0,True
+Apple,s21_r6490,iid,Brown Spot,CDDM,4,True,True,False,False,0,2,0,False
+Apple,s20_r14626,iid,Cedar Apple Rust,PlantDoc,5,True,True,False,False,0,0,0,True
+Apple,s43_r3648,iid,Grey Spot,CDDM,6,True,True,False,False,2,2,0,False
+Apple,s19_r13306,iid,Powdery Mildew,CDDM,7,True,True,False,False,0,0,2,False
+Apple,s21_r5278,iid,Alternaria Blotch,CDDM,8,True,True,False,False,0,2,0,False
+Apple,s43_r10070,iid,Apple Mosaic,CDDM,9,True,True,False,False,2,0,0,True
+Apple,s21_r1087,iid,Apple Scab,PlantDoc,10,True,True,False,False,0,0,0,True
+Apple,s19_r15452,iid,Black Rot,PlantWild,11,True,True,False,False,2,2,0,True
+Apple,s21_r7612,iid,Brown Spot,CDDM,12,True,True,False,False,0,2,0,False
+Apple,s19_r16260,iid,Cedar Apple Rust,New_Plant_Di,13,True,True,False,False,2,2,0,True
+Apple,s43_r5118,iid,Grey Spot,CDDM,14,True,True,False,False,0,2,0,False
+Apple,s19_r13379,iid,Powdery Mildew,CDDM,15,True,True,False,False,2,0,2,False
+Apple,s21_r5577,iid,Alternaria Blotch,CDDM,16,True,True,False,False,0,2,2,False
+Apple,s44_r630,iid,Apple Mosaic,PlantWild,17,True,True,False,False,2,2,0,True
+Apple,s21_r935,iid,Apple Scab,PlantWild,18,True,True,False,False,2,0,0,True
+Apple,s20_r7085,iid,Black Rot,CDDM,19,True,True,False,False,2,0,0,True
+Apple,s21_r11886,iid,Brown Spot,CDDM,20,True,False,False,False,0,0,0,False
+Apple,s21_r989,iid,Cedar Apple Rust,PlantDoc,21,True,False,False,False,0,0,2,True
+Apple,s43_r6070,iid,Grey Spot,CDDM,22,True,False,False,False,0,2,2,False
+Apple,s19_r12312,iid,Powdery Mildew,CDDM,23,True,False,False,False,2,0,0,False
+Apple,s21_r4243,iid,Alternaria Blotch,CDDM,24,True,False,False,False,0,0,2,False
+Apple,s44_r641,iid,Apple Mosaic,PlantWild,25,True,False,False,False,0,0,2,True
+Apple,s20_r13056,iid,Apple Scab,CDDM,26,True,False,False,False,2,0,0,True
+Apple,s19_r14233,iid,Black Rot,PlantWild,27,True,False,False,False,0,2,0,True
+Apple,s21_r8536,iid,Brown Spot,CDDM,28,True,False,False,False,0,0,2,False
+Apple,s20_r8411,iid,Cedar Apple Rust,PlantWild,29,True,False,False,False,0,0,0,True
+Apple,s43_r6002,iid,Grey Spot,CDDM,30,True,False,False,False,2,0,0,False
+Apple,s19_r13134,iid,Powdery Mildew,CDDM,31,True,False,False,False,0,0,2,False
+Apple,s21_r5209,iid,Alternaria Blotch,CDDM,32,True,False,False,False,0,0,0,False
+Apple,s44_r603,iid,Apple Mosaic,PlantWild,33,True,False,False,False,0,0,2,True
+Apple,s21_r838,iid,Apple Scab,PlantWild,34,True,False,False,False,0,0,2,True
+Apple,s19_r11778,iid,Black Rot,PlantWild,35,True,False,False,False,0,0,0,True
+Apple,s21_r9452,iid,Brown Spot,CDDM,36,True,False,False,False,2,0,0,False
+Apple,s21_r1006,iid,Cedar Apple Rust,PlantDoc,37,True,False,False,False,0,0,2,True
+Apple,s43_r3372,iid,Grey Spot,CDDM,38,True,False,False,False,2,0,2,False
+Apple,s19_r12282,iid,Powdery Mildew,CDDM,39,True,False,False,False,2,2,2,False
+Apple,s21_r3259,iid,Alternaria Blotch,CDDM,40,True,False,False,False,2,2,2,False
+Apple,s43_r9266,iid,Apple Mosaic,CDDM,41,True,False,False,False,0,0,0,False
+Apple,s21_r735,iid,Apple Scab,PlantWild,42,True,False,False,False,0,0,2,False
+Apple,s20_r8717,iid,Black Rot,CDDM,43,True,False,False,False,2,0,2,False
+Apple,s21_r7484,iid,Brown Spot,CDDM,44,True,False,False,False,0,2,2,False
+Apple,s20_r10145,iid,Cedar Apple Rust,PlantWild,45,True,False,False,False,0,2,2,False
+Apple,s43_r3527,iid,Grey Spot,CDDM,46,True,False,False,False,2,0,0,False
+Apple,s19_r12525,iid,Powdery Mildew,CDDM,47,True,False,False,False,0,0,2,False
+Apple,s21_r4999,iid,Alternaria Blotch,CDDM,48,True,False,False,False,2,2,2,False
+Apple,s44_r594,iid,Apple Mosaic,PlantWild,49,True,False,False,False,2,2,0,False
+Apple,s21_r655,iid,Apple Scab,PlantWild,50,True,False,False,False,0,0,2,False
+Apple,s19_r15456,iid,Black Rot,PlantWild,51,True,False,False,False,2,0,2,False
+Apple,s21_r9059,iid,Brown Spot,CDDM,52,True,False,False,False,0,0,0,False
+Apple,s21_r1010,iid,Cedar Apple Rust,PlantDoc,53,True,False,False,False,0,0,0,False
+Apple,s43_r5039,iid,Grey Spot,CDDM,54,True,False,False,False,0,0,2,False
+Apple,s19_r12785,iid,Powdery Mildew,CDDM,55,True,False,False,False,0,2,2,False
+Apple,s21_r2783,iid,Alternaria Blotch,CDDM,56,True,False,False,False,0,0,0,False
+Apple,s44_r588,iid,Apple Mosaic,PlantWild,57,True,False,False,False,2,0,2,False
+Apple,s21_r883,iid,Apple Scab,PlantWild,58,True,False,False,False,2,0,2,False
+Apple,s17_r6546,iid,Black Rot,A2H0H0R1Plan,59,True,False,False,False,0,2,0,False
+Apple,s21_r8707,iid,Brown Spot,CDDM,60,True,False,False,False,0,2,0,False
+Apple,s20_r11753,iid,Cedar Apple Rust,PlantDoc,61,True,False,False,False,0,0,2,False
+Apple,s43_r5562,iid,Grey Spot,CDDM,62,True,False,False,False,0,2,2,False
+Apple,s19_r13335,iid,Powdery Mildew,CDDM,63,True,False,False,False,0,0,2,False
+Apple,s21_r3828,iid,Alternaria Blotch,CDDM,64,True,False,False,False,2,0,2,False
+Apple,s43_r9166,iid,Apple Mosaic,CDDM,65,True,False,False,False,2,2,2,False
+Apple,s21_r83,iid,Apple Scab,VQAPlantDise,66,True,False,False,False,0,2,2,False
+Apple,s19_r13100,iid,Black Rot,PlantWild,67,True,False,False,False,2,2,2,False
+Apple,s21_r7511,iid,Brown Spot,CDDM,68,True,False,False,False,0,0,2,False
+Apple,s20_r9448,iid,Cedar Apple Rust,PlantWild,69,True,False,False,False,0,0,0,False
+Apple,s43_r4630,iid,Grey Spot,CDDM,70,True,False,False,False,0,0,0,False
+Apple,s19_r12368,iid,Powdery Mildew,CDDM,71,True,False,False,False,0,0,2,False
+Apple,s21_r3044,iid,Alternaria Blotch,CDDM,72,True,False,False,False,2,0,2,False
+Apple,s44_r797,iid,Apple Mosaic,PlantWild,73,True,False,False,False,0,0,2,False
+Apple,s20_r15440,iid,Apple Scab,New_Plant_Di,74,True,False,False,False,2,0,0,False
+Apple,s19_r11967,iid,Black Rot,VQAPlantDise,75,True,False,False,False,0,0,0,False
+Apple,s21_r10917,iid,Brown Spot,CDDM,76,True,False,False,False,2,0,0,False
+Apple,s20_r8418,iid,Cedar Apple Rust,PlantWild,77,True,False,False,False,0,2,0,False
+Apple,s43_r7531,iid,Grey Spot,CDDM,78,True,False,False,False,0,0,0,False
+Apple,s19_r12824,iid,Powdery Mildew,CDDM,79,True,False,False,False,0,0,2,False
+Apple,s21_r5600,iid,Alternaria Blotch,CDDM,80,True,False,False,False,2,2,0,False
+Apple,s43_r11291,iid,Apple Mosaic,CDDM,81,True,False,False,False,2,0,2,False
+Apple,s20_r16328,iid,Apple Scab,PlantVillage,82,True,False,False,False,2,0,0,False
+Apple,s19_r15457,iid,Black Rot,PlantWild,83,True,False,False,False,2,0,2,False
+Apple,s21_r12220,iid,Brown Spot,CDDM,84,True,False,False,False,0,0,2,False
+Apple,s20_r9440,iid,Cedar Apple Rust,PlantWild,85,True,False,False,False,0,0,0,False
+Apple,s43_r6497,iid,Grey Spot,CDDM,86,True,False,False,False,0,0,0,False
+Apple,s19_r12316,iid,Powdery Mildew,CDDM,87,True,False,False,False,0,0,0,False
+Apple,s21_r3235,iid,Alternaria Blotch,CDDM,88,True,False,False,False,0,0,0,False
+Apple,s43_r8396,iid,Apple Mosaic,CDDM,89,True,False,False,False,2,2,2,False
+Apple,s21_r1041,iid,Apple Scab,PlantDoc,90,True,False,False,False,2,2,0,False
+Apple,s19_r10898,iid,Black Rot,New_Plant_Di,91,True,False,False,False,2,0,2,False
+Apple,s21_r12208,iid,Brown Spot,CDDM,92,True,False,False,False,2,2,0,False
+Apple,s20_r10156,iid,Cedar Apple Rust,PlantWild,93,True,False,False,False,0,2,0,False
+Apple,s43_r5156,iid,Grey Spot,CDDM,94,True,False,False,False,2,0,2,False
+Apple,s19_r12937,iid,Powdery Mildew,CDDM,95,True,False,False,False,0,2,0,False
+Apple,s21_r4349,iid,Alternaria Blotch,CDDM,96,True,False,False,False,0,0,2,False
+Apple,s44_r607,iid,Apple Mosaic,PlantWild,97,True,False,False,False,0,0,0,False
+Apple,s21_r975,iid,Apple Scab,PlantWild,98,True,False,False,False,2,2,0,False
+Apple,s19_r14230,iid,Black Rot,PlantWild,99,True,False,False,False,2,0,0,False
+Apple,s44_r9223,ood,Apple Mosaic,Bugwood,0,True,True,False,False,0,0,0,False
+Apple,s21_r1231,ood,Apple Scab,Bugwood,1,True,True,False,False,0,0,0,False
+Apple,s20_r751,ood,Black Rot,Bugwood,2,True,True,False,False,0,0,0,False
+Apple,s19_r15330,ood,Cedar Apple Rust,Bugwood,3,True,True,False,False,0,0,0,False
+Apple,s20_r1027,ood,Powdery Mildew,Bugwood,4,True,True,False,False,0,0,0,False
+Apple,s22_r794,ood,Apple Scab,Bugwood,5,True,True,False,False,0,0,0,False
+Apple,s20_r762,ood,Black Rot,Bugwood,6,True,True,False,False,0,0,0,False
+Apple,s20_r1018,ood,Cedar Apple Rust,Bugwood,7,True,True,False,False,0,0,0,False
+Apple,s20_r1026,ood,Powdery Mildew,Bugwood,8,True,True,False,False,0,0,0,False
+Apple,s22_r775,ood,Apple Scab,Bugwood,9,True,True,False,False,0,0,0,False
+Apple,s22_r817,ood,Black Rot,Bugwood,10,True,True,False,False,0,0,0,False
+Apple,s20_r1013,ood,Cedar Apple Rust,Bugwood,11,True,True,False,False,0,0,0,False
+Apple,s20_r1025,ood,Powdery Mildew,Bugwood,12,True,True,False,False,0,0,0,False
+Apple,s21_r1222,ood,Apple Scab,Bugwood,13,True,True,False,False,0,0,0,False
+Apple,s20_r752,ood,Black Rot,Bugwood,14,True,True,False,False,0,0,0,False
+Apple,s21_r1189,ood,Cedar Apple Rust,Bugwood,15,True,True,False,False,0,0,0,False
+Apple,s20_r1023,ood,Powdery Mildew,Bugwood,16,True,True,False,False,0,0,0,False
+Apple,s22_r788,ood,Apple Scab,Bugwood,17,True,True,False,False,0,0,0,False
+Apple,s19_r12256,ood,Black Rot,Bugwood,18,True,True,False,False,0,0,0,False
+Apple,s20_r1015,ood,Cedar Apple Rust,Bugwood,19,True,True,False,False,0,0,0,False
+Apple,s20_r1029,ood,Powdery Mildew,Bugwood,20,True,False,False,False,0,0,0,False
+Apple,s22_r790,ood,Apple Scab,Bugwood,21,True,False,False,False,0,0,0,False
+Apple,s20_r756,ood,Black Rot,Bugwood,22,True,False,False,False,0,0,0,False
+Apple,s21_r1187,ood,Cedar Apple Rust,Bugwood,23,True,False,False,False,0,0,0,False
+Apple,s20_r1030,ood,Powdery Mildew,Bugwood,24,True,False,False,False,0,0,0,False
+Apple,s21_r1228,ood,Apple Scab,Bugwood,25,True,False,False,False,0,0,0,False
+Apple,s20_r759,ood,Black Rot,Bugwood,26,True,False,False,False,0,0,0,False
+Apple,s21_r1177,ood,Cedar Apple Rust,Bugwood,27,True,False,False,False,0,0,0,False
+Apple,s20_r1022,ood,Powdery Mildew,Bugwood,28,True,False,False,False,0,0,0,False
+Apple,s22_r766,ood,Apple Scab,Bugwood,29,True,False,False,False,0,0,0,False
+Apple,s20_r758,ood,Black Rot,Bugwood,30,True,False,False,False,0,0,0,False
+Apple,s21_r1191,ood,Cedar Apple Rust,Bugwood,31,True,False,False,False,0,0,0,False
+Apple,s22_r791,ood,Apple Scab,Bugwood,32,True,False,False,False,0,0,0,False
+Apple,s20_r753,ood,Black Rot,Bugwood,33,True,False,False,False,0,0,0,False
+Apple,s19_r15327,ood,Cedar Apple Rust,Bugwood,34,True,False,False,False,0,0,0,False
+Apple,s21_r1234,ood,Apple Scab,Bugwood,35,True,False,False,False,0,0,0,False
+Apple,s20_r754,ood,Black Rot,Bugwood,36,True,False,False,False,0,0,0,False
+Apple,s21_r1199,ood,Cedar Apple Rust,Bugwood,37,True,False,False,False,0,0,0,False
+Apple,s22_r774,ood,Apple Scab,Bugwood,38,True,False,False,False,0,0,0,False
+Apple,s20_r761,ood,Black Rot,Bugwood,39,True,False,False,False,0,0,0,False
+Apple,s21_r1184,ood,Cedar Apple Rust,Bugwood,40,True,False,False,False,0,0,0,False
+Apple,s22_r782,ood,Apple Scab,Bugwood,41,True,False,False,False,0,0,0,False
+Apple,s20_r757,ood,Black Rot,Bugwood,42,True,False,False,False,0,0,0,False
+Apple,s21_r1181,ood,Cedar Apple Rust,Bugwood,43,True,False,False,False,0,0,0,False
+Apple,s22_r781,ood,Apple Scab,Bugwood,44,True,False,False,False,0,0,0,False
+Apple,s20_r760,ood,Black Rot,Bugwood,45,True,False,False,False,0,0,0,False
+Apple,s21_r1198,ood,Cedar Apple Rust,Bugwood,46,True,False,False,False,0,0,0,False
+Apple,s22_r769,ood,Apple Scab,Bugwood,47,True,False,False,False,0,0,0,False
+Apple,s21_r1183,ood,Cedar Apple Rust,Bugwood,48,True,False,False,False,0,0,0,False
+Apple,s22_r768,ood,Apple Scab,Bugwood,49,True,False,False,False,0,0,0,False
+Apple,s20_r1021,ood,Cedar Apple Rust,Bugwood,50,True,False,False,False,0,0,0,False
+Apple,s22_r773,ood,Apple Scab,Bugwood,51,True,False,False,False,0,0,0,False
+Apple,s21_r1197,ood,Cedar Apple Rust,Bugwood,52,True,False,False,False,0,0,0,False
+Apple,s22_r770,ood,Apple Scab,Bugwood,53,True,False,False,False,0,0,0,False
+Apple,s21_r1186,ood,Cedar Apple Rust,Bugwood,54,True,False,False,False,0,0,0,False
+Apple,s22_r779,ood,Apple Scab,Bugwood,55,True,False,False,False,0,0,0,False
+Apple,s21_r1193,ood,Cedar Apple Rust,Bugwood,56,True,False,False,False,0,0,0,False
+Apple,s21_r1230,ood,Apple Scab,Bugwood,57,True,False,False,False,0,0,0,False
+Apple,s20_r1010,ood,Cedar Apple Rust,Bugwood,58,True,False,False,False,0,0,0,False
+Apple,s22_r792,ood,Apple Scab,Bugwood,59,True,False,False,False,0,0,0,False
+Grape,s2_r15866,iid,Black Measles,AvinashPlant,0,True,True,False,False,0,0,0,True
+Grape,s1_r5205,iid,Black Rot,PlantVillage,1,True,True,False,False,0,0,0,True
+Grape,s2_r17875,iid,Downy Mildew,PlantWild,2,True,True,False,False,2,0,0,False
+Grape,s28_r5243,iid,Leaf Blight,LeafNet,3,True,True,False,False,0,0,0,True
+Grape,s0_r2237,iid,Leafroll Disease,PlantWild,4,True,True,False,False,0,0,2,False
+Grape,s27_r10353,iid,Powdery Mildew,LeafNet,5,True,True,False,False,0,0,0,True
+Grape,s18_r23937,iid,Black Measles,A2H0H0R1Plan,6,True,True,False,False,2,2,0,True
+Grape,s1_r15942,iid,Black Rot,PlantDoc,7,True,True,False,False,2,0,0,True
+Grape,s3_r220,iid,Downy Mildew,PlantWild,8,True,True,False,False,0,2,2,False
+Grape,s28_r5766,iid,Leaf Blight,LeafNet,9,True,True,False,False,2,0,2,True
+Grape,s0_r2225,iid,Leafroll Disease,PlantWild,10,True,True,False,False,0,2,0,False
+Grape,s27_r10746,iid,Powdery Mildew,LeafNet,11,True,True,False,False,0,0,2,True
+Grape,s2_r14259,iid,Black Measles,PlantVillage,12,True,True,False,False,0,0,0,True
+Grape,s1_r15947,iid,Black Rot,PlantDoc,13,True,True,False,False,0,0,2,True
+Grape,s3_r76,iid,Downy Mildew,PlantWild,14,True,True,False,False,0,0,0,False
+Grape,s28_r5857,iid,Leaf Blight,LeafNet,15,True,True,False,False,2,2,0,True
+Grape,s0_r13659,iid,Leafroll Disease,PlantWild,16,True,True,False,False,0,0,0,False
+Grape,s27_r5568,iid,Powdery Mildew,RadyPlantDis,17,True,True,False,False,0,0,0,True
+Grape,s0_r9650,iid,Black Measles,RadyPlantDis,18,True,True,False,False,2,0,0,True
+Grape,s1_r5116,iid,Black Rot,LeafNet,19,True,True,False,False,0,0,2,True
+Grape,s2_r17894,iid,Downy Mildew,PlantWild,20,True,False,False,False,0,0,2,False
+Grape,s28_r5209,iid,Leaf Blight,PlantWild,21,True,False,False,False,0,0,0,True
+Grape,s0_r2185,iid,Leafroll Disease,PlantWild,22,True,False,False,False,0,2,2,False
+Grape,s27_r10113,iid,Powdery Mildew,LeafNet,23,True,False,False,False,0,2,2,True
+Grape,s19_r1977,iid,Black Measles,A2H0H0R1Plan,24,True,False,False,False,0,0,0,True
+Grape,s1_r15610,iid,Black Rot,PlantWild,25,True,False,False,False,0,0,2,True
+Grape,s3_r91,iid,Downy Mildew,PlantWild,26,True,False,False,False,0,0,0,False
+Grape,s28_r6219,iid,Leaf Blight,PlantWild,27,True,False,False,False,0,2,2,True
+Grape,s0_r2217,iid,Leafroll Disease,PlantWild,28,True,False,False,False,0,0,0,False
+Grape,s27_r10119,iid,Powdery Mildew,LeafNet,29,True,False,False,False,2,2,2,True
+Grape,s0_r11507,iid,Black Measles,VQAPlantDise,30,True,False,False,False,2,0,0,False
+Grape,s1_r4932,iid,Black Rot,LeafNet,31,True,False,False,False,0,2,0,False
+Grape,s2_r17868,iid,Downy Mildew,PlantWild,32,True,False,False,False,2,2,2,False
+Grape,s28_r5144,iid,Leaf Blight,PlantWild,33,True,False,False,False,0,0,0,False
+Grape,s0_r2203,iid,Leafroll Disease,PlantWild,34,True,False,False,False,2,2,0,False
+Grape,s27_r10355,iid,Powdery Mildew,LeafNet,35,True,False,False,False,2,0,2,False
+Grape,s18_r24925,iid,Black Measles,A2H0H0R1Plan,36,True,False,False,False,0,0,2,False
+Grape,s1_r15448,iid,Black Rot,PlantWild,37,True,False,False,False,2,0,2,False
+Grape,s3_r53,iid,Downy Mildew,PlantWild,38,True,False,False,False,0,0,2,False
+Grape,s28_r5374,iid,Leaf Blight,LeafNet,39,True,False,False,False,0,0,0,False
+Grape,s0_r2201,iid,Leafroll Disease,PlantWild,40,True,False,False,False,2,0,2,False
+Grape,s27_r5636,iid,Powdery Mildew,RadyPlantDis,41,True,False,False,False,0,2,0,False
+Grape,s2_r13005,iid,Black Measles,CDDM,42,True,False,False,False,0,0,2,False
+Grape,s1_r15928,iid,Black Rot,PlantDoc,43,True,False,False,False,2,0,2,False
+Grape,s3_r201,iid,Downy Mildew,PlantWild,44,True,False,False,False,0,0,0,False
+Grape,s27_r8815,iid,Leaf Blight,PlantVillage,45,True,False,False,False,0,2,0,False
+Grape,s0_r2233,iid,Leafroll Disease,PlantWild,46,True,False,False,False,0,0,0,False
+Grape,s27_r10290,iid,Powdery Mildew,LeafNet,47,True,False,False,False,2,2,2,False
+Grape,s2_r14007,iid,Black Measles,CDDM,48,True,False,False,False,2,0,0,False
+Grape,s1_r9441,iid,Black Rot,PlantWild,49,True,False,False,False,0,0,0,False
+Grape,s3_r208,iid,Downy Mildew,PlantWild,50,True,False,False,False,0,0,0,False
+Grape,s28_r5151,iid,Leaf Blight,PlantWild,51,True,False,False,False,0,0,2,False
+Grape,s0_r2230,iid,Leafroll Disease,PlantWild,52,True,False,False,False,0,2,0,False
+Grape,s27_r5628,iid,Powdery Mildew,RadyPlantDis,53,True,False,False,False,2,2,0,False
+Grape,s2_r13074,iid,Black Measles,CDDM,54,True,False,False,False,2,0,2,False
+Grape,s1_r9237,iid,Black Rot,PlantWild,55,True,False,False,False,0,0,0,False
+Grape,s2_r17929,iid,Downy Mildew,PlantWild,56,True,False,False,False,0,0,2,False
+Grape,s28_r6285,iid,Leaf Blight,PlantWild,57,True,False,False,False,0,2,2,False
+Grape,s0_r2202,iid,Leafroll Disease,PlantWild,58,True,False,False,False,0,0,2,False
+Grape,s27_r10363,iid,Powdery Mildew,LeafNet,59,True,False,False,False,0,0,0,False
+Grape,s18_r24633,iid,Black Measles,A2H0H0R1Plan,60,True,False,False,False,2,0,2,False
+Grape,s1_r5354,iid,Black Rot,PlantVillage,61,True,False,False,False,2,2,0,False
+Grape,s3_r218,iid,Downy Mildew,PlantWild,62,True,False,False,False,0,0,0,False
+Grape,s28_r6286,iid,Leaf Blight,PlantWild,63,True,False,False,False,0,0,0,False
+Grape,s0_r2219,iid,Leafroll Disease,PlantWild,64,True,False,False,False,2,2,0,False
+Grape,s27_r5673,iid,Powdery Mildew,RadyPlantDis,65,True,False,False,False,0,0,0,False
+Grape,s0_r5353,iid,Black Measles,RadyPlantDis,66,True,False,False,False,2,2,0,False
+Grape,s1_r15949,iid,Black Rot,PlantDoc,67,True,False,False,False,0,0,2,False
+Grape,s2_r17858,iid,Downy Mildew,PlantWild,68,True,False,False,False,0,2,0,False
+Grape,s28_r5601,iid,Leaf Blight,LeafNet,69,True,False,False,False,0,0,0,False
+Grape,s0_r2209,iid,Leafroll Disease,PlantWild,70,True,False,False,False,0,0,0,False
+Grape,s27_r5581,iid,Powdery Mildew,RadyPlantDis,71,True,False,False,False,0,0,0,False
+Grape,s2_r16978,iid,Black Measles,AvinashPlant,72,True,False,False,False,0,2,0,False
+Grape,s18_r6330,iid,Black Rot,A2H0H0R1Plan,73,True,False,False,False,2,0,2,False
+Grape,s2_r17833,iid,Downy Mildew,PlantWild,74,True,False,False,False,0,0,0,False
+Grape,s42_r3463,iid,Leaf Blight,A2H0H0R1Plan,75,True,False,False,False,2,0,2,False
+Grape,s0_r13663,iid,Leafroll Disease,PlantWild,76,True,False,False,False,2,0,2,False
+Grape,s27_r10514,iid,Powdery Mildew,LeafNet,77,True,False,False,False,0,2,0,False
+Grape,s18_r24847,iid,Black Measles,A2H0H0R1Plan,78,True,False,False,False,0,0,2,False
+Grape,s1_r4819,iid,Black Rot,PlantVillage,79,True,False,False,False,0,0,2,False
+Grape,s3_r89,iid,Downy Mildew,PlantWild,80,True,False,False,False,0,2,0,False
+Grape,s28_r5225,iid,Leaf Blight,PlantWild,81,True,False,False,False,0,0,2,False
+Grape,s0_r2213,iid,Leafroll Disease,PlantWild,82,True,False,False,False,0,0,2,False
+Grape,s27_r5516,iid,Powdery Mildew,RadyPlantDis,83,True,False,False,False,2,2,0,False
+Grape,s0_r10871,iid,Black Measles,VQAPlantDise,84,True,False,False,False,0,2,0,False
+Grape,s1_r15450,iid,Black Rot,PlantWild,85,True,False,False,False,2,2,2,False
+Grape,s3_r197,iid,Downy Mildew,PlantWild,86,True,False,False,False,0,2,0,False
+Grape,s28_r5408,iid,Leaf Blight,LeafNet,87,True,False,False,False,0,0,2,False
+Grape,s0_r2210,iid,Leafroll Disease,PlantWild,88,True,False,False,False,0,0,0,False
+Grape,s27_r10360,iid,Powdery Mildew,LeafNet,89,True,False,False,False,0,0,2,False
+Grape,s0_r8927,iid,Black Measles,RadyPlantDis,90,True,False,False,False,0,0,0,False
+Grape,s1_r16662,iid,Black Rot,RadyPlantDis,91,True,False,False,False,2,0,2,False
+Grape,s2_r17893,iid,Downy Mildew,PlantWild,92,True,False,False,False,0,2,0,False
+Grape,s42_r2451,iid,Leaf Blight,A2H0H0R1Plan,93,True,False,False,False,0,2,2,False
+Grape,s0_r2206,iid,Leafroll Disease,PlantWild,94,True,False,False,False,0,2,0,False
+Grape,s27_r10358,iid,Powdery Mildew,LeafNet,95,True,False,False,False,0,0,0,False
+Grape,s19_r1419,iid,Black Measles,A2H0H0R1Plan,96,True,False,False,False,0,2,0,False
+Grape,s1_r1312,iid,Black Rot,CDDM,97,True,False,False,False,0,2,0,False
+Grape,s2_r17817,iid,Downy Mildew,PlantWild,98,True,False,False,False,2,0,2,False
+Grape,s42_r2436,iid,Leaf Blight,A2H0H0R1Plan,99,True,False,False,False,2,0,0,False
+Grape,s3_r855,ood,Black Measles,Bugwood,0,True,True,False,False,0,0,0,False
+Grape,s1_r9471,ood,Black Rot,Bugwood,1,True,True,False,False,0,0,0,False
+Grape,s3_r6476,ood,Downy Mildew,Bugwood,2,True,True,False,False,0,0,0,False
+Grape,s28_r6206,ood,Leaf Blight,Bugwood,3,True,True,False,False,0,0,0,False
+Grape,s28_r5098,ood,Powdery Mildew,Bugwood,4,True,True,False,False,0,0,0,False
+Grape,s3_r849,ood,Black Measles,Bugwood,5,True,True,False,False,0,0,0,False
+Grape,s1_r9478,ood,Black Rot,Bugwood,6,True,True,False,False,0,0,0,False
+Grape,s3_r6465,ood,Downy Mildew,Bugwood,7,True,True,False,False,0,0,0,False
+Grape,s28_r6204,ood,Leaf Blight,Bugwood,8,True,True,False,False,0,0,0,False
+Grape,s28_r1431,ood,Powdery Mildew,Bugwood,9,True,True,False,False,0,0,0,False
+Grape,s3_r854,ood,Black Measles,Bugwood,10,True,True,False,False,0,0,0,False
+Grape,s1_r9487,ood,Black Rot,Bugwood,11,True,True,False,False,0,0,0,False
+Grape,s3_r509,ood,Downy Mildew,Bugwood,12,True,True,False,False,0,0,0,False
+Grape,s28_r6212,ood,Leaf Blight,Bugwood,13,True,True,False,False,0,0,0,False
+Grape,s28_r5084,ood,Powdery Mildew,Bugwood,14,True,True,False,False,0,0,0,False
+Grape,s1_r9465,ood,Black Rot,Bugwood,15,True,True,False,False,0,0,0,False
+Grape,s3_r507,ood,Downy Mildew,Bugwood,16,True,True,False,False,0,0,0,False
+Grape,s28_r6205,ood,Leaf Blight,Bugwood,17,True,True,False,False,0,0,0,False
+Grape,s28_r1429,ood,Powdery Mildew,Bugwood,18,True,True,False,False,0,0,0,False
+Grape,s1_r9477,ood,Black Rot,Bugwood,19,True,True,False,False,0,0,0,False
+Grape,s3_r6486,ood,Downy Mildew,Bugwood,20,True,False,False,False,0,0,0,False
+Grape,s28_r6208,ood,Leaf Blight,Bugwood,21,True,False,False,False,0,0,0,False
+Grape,s28_r5090,ood,Powdery Mildew,Bugwood,22,True,False,False,False,0,0,0,False
+Grape,s1_r1006,ood,Black Rot,Bugwood,23,True,False,False,False,0,0,0,False
+Grape,s3_r6482,ood,Downy Mildew,Bugwood,24,True,False,False,False,0,0,0,False
+Grape,s28_r6207,ood,Leaf Blight,Bugwood,25,True,False,False,False,0,0,0,False
+Grape,s28_r1433,ood,Powdery Mildew,Bugwood,26,True,False,False,False,0,0,0,False
+Grape,s1_r9470,ood,Black Rot,Bugwood,27,True,False,False,False,0,0,0,False
+Grape,s3_r6477,ood,Downy Mildew,Bugwood,28,True,False,False,False,0,0,0,False
+Grape,s28_r6213,ood,Leaf Blight,Bugwood,29,True,False,False,False,0,0,0,False
+Grape,s28_r5083,ood,Powdery Mildew,Bugwood,30,True,False,False,False,0,0,0,False
+Grape,s1_r9483,ood,Black Rot,Bugwood,31,True,False,False,False,0,0,0,False
+Grape,s3_r6487,ood,Downy Mildew,Bugwood,32,True,False,False,False,0,0,0,False
+Grape,s28_r6203,ood,Leaf Blight,Bugwood,33,True,False,False,False,0,0,0,False
+Grape,s28_r5075,ood,Powdery Mildew,Bugwood,34,True,False,False,False,0,0,0,False
+Grape,s1_r9472,ood,Black Rot,Bugwood,35,True,False,False,False,0,0,0,False
+Grape,s3_r6469,ood,Downy Mildew,Bugwood,36,True,False,False,False,0,0,0,False
+Grape,s28_r5081,ood,Powdery Mildew,Bugwood,37,True,False,False,False,0,0,0,False
+Grape,s1_r1008,ood,Black Rot,Bugwood,38,True,False,False,False,0,0,0,False
+Grape,s3_r6475,ood,Downy Mildew,Bugwood,39,True,False,False,False,0,0,0,False
+Grape,s28_r5086,ood,Powdery Mildew,Bugwood,40,True,False,False,False,0,0,0,False
+Grape,s1_r9469,ood,Black Rot,Bugwood,41,True,False,False,False,0,0,0,False
+Grape,s3_r6479,ood,Downy Mildew,Bugwood,42,True,False,False,False,0,0,0,False
+Grape,s28_r5079,ood,Powdery Mildew,Bugwood,43,True,False,False,False,0,0,0,False
+Grape,s1_r9486,ood,Black Rot,Bugwood,44,True,False,False,False,0,0,0,False
+Grape,s3_r503,ood,Downy Mildew,Bugwood,45,True,False,False,False,0,0,0,False
+Grape,s28_r5074,ood,Powdery Mildew,Bugwood,46,True,False,False,False,0,0,0,False
+Grape,s1_r1005,ood,Black Rot,Bugwood,47,True,False,False,False,0,0,0,False
+Grape,s3_r508,ood,Downy Mildew,Bugwood,48,True,False,False,False,0,0,0,False
+Grape,s28_r1426,ood,Powdery Mildew,Bugwood,49,True,False,False,False,0,0,0,False
+Grape,s1_r1010,ood,Black Rot,Bugwood,50,True,False,False,False,0,0,0,False
+Grape,s3_r504,ood,Downy Mildew,Bugwood,51,True,False,False,False,0,0,0,False
+Grape,s28_r5097,ood,Powdery Mildew,Bugwood,52,True,False,False,False,0,0,0,False
+Grape,s1_r9475,ood,Black Rot,Bugwood,53,True,False,False,False,0,0,0,False
+Grape,s3_r6478,ood,Downy Mildew,Bugwood,54,True,False,False,False,0,0,0,False
+Grape,s28_r5091,ood,Powdery Mildew,Bugwood,55,True,False,False,False,0,0,0,False
+Grape,s1_r1009,ood,Black Rot,Bugwood,56,True,False,False,False,0,0,0,False
+Grape,s3_r6467,ood,Downy Mildew,Bugwood,57,True,False,False,False,0,0,0,False
+Grape,s28_r5078,ood,Powdery Mildew,Bugwood,58,True,False,False,False,0,0,0,False
+Grape,s1_r1013,ood,Black Rot,Bugwood,59,True,False,False,False,0,0,0,False
+Rice,s3_r2057,iid,Bacterial Blight,BDCropVegeta,0,True,True,True,False,0,0,0,True
+Rice,s3_r1015,iid,Bacterial Panicle Blight,BDCropVegeta,1,True,True,True,False,0,2,0,True
+Rice,s30_r1038,iid,Blast,PlantWild,2,True,True,True,False,0,0,0,True
+Rice,s29_r7321,iid,Brown Spot,VQAPlantDise,3,True,True,True,False,2,0,0,True
+Rice,s29_r2488,iid,Leaf Smut,CDDM,4,True,True,True,False,2,2,0,False
+Rice,s28_r6685,iid,Pythium Diseases,Bugwood,5,True,True,True,False,2,2,0,False
+Rice,s29_r10216,iid,Sheath Blight,PlantWild,6,True,True,True,False,2,0,0,False
+Rice,s28_r9338,iid,Tungro,BDCropVegeta,7,True,True,True,False,0,2,0,True
+Rice,s3_r4306,iid,Bacterial Blight,CDDM,8,True,True,True,False,2,0,0,True
+Rice,s3_r1166,iid,Bacterial Panicle Blight,BDCropVegeta,9,True,True,True,False,2,0,2,True
+Rice,s29_r2902,iid,Blast,VQAPlantDise,10,True,True,True,False,0,0,2,True
+Rice,s29_r11314,iid,Brown Spot,VQAPlantDise,11,True,True,True,False,2,2,2,True
+Rice,s29_r2491,iid,Leaf Smut,CDDM,12,True,True,True,False,0,0,0,False
+Rice,s28_r6699,iid,Pythium Diseases,Bugwood,13,True,True,True,False,0,2,0,False
+Rice,s29_r7077,iid,Sheath Blight,PlantWild,14,True,True,True,False,0,0,0,False
+Rice,s29_r1795,iid,Tungro,CDDM,15,True,True,True,False,2,0,0,True
+Rice,s3_r2332,iid,Bacterial Blight,BDCropVegeta,16,True,True,True,False,2,2,0,True
+Rice,s4_r1029,iid,Bacterial Panicle Blight,Bugwood,17,True,True,True,False,2,0,0,True
+Rice,s29_r2667,iid,Blast,VQAPlantDise,18,True,True,True,False,2,2,0,True
+Rice,s29_r12298,iid,Brown Spot,BDCropVegeta,19,True,True,True,False,2,0,0,True
+Rice,s29_r2558,iid,Leaf Smut,CDDM,20,True,False,False,False,0,0,0,False
+Rice,s29_r2879,iid,Pythium Diseases,Bugwood,21,True,False,False,False,0,2,0,False
+Rice,s30_r654,iid,Sheath Blight,PlantWild,22,True,False,False,False,2,0,0,False
+Rice,s28_r9367,iid,Tungro,BDCropVegeta,23,True,False,False,False,2,2,2,True
+Rice,s3_r2359,iid,Bacterial Blight,BDCropVegeta,24,True,False,False,False,2,2,0,True
+Rice,s3_r1174,iid,Bacterial Panicle Blight,BDCropVegeta,25,True,False,False,False,0,2,2,True
+Rice,s30_r974,iid,Blast,PlantWild,26,True,False,False,False,2,0,0,True
+Rice,s30_r295,iid,Brown Spot,BDCropVegeta,27,True,False,False,False,2,2,2,True
+Rice,s29_r2487,iid,Leaf Smut,CDDM,28,True,False,False,False,0,0,0,False
+Rice,s28_r6697,iid,Pythium Diseases,Bugwood,29,True,False,False,False,0,0,0,False
+Rice,s29_r7065,iid,Sheath Blight,PlantWild,30,True,False,False,False,0,0,2,False
+Rice,s29_r1710,iid,Tungro,CDDM,31,True,False,False,False,0,2,0,True
+Rice,s3_r2114,iid,Bacterial Blight,BDCropVegeta,32,True,False,False,False,2,0,0,False
+Rice,s4_r1034,iid,Bacterial Panicle Blight,Bugwood,33,True,False,False,False,2,2,0,False
+Rice,s29_r2587,iid,Blast,VQAPlantDise,34,True,False,False,False,0,2,2,False
+Rice,s29_r11839,iid,Brown Spot,BDCropVegeta,35,True,False,False,False,0,2,0,False
+Rice,s29_r2481,iid,Leaf Smut,CDDM,36,True,False,False,False,2,0,0,False
+Rice,s28_r6689,iid,Pythium Diseases,Bugwood,37,True,False,False,False,0,0,0,False
+Rice,s30_r657,iid,Sheath Blight,PlantWild,38,True,False,False,False,0,0,2,False
+Rice,s28_r7124,iid,Tungro,BDCropVegeta,39,True,False,False,False,0,2,0,False
+Rice,s3_r5491,iid,Bacterial Blight,CDDM,40,True,False,False,False,2,0,0,False
+Rice,s4_r1036,iid,Bacterial Panicle Blight,Bugwood,41,True,False,False,False,0,0,0,False
+Rice,s30_r1055,iid,Blast,PlantWild,42,True,False,False,False,0,2,0,False
+Rice,s29_r11459,iid,Brown Spot,BDCropVegeta,43,True,False,False,False,0,0,2,False
+Rice,s29_r2483,iid,Leaf Smut,CDDM,44,True,False,False,False,0,0,0,False
+Rice,s28_r6686,iid,Pythium Diseases,Bugwood,45,True,False,False,False,2,0,2,False
+Rice,s29_r10221,iid,Sheath Blight,PlantWild,46,True,False,False,False,0,0,2,False
+Rice,s28_r7962,iid,Tungro,BDCropVegeta,47,True,False,False,False,2,0,0,False
+Rice,s3_r4947,iid,Bacterial Blight,CDDM,48,True,False,False,False,0,2,0,False
+Rice,s3_r1187,iid,Bacterial Panicle Blight,BDCropVegeta,49,True,False,False,False,0,0,2,False
+Rice,s28_r6255,iid,Blast,Bugwood,50,True,False,False,False,0,0,0,False
+Rice,s29_r4871,iid,Brown Spot,CDDM,51,True,False,False,False,0,0,0,False
+Rice,s29_r2495,iid,Leaf Smut,CDDM,52,True,False,False,False,2,2,2,False
+Rice,s28_r6692,iid,Pythium Diseases,Bugwood,53,True,False,False,False,0,0,2,False
+Rice,s29_r10234,iid,Sheath Blight,PlantWild,54,True,False,False,False,2,0,0,False
+Rice,s28_r7213,iid,Tungro,BDCropVegeta,55,True,False,False,False,2,2,2,False
+Rice,s3_r5317,iid,Bacterial Blight,CDDM,56,True,False,False,False,0,0,0,False
+Rice,s3_r1070,iid,Bacterial Panicle Blight,BDCropVegeta,57,True,False,False,False,0,0,0,False
+Rice,s30_r1074,iid,Blast,PlantWild,58,True,False,False,False,2,0,2,False
+Rice,s29_r4908,iid,Brown Spot,CDDM,59,True,False,False,False,2,2,0,False
+Rice,s29_r2565,iid,Leaf Smut,CDDM,60,True,False,False,False,0,0,0,False
+Rice,s28_r6690,iid,Pythium Diseases,Bugwood,61,True,False,False,False,0,2,2,False
+Rice,s29_r7051,iid,Sheath Blight,PlantWild,62,True,False,False,False,0,2,0,False
+Rice,s28_r7487,iid,Tungro,BDCropVegeta,63,True,False,False,False,2,0,0,False
+Rice,s3_r2957,iid,Bacterial Blight,BDCropVegeta,64,True,False,False,False,0,0,2,False
+Rice,s3_r969,iid,Bacterial Panicle Blight,BDCropVegeta,65,True,False,False,False,0,2,2,False
+Rice,s30_r1060,iid,Blast,PlantWild,66,True,False,False,False,0,2,2,False
+Rice,s29_r7089,iid,Brown Spot,VQAPlantDise,67,True,False,False,False,0,0,2,False
+Rice,s29_r2494,iid,Leaf Smut,CDDM,68,True,False,False,False,0,2,0,False
+Rice,s30_r5768,iid,Pythium Diseases,Bugwood,69,True,False,False,False,2,0,2,False
+Rice,s29_r10220,iid,Sheath Blight,PlantWild,70,True,False,False,False,2,0,2,False
+Rice,s29_r1166,iid,Tungro,CDDM,71,True,False,False,False,0,0,0,False
+Rice,s3_r4575,iid,Bacterial Blight,CDDM,72,True,False,False,False,2,0,0,False
+Rice,s4_r1038,iid,Bacterial Panicle Blight,Bugwood,73,True,False,False,False,0,2,2,False
+Rice,s30_r969,iid,Blast,PlantWild,74,True,False,False,False,2,0,2,False
+Rice,s29_r6098,iid,Brown Spot,VQAPlantDise,75,True,False,False,False,0,0,0,False
+Rice,s29_r2492,iid,Leaf Smut,CDDM,76,True,False,False,False,0,0,2,False
+Rice,s28_r6693,iid,Pythium Diseases,Bugwood,77,True,False,False,False,2,2,0,False
+Rice,s29_r10227,iid,Sheath Blight,PlantWild,78,True,False,False,False,0,2,0,False
+Rice,s28_r8612,iid,Tungro,BDCropVegeta,79,True,False,False,False,2,2,0,False
+Rice,s3_r2743,iid,Bacterial Blight,BDCropVegeta,80,True,False,False,False,0,0,0,False
+Rice,s4_r1030,iid,Bacterial Panicle Blight,Bugwood,81,True,False,False,False,0,0,2,False
+Rice,s30_r1040,iid,Blast,PlantWild,82,True,False,False,False,2,0,0,False
+Rice,s29_r5525,iid,Brown Spot,VQAPlantDise,83,True,False,False,False,0,0,0,False
+Rice,s29_r2479,iid,Leaf Smut,CDDM,84,True,False,False,False,0,0,0,False
+Rice,s28_r6691,iid,Pythium Diseases,Bugwood,85,True,False,False,False,2,0,2,False
+Rice,s29_r10223,iid,Sheath Blight,PlantWild,86,True,False,False,False,0,0,0,False
+Rice,s28_r8736,iid,Tungro,BDCropVegeta,87,True,False,False,False,2,0,2,False
+Rice,s3_r5485,iid,Bacterial Blight,CDDM,88,True,False,False,False,0,0,2,False
+Rice,s3_r1205,iid,Bacterial Panicle Blight,BDCropVegeta,89,True,False,False,False,2,0,0,False
+Rice,s29_r10034,iid,Blast,CDDM,90,True,False,False,False,2,0,2,False
+Rice,s29_r6668,iid,Brown Spot,VQAPlantDise,91,True,False,False,False,0,2,0,False
+Rice,s29_r2471,iid,Leaf Smut,CDDM,92,True,False,False,False,2,0,2,False
+Rice,s30_r5769,iid,Pythium Diseases,Bugwood,93,True,False,False,False,0,0,2,False
+Rice,s29_r10226,iid,Sheath Blight,PlantWild,94,True,False,False,False,2,2,0,False
+Rice,s29_r1680,iid,Tungro,CDDM,95,True,False,False,False,0,2,0,False
+Rice,s3_r2490,iid,Bacterial Blight,BDCropVegeta,96,True,False,False,False,2,2,2,False
+Rice,s3_r1036,iid,Bacterial Panicle Blight,BDCropVegeta,97,True,False,False,False,2,2,0,False
+Rice,s30_r1062,iid,Blast,PlantWild,98,True,False,False,False,0,2,0,False
+Rice,s30_r1701,iid,Brown Spot,BDCropVegeta,99,True,False,False,False,0,0,2,False
+Rice,s29_r2480,iid,Leaf Smut,CDDM,100,False,False,False,True,0,2,2,False
+Rice,s29_r2880,iid,Pythium Diseases,Bugwood,101,False,False,False,True,0,2,0,False
+Rice,s29_r7062,iid,Sheath Blight,PlantWild,102,False,False,False,True,0,2,0,False
+Rice,s28_r7479,iid,Tungro,BDCropVegeta,103,False,False,False,True,0,2,2,False
+Rice,s3_r5619,ood,Bacterial Blight,SBRD,0,True,True,True,False,0,0,0,False
+Rice,s30_r2120,ood,Blast,SBRD,1,True,True,True,False,0,0,0,False
+Rice,s29_r2437,ood,Brown Spot,SBRD,2,True,True,True,False,0,0,0,False
+Rice,s28_r6083,ood,Tungro,SBRD,3,True,True,True,False,0,0,0,False
+Rice,s3_r1723,ood,Bacterial Blight,SBRD,4,True,True,True,False,0,0,0,False
+Rice,s29_r6778,ood,Blast,SBRD,5,True,True,True,False,0,0,0,False
+Rice,s29_r2212,ood,Brown Spot,SBRD,6,True,True,True,False,0,0,0,False
+Rice,s30_r1666,ood,Tungro,SBRD,7,True,True,True,False,0,0,0,False
+Rice,s3_r5566,ood,Bacterial Blight,SBRD,8,True,True,True,False,0,0,0,False
+Rice,s30_r2016,ood,Blast,SBRD,9,True,True,True,False,0,0,0,False
+Rice,s29_r2323,ood,Brown Spot,SBRD,10,True,True,True,False,0,0,0,False
+Rice,s28_r6024,ood,Tungro,SBRD,11,True,True,True,False,0,0,0,False
+Rice,s3_r5697,ood,Bacterial Blight,SBRD,12,True,True,True,False,0,0,0,False
+Rice,s30_r1904,ood,Blast,SBRD,13,True,True,True,False,0,0,0,False
+Rice,s29_r1875,ood,Brown Spot,SBRD,14,True,True,True,False,0,0,0,False
+Rice,s28_r6065,ood,Tungro,SBRD,15,True,True,True,False,0,0,0,False
+Rice,s3_r5540,ood,Bacterial Blight,SBRD,16,True,True,True,False,0,0,0,False
+Rice,s29_r5561,ood,Blast,SBRD,17,True,True,True,False,0,0,0,False
+Rice,s29_r1919,ood,Brown Spot,SBRD,18,True,True,True,False,0,0,0,False
+Rice,s28_r6092,ood,Tungro,SBRD,19,True,True,True,False,0,0,0,False
+Rice,s3_r1695,ood,Bacterial Blight,SBRD,20,True,False,False,False,0,0,0,False
+Rice,s30_r1902,ood,Blast,SBRD,21,True,False,False,False,0,0,0,False
+Rice,s29_r1901,ood,Brown Spot,SBRD,22,True,False,False,False,0,0,0,False
+Rice,s30_r1675,ood,Tungro,SBRD,23,True,False,False,False,0,0,0,False
+Rice,s3_r5765,ood,Bacterial Blight,SBRD,24,True,False,False,False,0,0,0,False
+Rice,s29_r5635,ood,Blast,SBRD,25,True,False,False,False,0,0,0,False
+Rice,s29_r2021,ood,Brown Spot,SBRD,26,True,False,False,False,0,0,0,False
+Rice,s30_r3594,ood,Tungro,SBRD,27,True,False,False,False,0,0,0,False
+Rice,s3_r1574,ood,Bacterial Blight,SBRD,28,True,False,False,False,0,0,0,False
+Rice,s30_r1870,ood,Blast,SBRD,29,True,False,False,False,0,0,0,False
+Rice,s29_r1905,ood,Brown Spot,SBRD,30,True,False,False,False,0,0,0,False
+Rice,s30_r1674,ood,Tungro,SBRD,31,True,False,False,False,0,0,0,False
+Rice,s3_r1674,ood,Bacterial Blight,SBRD,32,True,False,False,False,0,0,0,False
+Rice,s30_r2003,ood,Blast,SBRD,33,True,False,False,False,0,0,0,False
+Rice,s29_r2032,ood,Brown Spot,SBRD,34,True,False,False,False,0,0,0,False
+Rice,s30_r1535,ood,Tungro,SBRD,35,True,False,False,False,0,0,0,False
+Rice,s3_r1636,ood,Bacterial Blight,SBRD,36,True,False,False,False,0,0,0,False
+Rice,s29_r5857,ood,Blast,SBRD,37,True,False,False,False,0,0,0,False
+Rice,s29_r2428,ood,Brown Spot,SBRD,38,True,False,False,False,0,0,0,False
+Rice,s30_r1558,ood,Tungro,SBRD,39,True,False,False,False,0,0,0,False
+Rice,s3_r5727,ood,Bacterial Blight,SBRD,40,True,False,False,False,0,0,0,False
+Rice,s30_r1808,ood,Blast,SBRD,41,True,False,False,False,0,0,0,False
+Rice,s29_r2042,ood,Brown Spot,SBRD,42,True,False,False,False,0,0,0,False
+Rice,s28_r5959,ood,Tungro,SBRD,43,True,False,False,False,0,0,0,False
+Rice,s3_r5835,ood,Bacterial Blight,SBRD,44,True,False,False,False,0,0,0,False
+Rice,s30_r2223,ood,Blast,SBRD,45,True,False,False,False,0,0,0,False
+Rice,s29_r2157,ood,Brown Spot,SBRD,46,True,False,False,False,0,0,0,False
+Rice,s28_r5933,ood,Tungro,SBRD,47,True,False,False,False,0,0,0,False
+Rice,s3_r1653,ood,Bacterial Blight,SBRD,48,True,False,False,False,0,0,0,False
+Rice,s29_r5661,ood,Blast,SBRD,49,True,False,False,False,0,0,0,False
+Rice,s29_r2324,ood,Brown Spot,SBRD,50,True,False,False,False,0,0,0,False
+Rice,s28_r6053,ood,Tungro,SBRD,51,True,False,False,False,0,0,0,False
+Rice,s3_r1679,ood,Bacterial Blight,SBRD,52,True,False,False,False,0,0,0,False
+Rice,s29_r5762,ood,Blast,SBRD,53,True,False,False,False,0,0,0,False
+Rice,s29_r2411,ood,Brown Spot,SBRD,54,True,False,False,False,0,0,0,False
+Rice,s30_r1189,ood,Tungro,SBRD,55,True,False,False,False,0,0,0,False
+Rice,s3_r5667,ood,Bacterial Blight,SBRD,56,True,False,False,False,0,0,0,False
+Rice,s29_r5885,ood,Blast,SBRD,57,True,False,False,False,0,0,0,False
+Rice,s29_r2218,ood,Brown Spot,SBRD,58,True,False,False,False,0,0,0,False
+Rice,s28_r5960,ood,Tungro,SBRD,59,True,False,False,False,0,0,0,False
+Rice,s3_r5790,ood,Bacterial Blight,SBRD,60,False,False,False,True,0,0,0,False
+Rice,s30_r2111,ood,Blast,SBRD,61,False,False,False,True,0,0,0,False
+Rice,s29_r2173,ood,Brown Spot,SBRD,62,False,False,False,True,0,0,0,False
+Rice,s30_r1184,ood,Tungro,SBRD,63,False,False,False,True,0,0,0,False
+Potato,s42_r5983,iid,Alternaria Black Molds Stem Cankers,A2H0H0R1Plan,0,True,True,False,False,2,0,0,True
+Potato,s25_r3144,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,1,True,True,False,False,0,0,2,False
+Potato,s47_r1410,iid,Common Scab,BDCropVegeta,2,True,True,False,False,2,0,2,False
+Potato,s25_r4474,iid,Late Blight,PlantDoc,3,True,True,False,False,0,2,2,True
+Potato,s42_r6912,iid,Alternaria Black Molds Stem Cankers,A2H0H0R1Plan,4,True,True,False,False,0,0,0,True
+Potato,s25_r3620,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,5,True,True,False,False,0,0,0,False
+Potato,s47_r1110,iid,Common Scab,BDCropVegeta,6,True,True,False,False,0,0,2,False
+Potato,s25_r4356,iid,Late Blight,PlantDoc,7,True,True,False,False,0,0,0,True
+Potato,s46_r6673,iid,Alternaria Black Molds Stem Cankers,LeafNet,8,True,True,False,False,0,0,2,True
+Potato,s25_r3602,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,9,True,True,False,False,0,2,0,False
+Potato,s47_r1107,iid,Common Scab,BDCropVegeta,10,True,True,False,False,0,2,0,False
+Potato,s24_r8566,iid,Late Blight,LeafNet,11,True,True,False,False,2,0,0,True
+Potato,s47_r351,iid,Alternaria Black Molds Stem Cankers,VQAPlantDise,12,True,True,False,False,0,0,0,True
+Potato,s25_r3359,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,13,True,True,False,False,2,2,2,False
+Potato,s47_r1120,iid,Common Scab,BDCropVegeta,14,True,True,False,False,0,0,2,False
+Potato,s25_r3998,iid,Late Blight,PlantWild,15,True,True,False,False,2,0,2,True
+Potato,s42_r7098,iid,Alternaria Black Molds Stem Cankers,A2H0H0R1Plan,16,True,True,False,False,0,0,2,True
+Potato,s25_r3181,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,17,True,True,False,False,2,0,0,False
+Potato,s47_r1340,iid,Common Scab,BDCropVegeta,18,True,True,False,False,0,2,0,False
+Potato,s24_r5689,iid,Late Blight,AvinashPlant,19,True,True,False,False,2,2,2,True
+Potato,s46_r9010,iid,Alternaria Black Molds Stem Cankers,New_Plant_Di,20,True,False,False,False,0,2,2,True
+Potato,s25_r3164,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,21,True,False,False,False,0,0,0,False
+Potato,s47_r1112,iid,Common Scab,BDCropVegeta,22,True,False,False,False,2,2,2,False
+Potato,s25_r4001,iid,Late Blight,PlantWild,23,True,False,False,False,0,2,2,True
+Potato,s46_r6409,iid,Alternaria Black Molds Stem Cankers,CDDM,24,True,False,False,False,2,0,0,True
+Potato,s25_r3213,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,25,True,False,False,False,2,0,0,False
+Potato,s47_r1334,iid,Common Scab,BDCropVegeta,26,True,False,False,False,0,0,2,False
+Potato,s24_r9446,iid,Late Blight,New_Plant_Di,27,True,False,False,False,0,2,2,True
+Potato,s46_r10926,iid,Alternaria Black Molds Stem Cankers,PlantWild,28,True,False,False,False,0,2,2,True
+Potato,s25_r3172,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,29,True,False,False,False,2,2,0,False
+Potato,s47_r1415,iid,Common Scab,BDCropVegeta,30,True,False,False,False,2,0,0,False
+Potato,s25_r4430,iid,Late Blight,PlantWild,31,True,False,False,False,0,0,0,True
+Potato,s47_r112,iid,Alternaria Black Molds Stem Cankers,PlantDoc,32,True,False,False,False,2,2,2,True
+Potato,s25_r3524,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,33,True,False,False,False,2,2,0,False
+Potato,s47_r1333,iid,Common Scab,BDCropVegeta,34,True,False,False,False,2,0,0,False
+Potato,s25_r4476,iid,Late Blight,PlantDoc,35,True,False,False,False,0,0,0,True
+Potato,s46_r10935,iid,Alternaria Black Molds Stem Cankers,PlantWild,36,True,False,False,False,0,0,2,True
+Potato,s25_r3792,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,37,True,False,False,False,2,0,2,False
+Potato,s47_r1412,iid,Common Scab,BDCropVegeta,38,True,False,False,False,2,2,0,False
+Potato,s25_r3496,iid,Late Blight,PlantWild,39,True,False,False,False,0,0,0,True
+Potato,s47_r477,iid,Alternaria Black Molds Stem Cankers,PlantDoc,40,True,False,False,False,2,0,2,False
+Potato,s25_r3689,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,41,True,False,False,False,0,0,0,False
+Potato,s47_r1099,iid,Common Scab,BDCropVegeta,42,True,False,False,False,2,0,0,False
+Potato,s25_r4485,iid,Late Blight,PlantDoc,43,True,False,False,False,0,0,0,False
+Potato,s46_r10714,iid,Alternaria Black Molds Stem Cankers,PlantWild,44,True,False,False,False,2,2,0,False
+Potato,s25_r3115,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,45,True,False,False,False,0,0,0,False
+Potato,s47_r1118,iid,Common Scab,BDCropVegeta,46,True,False,False,False,0,0,0,False
+Potato,s25_r4411,iid,Late Blight,PlantWild,47,True,False,False,False,0,0,2,False
+Potato,s46_r10925,iid,Alternaria Black Molds Stem Cankers,PlantWild,48,True,False,False,False,0,0,2,False
+Potato,s25_r3104,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,49,True,False,False,False,0,0,2,False
+Potato,s47_r1343,iid,Common Scab,BDCropVegeta,50,True,False,False,False,2,2,0,False
+Potato,s25_r2945,iid,Late Blight,VQAPlantDise,51,True,False,False,False,0,2,2,False
+Potato,s42_r7806,iid,Alternaria Black Molds Stem Cankers,A2H0H0R1Plan,52,True,False,False,False,0,2,0,False
+Potato,s25_r3337,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,53,True,False,False,False,2,2,2,False
+Potato,s47_r1411,iid,Common Scab,BDCropVegeta,54,True,False,False,False,2,0,0,False
+Potato,s24_r7004,iid,Late Blight,AvinashPlant,55,True,False,False,False,0,2,2,False
+Potato,s47_r150,iid,Alternaria Black Molds Stem Cankers,PlantDoc,56,True,False,False,False,2,2,2,False
+Potato,s25_r3605,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,57,True,False,False,False,0,2,0,False
+Potato,s47_r1344,iid,Common Scab,BDCropVegeta,58,True,False,False,False,2,0,0,False
+Potato,s25_r4349,iid,Late Blight,PlantDoc,59,True,False,False,False,0,0,2,False
+Potato,s46_r10835,iid,Alternaria Black Molds Stem Cankers,PlantWild,60,True,False,False,False,0,0,0,False
+Potato,s25_r3572,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,61,True,False,False,False,0,2,2,False
+Potato,s47_r1093,iid,Common Scab,BDCropVegeta,62,True,False,False,False,0,0,2,False
+Potato,s24_r5899,iid,Late Blight,AvinashPlant,63,True,False,False,False,2,0,0,False
+Potato,s47_r252,iid,Alternaria Black Molds Stem Cankers,VQAPlantDise,64,True,False,False,False,0,2,0,False
+Potato,s25_r3783,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,65,True,False,False,False,0,0,0,False
+Potato,s47_r1338,iid,Common Scab,BDCropVegeta,66,True,False,False,False,0,2,0,False
+Potato,s25_r3476,iid,Late Blight,PlantWild,67,True,False,False,False,0,2,0,False
+Potato,s46_r4871,iid,Alternaria Black Molds Stem Cankers,AvinashPlant,68,True,False,False,False,2,0,0,False
+Potato,s25_r3598,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,69,True,False,False,False,2,2,2,False
+Potato,s47_r1097,iid,Common Scab,BDCropVegeta,70,True,False,False,False,2,0,0,False
+Potato,s25_r4343,iid,Late Blight,PlantDoc,71,True,False,False,False,0,0,2,False
+Potato,s42_r5850,iid,Alternaria Black Molds Stem Cankers,A2H0H0R1Plan,72,True,False,False,False,0,0,0,False
+Potato,s25_r4693,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,73,True,False,False,False,0,0,0,False
+Potato,s47_r1108,iid,Common Scab,BDCropVegeta,74,True,False,False,False,0,0,0,False
+Potato,s25_r4339,iid,Late Blight,PlantDoc,75,True,False,False,False,0,2,0,False
+Potato,s46_r10502,iid,Alternaria Black Molds Stem Cankers,PlantDoc,76,True,False,False,False,2,0,0,False
+Potato,s25_r3726,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,77,True,False,False,False,0,0,0,False
+Potato,s47_r1101,iid,Common Scab,BDCropVegeta,78,True,False,False,False,0,2,0,False
+Potato,s25_r3479,iid,Late Blight,PlantWild,79,True,False,False,False,2,0,0,False
+Potato,s46_r10931,iid,Alternaria Black Molds Stem Cankers,PlantWild,80,True,False,False,False,0,2,0,False
+Potato,s25_r3579,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,81,True,False,False,False,2,0,0,False
+Potato,s47_r1090,iid,Common Scab,BDCropVegeta,82,True,False,False,False,0,0,2,False
+Potato,s25_r4469,iid,Late Blight,PlantDoc,83,True,False,False,False,2,0,0,False
+Potato,s46_r9262,iid,Alternaria Black Molds Stem Cankers,New_Plant_Di,84,True,False,False,False,2,0,2,False
+Potato,s25_r3184,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,85,True,False,False,False,2,0,0,False
+Potato,s47_r1119,iid,Common Scab,BDCropVegeta,86,True,False,False,False,2,0,2,False
+Potato,s25_r2411,iid,Late Blight,VQAPlantDise,87,True,False,False,False,0,2,2,False
+Potato,s47_r330,iid,Alternaria Black Molds Stem Cankers,VQAPlantDise,88,True,False,False,False,2,2,0,False
+Potato,s25_r4697,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,89,True,False,False,False,2,0,0,False
+Potato,s47_r1092,iid,Common Scab,BDCropVegeta,90,True,False,False,False,0,2,2,False
+Potato,s25_r1836,iid,Late Blight,PlantVillage,91,True,False,False,False,2,0,2,False
+Potato,s46_r10695,iid,Alternaria Black Molds Stem Cankers,PlantWild,92,True,False,False,False,2,2,2,False
+Potato,s25_r3238,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,93,True,False,False,False,0,0,0,False
+Potato,s47_r1328,iid,Common Scab,BDCropVegeta,94,True,False,False,False,2,2,2,False
+Potato,s25_r624,iid,Late Blight,New_Plant_Di,95,True,False,False,False,0,0,0,False
+Potato,s47_r135,iid,Alternaria Black Molds Stem Cankers,PlantDoc,96,True,False,False,False,2,2,0,False
+Potato,s25_r3754,iid,Bacteria Wilt And Soft Rot,BDCropVegeta,97,True,False,False,False,0,2,0,False
+Potato,s47_r1342,iid,Common Scab,BDCropVegeta,98,True,False,False,False,0,0,0,False
+Potato,s25_r708,iid,Late Blight,LeafNet,99,True,False,False,False,0,0,2,False
+Potato,s47_r1886,ood,Alternaria Black Molds Stem Cankers,Bugwood,0,True,True,False,False,0,0,0,False
+Potato,s25_r6460,ood,Bacteria Wilt And Soft Rot,Bugwood,1,True,True,False,False,0,0,0,False
+Potato,s46_r11074,ood,Common Scab,Bugwood,2,True,True,False,False,0,0,0,False
+Potato,s25_r2688,ood,Late Blight,Bugwood,3,True,True,False,False,0,0,0,False
+Potato,s47_r584,ood,Alternaria Black Molds Stem Cankers,Bugwood,4,True,True,False,False,0,0,0,False
+Potato,s25_r4284,ood,Bacteria Wilt And Soft Rot,Bugwood,5,True,True,False,False,0,0,0,False
+Potato,s46_r11072,ood,Common Scab,Bugwood,6,True,True,False,False,0,0,0,False
+Potato,s25_r4648,ood,Late Blight,Bugwood,7,True,True,False,False,0,0,0,False
+Potato,s47_r583,ood,Alternaria Black Molds Stem Cankers,Bugwood,8,True,True,False,False,0,0,0,False
+Potato,s25_r6452,ood,Bacteria Wilt And Soft Rot,Bugwood,9,True,True,False,False,0,0,0,False
+Potato,s46_r11076,ood,Common Scab,Bugwood,10,True,True,False,False,0,0,0,False
+Potato,s25_r2680,ood,Late Blight,Bugwood,11,True,True,False,False,0,0,0,False
+Potato,s47_r585,ood,Alternaria Black Molds Stem Cankers,Bugwood,12,True,True,False,False,0,0,0,False
+Potato,s25_r4286,ood,Bacteria Wilt And Soft Rot,Bugwood,13,True,True,False,False,0,0,0,False
+Potato,s46_r11073,ood,Common Scab,Bugwood,14,True,True,False,False,0,0,0,False
+Potato,s25_r4634,ood,Late Blight,Bugwood,15,True,True,False,False,0,0,0,False
+Potato,s47_r1885,ood,Alternaria Black Molds Stem Cankers,Bugwood,16,True,True,False,False,0,0,0,False
+Potato,s25_r5103,ood,Bacteria Wilt And Soft Rot,Bugwood,17,True,True,False,False,0,0,0,False
+Potato,s46_r11075,ood,Common Scab,Bugwood,18,True,True,False,False,0,0,0,False
+Potato,s25_r2673,ood,Late Blight,Bugwood,19,True,True,False,False,0,0,0,False
+Potato,s47_r581,ood,Alternaria Black Molds Stem Cankers,Bugwood,20,True,False,False,False,0,0,0,False
+Potato,s25_r5099,ood,Bacteria Wilt And Soft Rot,Bugwood,21,True,False,False,False,0,0,0,False
+Potato,s25_r4636,ood,Late Blight,Bugwood,22,True,False,False,False,0,0,0,False
+Potato,s47_r588,ood,Alternaria Black Molds Stem Cankers,Bugwood,23,True,False,False,False,0,0,0,False
+Potato,s25_r4279,ood,Bacteria Wilt And Soft Rot,Bugwood,24,True,False,False,False,0,0,0,False
+Potato,s25_r4625,ood,Late Blight,Bugwood,25,True,False,False,False,0,0,0,False
+Potato,s47_r1884,ood,Alternaria Black Molds Stem Cankers,Bugwood,26,True,False,False,False,0,0,0,False
+Potato,s25_r5097,ood,Bacteria Wilt And Soft Rot,Bugwood,27,True,False,False,False,0,0,0,False
+Potato,s25_r4628,ood,Late Blight,Bugwood,28,True,False,False,False,0,0,0,False
+Potato,s47_r582,ood,Alternaria Black Molds Stem Cankers,Bugwood,29,True,False,False,False,0,0,0,False
+Potato,s25_r5089,ood,Bacteria Wilt And Soft Rot,Bugwood,30,True,False,False,False,0,0,0,False
+Potato,s25_r751,ood,Late Blight,Bugwood,31,True,False,False,False,0,0,0,False
+Potato,s47_r579,ood,Alternaria Black Molds Stem Cankers,Bugwood,32,True,False,False,False,0,0,0,False
+Potato,s25_r5086,ood,Bacteria Wilt And Soft Rot,Bugwood,33,True,False,False,False,0,0,0,False
+Potato,s25_r749,ood,Late Blight,Bugwood,34,True,False,False,False,0,0,0,False
+Potato,s47_r580,ood,Alternaria Black Molds Stem Cankers,Bugwood,35,True,False,False,False,0,0,0,False
+Potato,s25_r4280,ood,Bacteria Wilt And Soft Rot,Bugwood,36,True,False,False,False,0,0,0,False
+Potato,s25_r4631,ood,Late Blight,Bugwood,37,True,False,False,False,0,0,0,False
+Potato,s25_r6457,ood,Bacteria Wilt And Soft Rot,Bugwood,38,True,False,False,False,0,0,0,False
+Potato,s25_r4655,ood,Late Blight,Bugwood,39,True,False,False,False,0,0,0,False
+Potato,s25_r5104,ood,Bacteria Wilt And Soft Rot,Bugwood,40,True,False,False,False,0,0,0,False
+Potato,s25_r4654,ood,Late Blight,Bugwood,41,True,False,False,False,0,0,0,False
+Potato,s25_r6461,ood,Bacteria Wilt And Soft Rot,Bugwood,42,True,False,False,False,0,0,0,False
+Potato,s25_r2674,ood,Late Blight,Bugwood,43,True,False,False,False,0,0,0,False
+Potato,s25_r5093,ood,Bacteria Wilt And Soft Rot,Bugwood,44,True,False,False,False,0,0,0,False
+Potato,s25_r747,ood,Late Blight,Bugwood,45,True,False,False,False,0,0,0,False
+Potato,s25_r5092,ood,Bacteria Wilt And Soft Rot,Bugwood,46,True,False,False,False,0,0,0,False
+Potato,s25_r4644,ood,Late Blight,Bugwood,47,True,False,False,False,0,0,0,False
+Potato,s25_r4278,ood,Bacteria Wilt And Soft Rot,Bugwood,48,True,False,False,False,0,0,0,False
+Potato,s25_r2687,ood,Late Blight,Bugwood,49,True,False,False,False,0,0,0,False
+Potato,s25_r5080,ood,Bacteria Wilt And Soft Rot,Bugwood,50,True,False,False,False,0,0,0,False
+Potato,s25_r2683,ood,Late Blight,Bugwood,51,True,False,False,False,0,0,0,False
+Potato,s25_r5088,ood,Bacteria Wilt And Soft Rot,Bugwood,52,True,False,False,False,0,0,0,False
+Potato,s25_r752,ood,Late Blight,Bugwood,53,True,False,False,False,0,0,0,False
+Potato,s25_r5100,ood,Bacteria Wilt And Soft Rot,Bugwood,54,True,False,False,False,0,0,0,False
+Potato,s25_r4626,ood,Late Blight,Bugwood,55,True,False,False,False,0,0,0,False
+Potato,s25_r5101,ood,Bacteria Wilt And Soft Rot,Bugwood,56,True,False,False,False,0,0,0,False
+Potato,s25_r2679,ood,Late Blight,Bugwood,57,True,False,False,False,0,0,0,False
+Potato,s25_r4283,ood,Bacteria Wilt And Soft Rot,Bugwood,58,True,False,False,False,0,0,0,False
+Potato,s25_r4649,ood,Late Blight,Bugwood,59,True,False,False,False,0,0,0,False
