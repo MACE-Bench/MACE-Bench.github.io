@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MACE: Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models</title>
+  <meta name="description" content="MACE adds a caption memory to a frozen vision-language model and reaches 62.2% in distribution and 57.0% on held-out collections across ten crops.">
+  <link rel="canonical" href="https://mace-bench.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MACE">
+  <meta property="og:url" content="https://mace-bench.github.io/">
+  <meta property="og:title" content="MACE: Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models">
+  <meta property="og:description" content="MACE adds a caption memory to a frozen vision-language model and reaches 62.2% in distribution and 57.0% on held-out collections across ten crops.">
+  <meta property="og:image" content="https://mace-bench.github.io/static/images/og_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MACE: Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models">
+  <meta name="twitter:description" content="MACE adds a caption memory to a frozen vision-language model and reaches 62.2% in distribution and 57.0% on held-out collections across ten crops.">
+  <meta name="twitter:image" content="https://mace-bench.github.io/static/images/og_image.png">
+  <link rel="icon" type="image/png" href="static/images/favicon.png">
+  <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#7a1f10">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Noto+Sans:400,600,700|Castoro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/mace.css">
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+
+<nav class="mace-nav" aria-label="Sections">
+  <div class="inner">
+    <a class="brand" href="#top" aria-label="MACE home"><img src="static/images/mace_wordmark.png" alt="MACE"></a>
+    <div class="links">
+      <a href="#tldr">TL;DR</a><a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#findings">Findings</a><a href="#figures">Figures</a><a href="#results">Results</a><a href="#discussion">Discussion</a><a href="#team">Team</a><a href="#BibTeX">BibTeX</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero mace-hero" id="top">
+  <div class="hero-body">
+    <div class="container is-max-desktop has-text-centered">
+      <div class="venue-row"><span class="tag-progress">Manuscript in preparation</span></div>
+      <img class="hero-logo" src="static/images/mace_wordmark.png" alt="MACE wordmark with a nutmeg seed wrapped in red mace">
+      <h1 class="title is-1 publication-title"><span class="grad-text">Memory-Augmented</span> Crop-Disease Evaluation of Frozen Vision-Language Models</h1>
+      <div class="is-size-5 publication-authors"><div class="author-list">
+<span class="author-block"><a href="https://www.linkedin.com/in/tirtho-roy-apon/" target="_blank" rel="noopener">Tirtho Roy</a><sup>1,*</sup></span>,
+<span class="author-block"><a href="https://www.linkedin.com/in/shreyan-ganguly-467882191/" target="_blank" rel="noopener">Shreyan Ganguly</a><sup>1,*</sup></span>,
+<span class="author-block"><a href="https://www.linkedin.com/in/arbab-arshad/" target="_blank" rel="noopener">Muhammad Arbab Arshad</a><sup>1</sup></span>,
+<span class="author-block"><a href="https://www.agron.iastate.edu/people/singh-asheesh/" target="_blank" rel="noopener">Asheesh K. Singh</a><sup>1</sup></span>,
+<span class="author-block"><a href="https://www.engineering.iastate.edu/people/profile/baskarg/" target="_blank" rel="noopener">Baskar Ganapathysubramanian</a><sup>1</sup></span>,
+<span class="author-block"><a href="https://chinmayhegde.github.io/" target="_blank" rel="noopener">Chinmay Hegde</a><sup>2</sup></span>,
+<span class="author-block"><a href="https://www.agron.iastate.edu/people/singh-arti-2/" target="_blank" rel="noopener">Arti Singh</a><sup>1</sup></span>,
+<span class="author-block"><a href="https://www.engineering.iastate.edu/people/profile/soumiks/" target="_blank" rel="noopener">Soumik Sarkar</a><sup>1,&#9993;</sup></span>
+      </div></div>
+      <div class="affils"><span class="aff"><sup>1</sup>Iowa State University</span><span class="aff"><sup>2</sup>New York University</span></div>
+      <p class="corr">* Equal contribution &nbsp; &#9993; Corresponding author: <a href="mailto:soumiks@iastate.edu">soumiks@iastate.edu</a></p>
+      <div class="publication-links" style="margin-top:1rem">
+        <span class="link-block"><a href="#" aria-disabled="true" class="external-link button is-normal is-rounded is-dark is-soon"><span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper (soon)</span></a></span>
+        <span class="link-block"><a href="#" aria-disabled="true" class="external-link button is-normal is-rounded is-dark is-soon"><span class="icon"><i class="fas fa-database"></i></span><span>MACE-Bench (soon)</span></a></span>
+        <span class="link-block"><a href="#" aria-disabled="true" class="external-link button is-normal is-rounded is-dark is-soon"><span class="icon"><i class="fab fa-github"></i></span><span>Code (soon)</span></a></span>
+        <span class="link-block"><a href="#BibTeX" class="external-link button is-normal is-rounded is-dark"><span class="icon"><i class="fas fa-quote-right"></i></span><span>BibTeX</span></a></span>
+      </div>
+      <div class="stat-strip">
+        <div class="stat"><div class="num">10</div><div class="lbl">Crops</div></div>
+        <div class="stat"><div class="num">1,600</div><div class="lbl">Test queries</div></div>
+        <div class="stat"><div class="num">+19.4</div><div class="lbl">Points over SAGE, in distribution</div></div>
+        <div class="stat"><div class="num">+6.3</div><div class="lbl">Points over SAGE, held-out collections</div></div>
+      </div>
+      <div class="mosaic">
+<figure><img src="static/images/crop_Mango.jpg" alt="Mango disease image" loading="lazy"><figcaption>Mango</figcaption></figure>
+<figure><img src="static/images/crop_Cucumber.jpg" alt="Cucumber disease image" loading="lazy"><figcaption>Cucumber</figcaption></figure>
+<figure><img src="static/images/crop_Corn.jpg" alt="Corn disease image" loading="lazy"><figcaption>Corn</figcaption></figure>
+<figure><img src="static/images/crop_Wheat.jpg" alt="Wheat disease image" loading="lazy"><figcaption>Wheat</figcaption></figure>
+<figure><img src="static/images/crop_Potato.jpg" alt="Potato disease image" loading="lazy"><figcaption>Potato</figcaption></figure>
+<figure><img src="static/images/crop_Rice.jpg" alt="Rice disease image" loading="lazy"><figcaption>Rice</figcaption></figure>
+<figure><img src="static/images/crop_Grape.jpg" alt="Grape disease image" loading="lazy"><figcaption>Grape</figcaption></figure>
+<figure><img src="static/images/crop_Apple.jpg" alt="Apple disease image" loading="lazy"><figcaption>Apple</figcaption></figure>
+<figure><img src="static/images/crop_Tomato.jpg" alt="Tomato disease image" loading="lazy"><figcaption>Tomato</figcaption></figure>
+<figure><img src="static/images/crop_Soybean.jpg" alt="Soybean disease image" loading="lazy"><figcaption>Soybean</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-tint" id="tldr">
+  <div class="container"><div class="hypo">
+    <div class="hd"><i class="fas fa-lightbulb"></i> Central Hypothesis</div>
+    <div class="bd">Caption memory adds diagnostic information beyond label lookup. A frozen vision-language model (VLM) with a few retrieved, labeled captions should therefore exceed both our earlier SAGE system and a nearest-neighbor label lookup, in distribution and on image collections it has never seen.
+      <div class="tldr"><b class="k">TL;DR</b> The hypothesis holds in part. MACE reaches <b>62.2%</b> in distribution and <b>57.0%</b> on held-out collections, above SAGE (42.8% and 50.7%) and DINOv2 label lookup (52.5% and 38.2%). Retrieved labels account for most of the gain, caption text adds 6.4 points in distribution in a post hoc test, and accuracy falls below SAGE when the true disease is not retrieved.</div>
+    </div>
+  </div></div>
+</section>
+
+<section class="section" id="abstract">
+  <div class="container is-max-desktop">
+    <div class="has-text-centered"><span class="sec-kicker">Overview</span><h2 class="title is-3">Abstract</h2></div>
+    <div class="content has-text-justified"><p>Crop disease diagnosis is critical for food security, yet labeled disease images are limited and models trained on curated images generalize poorly to field images. We showed in AgEval that general-purpose vision-language models (VLMs) adapt to plant stress tasks from a few annotated examples, and we gave frozen VLMs source-grounded symptom knowledge for 335 crops in SAGE. Building on both studies, we introduce <b>MACE</b> (Memory-Augmented Crop-Disease Evaluation), a training-free method that adds a caption memory to SAGE. Each labeled reference image is described once as text, and the four most relevant labeled captions are retrieved for each test image. We evaluate MACE against label lookup on ten crops and 1,600 queries, with near-copies removed and one image collection held out per crop. With four memory images per disease, MACE reaches <b>62.2%</b> accuracy in distribution and <b>57.0%</b> on held-out collections, compared with 42.8% and 50.7% for SAGE (<b>+19.4</b> and <b>+6.3 points</b>) and 52.5% and 38.2% for nearest-neighbor label lookup with DINOv2. MACE corrects SAGE on 22.6% of in-distribution queries and errs where SAGE is correct on 3.2%. The retrieved labels account for most of the gain, and a post hoc test on all queries shows that caption text adds 6.4 points in distribution. MACE falls below SAGE when the true disease is not retrieved. MACE adds $0.0014 per query over SAGE and, at about one fifth of the price, reaches higher accuracy than an agent reading the same captions.</p></div>
+  </div>
+</section>
+
+<section class="section is-tint" id="method">
+  <div class="container">
+    <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">Method</span><h2 class="title is-3">Building on AgEval and SAGE</h2></div>
+    <div class="steps" style="margin-bottom:1.2rem">
+      <div class="step"><h3>What we build on</h3><p>In AgEval, we showed that general-purpose VLMs adapt to plant stress tasks from a few annotated examples. In SAGE, we gave frozen VLMs source-grounded symptom knowledge for 335 crops.</p></div>
+      <div class="step"><h3>What MACE adds</h3><p>MACE describes each labeled reference image once as a label-free caption. For each test image, the four most similar captions are retrieved with their labels and added to the SAGE knowledge. The VLM is not trained.</p></div>
+    </div>
+    <div class="fig-card"><a href="static/images/figures/overview.png" target="_blank"><img src="static/images/figures/overview.png" alt="MACE overview on a recorded tomato query" loading="lazy"></a>
+      <p class="description has-text-centered"><b class="fl">MACE on a recorded query</b>, from offline caption memory to online retrieval and diagnosis.</p></div>
+  </div>
+</section>
+
+<section class="section" id="findings">
+  <div class="container">
+    <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">Results</span><h2 class="title is-3">Five questions, five answers</h2></div>
+    <div class="rq-grid">
+      <div class="rq"><div class="rq-head"><span class="rq-id">Q1</span><span class="rq-topic">Across crops</span><span class="ans good">Yes, on crop means</span></div>
+        <h3>Does MACE improve diagnosis across crops and under collection shift?</h3>
+        <div class="big"><span class="v">42.8<span class="arr">&rarr;</span>62.2</span><span class="cap">SAGE to MACE accuracy (%), in distribution</span></div>
+        <p>The held-out gain is smaller and varies by crop. On held-out collections, MACE is higher than SAGE on five crops, equal on one and lower on four. MACE is higher than DINOv2 lookup on all ten held-out collections.</p>
+        <div class="chips"><span class="chip">+6.3 points over SAGE, held-out</span><span class="chip">+18.8 points over DINOv2, held-out</span></div></div>
+      <div class="rq"><div class="rq-head"><span class="rq-id">Q2</span><span class="rq-topic">Evidence</span><span class="ans mixed">Mostly labels</span></div>
+        <h3>Which evidence produces the gain?</h3>
+        <div class="minis"><div class="mini"><div class="v">63.0</div><div class="l">Captions and labels</div></div><div class="mini"><div class="v">60.0</div><div class="l">Labels only</div></div><div class="mini"><div class="v bad">46.5</div><div class="l">Captions only</div></div></div>
+        <p>Accuracy (%) on 400 ablation queries, in distribution. On those queries, labels only did not differ from MACE. A post hoc test on all queries shows that caption text adds 6.4 points in distribution; the held-out difference is inconclusive.</p></div>
+      <div class="rq"><div class="rq-head"><span class="rq-id">Q3</span><span class="rq-topic">Single answers</span><span class="ans good">More fixed than broken</span></div>
+        <h3>How does memory change single answers?</h3>
+        <div class="big"><span class="v">22.6%<span class="arr">vs</span>3.2%</span><span class="cap">SAGE errors corrected against new errors, in distribution</span></div>
+        <p>When the true disease is not retrieved, MACE falls below SAGE: 16.0% against 23.1% in distribution, and 24.4% against 33.1% on held-out collections.</p></div>
+      <div class="rq"><div class="rq-head"><span class="rq-id">Q4</span><span class="rq-topic">Robustness</span><span class="ans good">Stable</span></div>
+        <h3>How robust is the gain?</h3>
+        <div class="big"><span class="v">1.7</span><span class="cap">Points of SD across three memory selections, in distribution</span></div>
+        <p>Accuracy rises with memory size, from 53.5% to 65.5% in distribution between one and sixteen images per disease. Memory from the same collection still helps by +6.7 points, so shared acquisition conditions contribute.</p></div>
+      <div class="rq wide"><div class="rq-head"><span class="rq-id">Q5</span><span class="rq-topic">Price</span><span class="ans good">Small increase</span></div>
+        <h3>What does the gain cost?</h3>
+        <div class="minis"><div class="mini"><div class="v sm">57.5% at $0.017</div><div class="l">MACE retrieval</div></div><div class="mini"><div class="v sm">48.5% at $0.020</div><div class="l">Image references</div></div><div class="mini"><div class="v sm">48.0% at $0.091</div><div class="l">MACE agentic</div></div></div>
+        <p>On 200 matched queries, MACE adds 22.5 points over SAGE for $0.0014 more per query. Prices are list-price estimates in US dollars.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-tint" id="figures">
+  <div class="container">
+    <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">Figures</span><h2 class="title is-3">From crops to single answers</h2></div>
+    <div class="fig-card"><a href="static/images/figures/crops.png" target="_blank"><img src="static/images/figures/crops.png" alt="Accuracy per crop for SAGE, DINOv2 and MACE" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Accuracy per crop</b> with four memory images per disease.</p></div>
+    <div class="fig-grid">
+      <div class="fig-card"><a href="static/images/figures/evidence.png" target="_blank"><img src="static/images/figures/evidence.png" alt="Evidence controls" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Which evidence matters?</b> Planned controls, 400 queries.</p></div>
+      <div class="fig-card"><a href="static/images/figures/heat.png" target="_blank"><img src="static/images/figures/heat.png" alt="Per-crop effects of caption text and caption retrieval" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Where captions help</b>, per crop, in points (post hoc).</p></div>
+    </div>
+    <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/traces.png" target="_blank"><img src="static/images/figures/traces.png" alt="Two recorded retrieval traces" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Recorded traces</b>, one success and one failure, illustrative. Steps are fixed stages, not agent actions.</p></div>
+    <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/answers.png" target="_blank"><img src="static/images/figures/answers.png" alt="Answer outcomes and accuracy by retrieved evidence" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Answer outcomes</b> and accuracy by retrieved evidence.</p></div>
+    <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/robust.png" target="_blank"><img src="static/images/figures/robust.png" alt="Robustness panels" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Robustness</b> to memory size, selection and source.</p></div>
+    <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/cost.png" target="_blank"><img src="static/images/figures/cost.png" alt="Accuracy, price and latency" loading="lazy"></a><p class="description has-text-centered"><b class="fl">Accuracy and cost</b> on 200 matched queries.</p></div>
+  </div>
+</section>
+
+<section class="section" id="results">
+  <div class="container"><div class="res-wrap">
+    <div class="has-text-centered" style="margin-bottom:1.2rem"><span class="sec-kicker">Numbers</span><h2 class="title is-3">Main results</h2></div>
+    <div class="table-container"><table class="table res is-fullwidth">
+      <thead><tr><th>Method</th><th class="has-text-right">In distribution</th><th class="has-text-right">Held-out</th><th class="has-text-right">Macro, in distribution</th><th class="has-text-right">Macro, held-out</th></tr></thead>
+      <tbody>
+<tr class="grp"><td colspan="5">No VLM call</td></tr>
+<tr class=""><td class="model">Label majority vote</td><td class="num">52.6 <small>[49.6, 55.7]</small></td><td class="num">41.5 <small>[37.8, 45.0]</small></td><td class="num">39.1</td><td class="num">32.3</td></tr>
+<tr class=""><td class="model">Score-weighted vote</td><td class="num">55.7 <small>[52.7, 58.7]</small></td><td class="num">44.5 <small>[40.8, 48.2]</small></td><td class="num">45.0</td><td class="num">35.8</td></tr>
+<tr class=""><td class="model">OpenCLIP 1-NN</td><td class="num">54.7 <small>[51.7, 57.7]</small></td><td class="num">37.7 <small>[34.0, 41.3]</small></td><td class="num">45.5</td><td class="num">32.4</td></tr>
+<tr class=""><td class="model">DINOv2 1-NN</td><td class="num">52.5 <small>[49.6, 55.5]</small></td><td class="num">38.2 <small>[34.5, 42.0]</small></td><td class="num">41.6</td><td class="num">32.0</td></tr>
+<tr class="grp"><td colspan="5">Frozen VLM</td></tr>
+<tr class=""><td class="model">SAGE (KB only)</td><td class="num">42.8 <small>[39.8, 46.0]</small></td><td class="num">50.7 <small>[46.8, 54.3]</small></td><td class="num">34.0</td><td class="num">40.0</td></tr>
+<tr class="best"><td class="model">MACE retrieval</td><td class="num">62.2 <small>[59.3, 65.0]</small></td><td class="num">57.0 <small>[53.2, 60.7]</small></td><td class="num">51.8</td><td class="num">45.6</td></tr>
+<tr class="grp"><td colspan="5">Post hoc tests, frozen VLM</td></tr>
+<tr class=""><td class="model">Labels only</td><td class="num">55.8 <small>[52.9, 58.8]</small></td><td class="num">54.8 <small>[51.0, 58.7]</small></td><td class="num">47.3</td><td class="num">42.5</td></tr>
+<tr class=""><td class="model">DINOv2-retrieved labels</td><td class="num">55.2 <small>[52.2, 58.2]</small></td><td class="num">55.8 <small>[51.8, 59.7]</small></td><td class="num">45.2</td><td class="num">44.5</td></tr>
+      </tbody></table></div>
+    <p class="table-legend">Equal-crop accuracy (%) with 95% bootstrap intervals, four memory images per disease. Macro: mean per-disease recall. Post hoc tests were added after the labels-only control was read.</p>
+  </div></div>
+</section>
+
+<section class="section is-tint" id="discussion">
+  <div class="container">
+    <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">Discussion</span><h2 class="title is-3">What this means</h2></div>
+    <div class="disc">
+      <div class="box"><h4><span class="icon"><i class="fas fa-search"></i></span>Retrieval failure</h4><p>MACE gains 24.8 and 11.8 points over SAGE on retrieval hits and loses 7.1 and 8.8 points on misses. Deployment would require a signal for retrieval failure, which we did not test.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-tags"></i></span>Roles of a caption</h4><p>Caption text added accuracy in distribution. DINOv2 retrieval matched caption retrieval in distribution, so captions were not required for retrieval there. Later work should separate the caption as an index from the caption as evidence.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>Limitations</h4><ul><li>The tests of caption text and DINOv2 retrieval are post hoc.</li><li>Each result is one run of one VLM.</li><li>Ten crops do not represent all of agriculture.</li><li>No plant pathologist reviewed the labels or recorded cases.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="team">
+  <div class="container">
+    <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">People</span><h2 class="title is-3">Team</h2></div>
+    <div class="team">
+<div class="member"><div class="ph"><img src="static/images/team/Tirtho.jpg" alt="Tirtho Roy"></div><div class="nm"><a href="https://www.linkedin.com/in/tirtho-roy-apon/" target="_blank" rel="noopener">Tirtho Roy</a></div><div class="af">Iowa State University</div><div class="role">Equal contribution</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Shreyan.jpg" alt="Shreyan Ganguly"></div><div class="nm"><a href="https://www.linkedin.com/in/shreyan-ganguly-467882191/" target="_blank" rel="noopener">Shreyan Ganguly</a></div><div class="af">Iowa State University</div><div class="role">Equal contribution</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Arbab.jpg" alt="Muhammad Arbab Arshad"></div><div class="nm"><a href="https://www.linkedin.com/in/arbab-arshad/" target="_blank" rel="noopener">Muhammad Arbab Arshad</a></div><div class="af">Iowa State University</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Asheesh.jpg" alt="Asheesh K. Singh"></div><div class="nm"><a href="https://www.agron.iastate.edu/people/singh-asheesh/" target="_blank" rel="noopener">Asheesh K. Singh</a></div><div class="af">Iowa State University</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Baskar.jpg" alt="Baskar Ganapathysubramanian"></div><div class="nm"><a href="https://www.engineering.iastate.edu/people/profile/baskarg/" target="_blank" rel="noopener">Baskar Ganapathysubramanian</a></div><div class="af">Iowa State University</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Chinmay1.jpg" alt="Chinmay Hegde"></div><div class="nm"><a href="https://chinmayhegde.github.io/" target="_blank" rel="noopener">Chinmay Hegde</a></div><div class="af">New York University</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Arti.jpg" alt="Arti Singh"></div><div class="nm"><a href="https://www.agron.iastate.edu/people/singh-arti-2/" target="_blank" rel="noopener">Arti Singh</a></div><div class="af">Iowa State University</div></div>
+<div class="member"><div class="ph"><img src="static/images/team/Soumik1.jpg" alt="Soumik Sarkar"></div><div class="nm"><a href="https://www.engineering.iastate.edu/people/profile/soumiks/" target="_blank" rel="noopener">Soumik Sarkar</a></div><div class="af">Iowa State University</div><div class="role">Corresponding author</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-tint" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <div class="bib-wrap"><button class="copy-btn" type="button" id="copyBib"><i class="far fa-copy"></i> Copy</button><pre><code id="bibtex">@unpublished{roy2026mace,
+  title  = {Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models},
+  author = {Roy, Tirtho and Ganguly, Shreyan and Arshad, Muhammad Arbab and Singh, Asheesh K. and
+            Ganapathysubramanian, Baskar and Hegde, Chinmay and Singh, Arti and Sarkar, Soumik},
+  note   = {Manuscript in preparation},
+  year   = {2026}
+}</code></pre></div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container"><div class="columns is-centered"><div class="column is-8"><div class="content has-text-centered"><p>This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>, which was adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page. This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p></div></div></div></div></footer>
+
+<script>
+(function () {
+  var btn = document.getElementById('copyBib');
+  if (btn) btn.addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('bibtex').innerText).then(function () {
+      btn.innerHTML = 'Copied!'; setTimeout(function () { btn.innerHTML = '<i class="far fa-copy"></i> Copy'; }, 1600);
+    });
+  });
+  document.querySelectorAll('a[aria-disabled="true"]').forEach(function (a) { a.addEventListener('click', function (e) { e.preventDefault(); }); });
+})();
+</script>
+</body>
+</html>
