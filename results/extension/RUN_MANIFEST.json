@@ -1,12 +1,28 @@
 {
- "generated_utc": "2026-11-06T05:57:30.087705+00:00",
- "code_base_commit": "e1df176fe845aeab5205ac2a3e1788500904fa64",
+ "generated_utc": "2026-11-06T18:46:07.644855+00:00",
+ "code_base_commit": "3b3e675933da2d77a66ccad01071356f3542e7b3",
  "uncommitted_paths": [
-  "M agmem/llm.py",
+  "M experiments/mace_extension/EXPERIMENT_REPORT.md",
+  " M experiments/mace_extension/scripts/export_site.py",
+  " M mace10/build_site.py",
   " M mace10/build_submission.py",
-  " M mace10/conditions.py",
+  " M mace10/case.py",
+  " M mace10/figures.py",
+  " M mace10/out/backup_index.json",
+  " M mace10/paper.py",
+  " M mace10/paper_src/figures/fig2_crops.pdf",
+  " M mace10/paper_src/figures/fig3_panels.pdf",
+  " M mace10/paper_src/figures/fig3_traces.tex",
+  " M mace10/paper_src/figures/fig4_stability_cost.pdf",
+  " M mace10/paper_src/figures/fig_cost.pdf",
+  " M mace10/paper_src/figures/fig_evidence.pdf",
+  " M mace10/paper_src/figures/fig_heat.pdf",
   " M mace10/paper_src/main.tex",
-  "?? experiments/"
+  " M mace10/paper_src/tables/t_main.tex",
+  " M mace10/site_template.html",
+  "?? experiments/mace_extension/scripts/source_audit.py",
+  "?? experiments/mace_extension/statistics/source_audit.json",
+  "?? experiments/mace_extension/tables/table_E_source.csv"
  ],
  "python": "3.12.14",
  "platform": "macOS-26.6-arm64-arm-64bit",
@@ -252,19 +268,23 @@
  ],
  "statistics": {
   "extension_results.json": "4792dff9cf0d018d8e67c3c09f719577a1213bda49b787172275b28f6fa67817",
-  "robustness_posthoc.json": "334720a91777503e0512d8bb768f7e40dcb2dd2c4195c69f8adf0336703831bf"
+  "haiku_all.json": "3afe8d4f42c2e2a09c2633fa1ed8ac6c74c950e4dbf534333ec0699bc8d6516c",
+  "robustness_posthoc.json": "334720a91777503e0512d8bb768f7e40dcb2dd2c4195c69f8adf0336703831bf",
+  "source_audit.json": "b9dee513592888feac624c73ad85cbd3d3cf6c231507fbcf3d28ee874e7a98c0"
  },
  "scripts": {
   "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "analyze.py": "12cca52950bfde6fd52e0f0b7db2af7e204eb4b8fddd576f004be7daaea300b0",
   "build_outputs.py": "51654a4607d09409f7b0fae967d44930c60644448215de6057946d14d052b5a1",
   "embed_extra.py": "3aeece40caac596b114d47c68ca0dc049897af47058e5bf2f85f352ef731d8f5",
-  "export_site.py": "d45a69a69dfb99edab15f0f3d830f6458706e9c02e3c7d2e9130982a5bbaf4be",
+  "export_site.py": "075917387733df4a208712d0fc6a3466c598991a43bb307c6c96d558bcdcb456",
+  "haiku_all.py": "f64c65f09659907f663d01707418797c28cf7eb2f16bd38d9031b4584dbe87a7",
   "jobs.py": "b9909614a6c3082f563f7175e6dd58aacdf42d2907f920b86b5ae0b09e3492a1",
   "manifest.py": "8a706bf6e8de4b3934ffce194506cdf0581b237a6c89b374f281fff612e9e54b",
   "queue.sh": "7dbb4801445ba050067e4e7730b5efafba67f6f3fcf41fddc79e5e5ce00cd6eb",
   "robustness.py": "6bbdf6baa3437273843b457eafe01eddc3ff97cfcbd78562c59460d26aca80b4",
   "run.py": "13d66dee9358bf5dad6cf6570853739bbfc76d58523905ddf86bcd96e5d62f24",
+  "source_audit.py": "f1cef5e106534327793d9353d61ec97893196b6c1ba76bed8ed021cb43f7e6f3",
   "verify_extension.py": "32a033729eba5a9ec750944c16e1fd3aa0a1118359108ac12699eb15053c6edb"
  }
 }

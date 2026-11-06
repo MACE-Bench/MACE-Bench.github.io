@@ -237,3 +237,37 @@ $PY -m experiments.mace_extension.scripts.build_outputs
 $PY -m experiments.mace_extension.scripts.manifest
 $PY -m pytest -q tests
 ```
+
+## 11. Recommended paper changes
+
+See `PAPER_REVISION_GUIDE.md`. The key change: keep the IID claim, add Haiku and the 2 by 2 result, report fallback as negative, and state the concentration of the held-out gain in the abstract.
+
+## 10. Both models side by side (added 2026-11-06, no model calls)
+
+`scripts/haiku_all.py` recomputes every result the saved Haiku rows support and writes `statistics/haiku_all.json`. All of it is exploratory and was chosen after the results were seen.
+
+Correction to E1: "method order unchanged" holds among SAGE, labels only and MACE. It does not hold against label lookup. Haiku MACE minus DINOv2 1-NN is +3.0 [-0.8, +6.6] IID (Holm p = 0.118) and +15.3 [+10.5, +20.3] held-out, and the score-weighted vote (55.7) is level with Haiku MACE (55.5) IID.
+
+| Result | Sonnet | Haiku |
+|---|---|---|
+| Crops above SAGE, held-out | 5 up, 1 tied, 4 down | 9 up, 1 down (grape) |
+| Held-out gain, seven Bugwood crops | 0.0 [-3.8, +3.8] | +6.4 [+1.7, +11.0] |
+| Crop-level held-out interval | [-3.2, +15.9] | [+4.2, +17.8] |
+| Labels minus MACE, 400 queries | -3.0 and +0.5 | -6.5 [-11.5, -1.5] and -2.0 [-8.5, +4.5] |
+| Hit gain, miss loss (IID, held-out) | +24.8, +11.8; -7.1, -8.8 | +23.9, +17.5; -8.3, -6.9 |
+| Frozen fallback minus MACE | -0.4, +0.8 | -0.2 [-0.8, +0.3], -0.7 [-2.5, +1.2] (replay on saved rows) |
+| Pearson r, gain and hit rate | 0.49 | 0.64 |
+| 200 matched queries, MACE | 57.5% at $0.017 | 49.5% at about $0.005 with the Sonnet caption |
+
+Haiku's potato accuracy is low (SAGE 35.0 IID, 21.7 held-out) with no unparsed answers; it over-predicts one disease. Haiku did not run the content controls, agent, image references, memory size, memory selection, DINOv2 retrieval or collection tests.
+
+## 11. Review revision (added 2026-11-06, no model calls)
+
+`scripts/source_audit.py` writes `statistics/source_audit.json` and `tables/table_E_source.csv`. Exploratory.
+
+- Held-out sources are Bugwood (seven crops), CDDM (tomato), LeafNet (mango) and SBRD (rice). Sonnet gain by source: 0.0, +5.0, +25.0, +33.3. Haiku: +6.4, +18.3, +26.7, +20.0.
+- The seven Bugwood crops gain +18.7 (Sonnet) and +18.4 (Haiku) IID. On Bugwood, SAGE is 54.5 against 41.7 on the other three, and the hit rate is 67.9 against 86.1.
+- Correction: the paper said the held-out gain came mainly from three crops. With Sonnet it comes mainly from mango and rice: without them the gain is +0.6 [-2.9, +4.0].
+- Fallback isolation: 600 calibration images, none a hero query, none in its own memory, none self-retrieved; 93 sit in memory banks that serve hero queries. Four of 60 candidates beat always-MACE on calibration.
+- Fallback price: no VLM call added. Using SAGE saves about $0.00125 per fallback, at most $0.0003 per query at the 19.2% rate. Calibration cost $21.92 once.
+

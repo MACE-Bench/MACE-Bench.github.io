@@ -31,7 +31,7 @@ PRE = r"""\documentclass[letterpaper]{article}
 \definecolor{bestgreen}{RGB}{200,240,205}
 \newcommand{\cm}{\ding{51}}
 \newcommand{\dm}{--}
-\newcommand{\mcite}[2]{\shortstack[l]{#1\\{\scriptsize\citet{#2}}}}
+\newcommand{\mcite}[2]{#1 {\scriptsize\citep{#2}}}
 \setcounter{secnumdepth}{1}
 
 \title{MACE: Memory-Augmented Crop-Disease Evaluation\\of Frozen Vision-Language Models}
@@ -84,8 +84,8 @@ def main(out):
         rows.append(l)
     tm = "\n".join(rows).replace(r"\scriptsize", r"\footnotesize", 1).replace(" Green: best planned method.", " Green: best planned method.")
     body = body.replace(r"\input{tables/t_prior.tex}", prior).replace(r"\input{tables/t_main.tex}", tm)
-    body = body.replace(r"\resizebox{0.98\textwidth}{!}{\input{figures/overview_tikz.tex}}", r"\includegraphics[width=0.92\textwidth]{figures/overview.pdf}")
-    body = re.sub(r"\\input\{figures/fig3_traces\.tex\}\s*\\vspace\{3pt\}\s*", r"\\includegraphics[width=0.92\\textwidth]{figures/fig3_traces.pdf}\n\n", body)
+    body = body.replace(r"\resizebox{0.98\textwidth}{!}{\input{figures/overview_tikz.tex}}", r"\includegraphics[width=0.80\textwidth]{figures/overview.pdf}")
+    body = re.sub(r"\\input\{figures/fig3_traces\.tex\}\s*\\vspace\{3pt\}\s*", r"\\includegraphics[width=0.87\\textwidth]{figures/fig3_traces.pdf}\n\n", body)
     body = body.replace("tirtho@iastate.edu, soumiks@iastate.edu\\\\[2pt]\n\\weblink{https://mace-bench.github.io/}{\\faGlobe\\ mace-bench.github.io}\n", "tirtho@iastate.edu, soumiks@iastate.edu\n")
     body = body.replace("\\end{abstract}\n", "\\end{abstract}\n\n\\begin{links}\n  \\link{Website}{https://mace-bench.github.io/}\n\\end{links}\n", 1)
     body = body.replace(r"\weblink{https://mace-bench.github.io/#license}{per-image credits are online}", r"per-image credits are on the website")

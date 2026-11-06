@@ -82,21 +82,16 @@ def clause(line, key):
 
 BOX = r"""\\begin{tcolorbox}[enhanced, colback=gray!3, colframe=gray!55, coltitle=white, colbacktitle=gray!62, boxrule=0.4pt, arc=2pt, left=3pt, right=3pt, top=2pt, bottom=2pt, toptitle=0.5pt, bottomtitle=0.5pt,
   fonttitle=\\scriptsize\\bfseries, width=\\linewidth, equal height group=mace3, title={%(panel)s \\ Retrieval Trace: \\mdseries \\c%(t)sCrop, \\c%(t)sSplit, \\c%(t)sColl{}, \\c%(t)sId}]
-\\fontsize{5.9}{7.1}\\selectfont
-\\textbf{Model:} Sonnet 5.5 \\ \\textbf{KB:} SAGE \\ \\textbf{$K$:} 4 \\ \\textbf{Ground truth:} \\c%(t)sTruth \\ \\textbf{Prediction:} \\c%(t)sMace\\\\
-\\textbf{Outcome:} \\textcolor{%(oc)s}{\\textbf{%(out)s}} \\ \\textbf{Confidence:} \\c%(t)sConf \\ \\textbf{SAGE:} \\c%(t)sSage \\ \\textbf{Labels only:} \\c%(t)sLabels\\par\\vspace{1pt}\\hrule\\vspace{2pt}
-\\begin{minipage}[t]{0.635\\linewidth}\\vspace{0pt}\\raggedright
-\\tstep{1}{\\texttt{Caption test image}}
-\\tstep{2}{``\\c%(t)sExTest.''}
-\\tstep{3}{\\texttt{Retrieve four captions (BM25)}}
-\\tstep{4}{\\c%(t)sMemLabel: ``\\c%(t)sExMem.''}
-\\tstep{5}{\\texttt{Read image and packet}}
-\\tstep{6}{Organ: \\c%(t)sOrgan. Ranked: \\c%(t)sRanked.}
-\\tstep{7}{Cited claim \\c%(t)sKbId: ``\\c%(t)sKbText''}
-\\tstep{8}{``\\c%(t)sWhy''}
+\\fontsize{7.0}{8.4}\\selectfont
+\\textbf{Model:} Sonnet 5.5 \\ \\textbf{Truth:} \\c%(t)sTruth \\ \\textbf{Prediction:} \\c%(t)sMace\\\\
+\\textbf{Outcome:} \\textcolor{%(oc)s}{\\textbf{%(out)s}} \\ \\textbf{SAGE:} \\c%(t)sSage \\ \\textbf{Labels only:} \\c%(t)sLabels\\par\\vspace{1pt}\\hrule\\vspace{2pt}
+\\begin{minipage}[t]{0.70\\linewidth}\\vspace{0pt}\\raggedright
+\\tstep{1}{Test caption: ``\\c%(t)sExTest.''}
+\\tstep{2}{BM25 reference, \\c%(t)sMemLabel: ``\\c%(t)sExMem.''}
+\\tstep{3}{Model explanation: ``\\c%(t)sWhy''}
 \\end{minipage}\\hfill
-\\begin{minipage}[t]{0.345\\linewidth}\\vspace{0pt}\\centering
-\\includegraphics[width=0.62\\linewidth]{figures/img/c_%(t)s_q.jpg}\\\\[-1pt]{\\fontsize{5.4}{6}\\selectfont\\textit{Test image}}\\\\[2pt]
+\\begin{minipage}[t]{0.285\\linewidth}\\vspace{0pt}\\centering
+\\includegraphics[width=0.46\\linewidth]{figures/img/c_%(t)s_q.jpg}\\\\[-1pt]{\\fontsize{5.4}{6}\\selectfont\\textit{Test image}}\\\\[2pt]
 {\\fontsize{5.6}{6.4}\\selectfont\\textbf{Retrieved labeled references}}\\\\[1pt]
 %(grid)s
 \\end{minipage}

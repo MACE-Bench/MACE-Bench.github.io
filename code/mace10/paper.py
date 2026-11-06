@@ -382,7 +382,7 @@ def t_main():
     """Table 1: grouped hero results; the best locked cell per column is green; post hoc arms sit in their own block."""
     A = RES["accuracy"]["hero"]
     groups = [("No model call", [("Label majority vote", "majority"), ("Score-weighted vote", "wvote"), ("OpenCLIP 1-NN", "clip_s0"), ("DINOv2 1-NN", "dino_s0")]),
-              ("Frozen VLM", [("SAGE (KB only)", "sage"), (r"\macelogo\ MACE retrieval", "mace")])]
+              ("Frozen VLM: Sonnet 5.5", [("SAGE (KB only)", "sage"), (r"\macelogo\ MACE retrieval", "mace")])]
     locked = [m for _, g in groups for _, m in g]
     best = {(sp, k): max(locked, key=lambda m: A[sp][m][k]) for sp in ("iid", "ood") for k in ("acc", "macro")}
 
@@ -395,7 +395,9 @@ def t_main():
     body = []
     for g, rows in groups:
         body += [f"\\multicolumn{{5}}{{l}}{{\\textit{{{g}}}}} \\\\"] + [row(n, m) for n, m in rows] + ["\\midrule"]
-    body += ["\\multicolumn{5}{l}{\\textit{Post hoc tests, frozen VLM}} \\\\", row("Labels only", "labels_all"), row("DINOv2-retrieved labels", "dino_labels")]
+    body += ["\\multicolumn{5}{l}{\\textit{Post hoc tests, Sonnet 5.5}} \\\\", row("Labels only", "labels_all"), "\\midrule"]
+    hk = json.loads((OUT.parent.parent / "experiments/mace_extension/statistics/extension_results.json").read_text())["E1"]["accuracy"]
+    body += ["\\multicolumn{5}{l}{\\textit{Post hoc tests, Haiku 5.5}} \\\\"] + [f"{n} & {fmt(hk['iid']['Haiku'][m]['acc'], *hk['iid']['Haiku'][m]['ci'])} & {fmt(hk['ood']['Haiku'][m]['acc'], *hk['ood']['Haiku'][m]['ci'])} & -- & -- \\\\" for n, m in (("SAGE (KB only)", "h_sage"), ("Labels only", "h_labels"), ("MACE retrieval", "h_mace"))]
     n1, n2 = A["iid"]["mace"]["n"], A["ood"]["mace"]["n"]
     tex = "\n".join([r"\begin{table}[t]", r"\centering\scriptsize\setlength{\tabcolsep}{2.4pt}",
         r"\caption{\textbf{Ten-crop results} ($K{=}4$): accuracy (\%), 95\% intervals. Green: best planned method.}",

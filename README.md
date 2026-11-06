@@ -18,11 +18,11 @@ On ten crops and 1,600 queries, equal-crop accuracy (%):
 
 Follow-up tests refine this picture:
 
-- A second Claude model keeps the method order, with gains of +18.5 and +11.0 points over SAGE. Both models are Claude models.
+- Claude Haiku 5.5, reading Sonnet captions, gains +18.5 and +11.0 points over SAGE but does not clearly beat DINOv2 lookup in distribution (+3.0 [-0.8, +6.6]). It tests a second diagnosis model, not an independent pipeline.
 - Caption text adds +6.3 points in distribution under DINOv2 retrieval. Held-out caption effects are inconclusive.
 - A retrieval-confidence fallback showed no detectable gain.
 - Memory from the query's collection still helps at equal bank size and disease mix, by +5.5 points. The cause is unknown.
-- In a post hoc grouping, Sonnet gains 0.0 points on the seven crops that hold out Bugwood.
+- The strongest gain is in distribution. Held-out, Sonnet gains 0.0 points and Haiku +6.4 on the seven crops that hold out Bugwood, against +21.1 and +21.7 on the other three, so the held-out evidence is source-specific.
 
 No plant pathologist reviewed the labels or recorded cases.
 

@@ -1,0 +1,312 @@
+{
+ "per_crop": [
+  {
+   "collection": "Bugwood",
+   "crop": "Apple",
+   "n": 60,
+   "sonnet_mace": 61.7,
+   "sonnet_sage": 66.7,
+   "haiku_mace": 58.3,
+   "haiku_sage": 51.7,
+   "hit": 66.7,
+   "dino": 33.3,
+   "sonnet_gain": -5.0,
+   "haiku_gain": 6.6
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Corn",
+   "n": 60,
+   "sonnet_mace": 20.0,
+   "sonnet_sage": 15.0,
+   "haiku_mace": 28.3,
+   "haiku_sage": 23.3,
+   "hit": 36.7,
+   "dino": 13.3,
+   "sonnet_gain": 5.0,
+   "haiku_gain": 5.0
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Cucumber",
+   "n": 60,
+   "sonnet_mace": 63.3,
+   "sonnet_sage": 51.7,
+   "haiku_mace": 56.7,
+   "haiku_sage": 38.3,
+   "hit": 73.3,
+   "dino": 26.7,
+   "sonnet_gain": 11.6,
+   "haiku_gain": 18.4
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Grape",
+   "n": 60,
+   "sonnet_mace": 66.7,
+   "sonnet_sage": 70.0,
+   "haiku_mace": 71.7,
+   "haiku_sage": 76.7,
+   "hit": 68.3,
+   "dino": 31.7,
+   "sonnet_gain": -3.3,
+   "haiku_gain": -5.0
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Potato",
+   "n": 60,
+   "sonnet_mace": 61.7,
+   "sonnet_sage": 68.3,
+   "haiku_mace": 31.7,
+   "haiku_sage": 21.7,
+   "hit": 86.7,
+   "dino": 45.0,
+   "sonnet_gain": -6.6,
+   "haiku_gain": 10.0
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Soybean",
+   "n": 60,
+   "sonnet_mace": 46.7,
+   "sonnet_sage": 46.7,
+   "haiku_mace": 43.3,
+   "haiku_sage": 40.0,
+   "hit": 56.7,
+   "dino": 26.7,
+   "sonnet_gain": 0.0,
+   "haiku_gain": 3.3
+  },
+  {
+   "collection": "Bugwood",
+   "crop": "Wheat",
+   "n": 60,
+   "sonnet_mace": 61.7,
+   "sonnet_sage": 63.3,
+   "haiku_mace": 66.7,
+   "haiku_sage": 60.0,
+   "hit": 86.7,
+   "dino": 40.0,
+   "sonnet_gain": -1.6,
+   "haiku_gain": 6.7
+  },
+  {
+   "collection": "CDDM",
+   "crop": "Tomato",
+   "n": 60,
+   "sonnet_mace": 43.3,
+   "sonnet_sage": 38.3,
+   "haiku_mace": 33.3,
+   "haiku_sage": 15.0,
+   "hit": 75.0,
+   "dino": 35.0,
+   "sonnet_gain": 5.0,
+   "haiku_gain": 18.3
+  },
+  {
+   "collection": "LeafNet",
+   "crop": "Mango",
+   "n": 60,
+   "sonnet_mace": 78.3,
+   "sonnet_sage": 53.3,
+   "haiku_mace": 81.7,
+   "haiku_sage": 55.0,
+   "hit": 93.3,
+   "dino": 71.7,
+   "sonnet_gain": 25.0,
+   "haiku_gain": 26.7
+  },
+  {
+   "collection": "SBRD",
+   "crop": "Rice",
+   "n": 60,
+   "sonnet_mace": 66.7,
+   "sonnet_sage": 33.3,
+   "haiku_mace": 63.3,
+   "haiku_sage": 43.3,
+   "hit": 90.0,
+   "dino": 58.3,
+   "sonnet_gain": 33.4,
+   "haiku_gain": 20.0
+  }
+ ],
+ "bugwood": {
+  "crops": [
+   "Apple",
+   "Corn",
+   "Cucumber",
+   "Grape",
+   "Potato",
+   "Soybean",
+   "Wheat"
+  ],
+  "collections": [
+   "Bugwood"
+  ],
+  "n": 420,
+  "hit": 67.85714285714286,
+  "sage": 54.52380952380953,
+  "mace": 54.52380952380953,
+  "h_sage": 44.523809523809526,
+  "h_mace": 50.95238095238096,
+  "dino": 30.95238095238095,
+  "sonnet": {
+   "name": "s",
+   "est": 0.0,
+   "ci": [
+    -3.809523809523803,
+    3.80952380952381
+   ],
+   "p_boot": 1.0,
+   "n": 420
+  },
+  "haiku": {
+   "name": "h",
+   "est": 6.428571428571438,
+   "ci": [
+    1.6666666666666643,
+    10.952380952380963
+   ],
+   "p_boot": 0.0025,
+   "n": 420
+  },
+  "sonnet_vs_dino": {
+   "name": "sd",
+   "est": 23.571428571428584,
+   "ci": [
+    18.095238095238095,
+    29.52380952380952
+   ],
+   "p_boot": 0.0005,
+   "n": 420
+  },
+  "haiku_vs_dino": {
+   "name": "hd",
+   "est": 20.000000000000014,
+   "ci": [
+    14.047619047619044,
+    25.714285714285722
+   ],
+   "p_boot": 0.0005,
+   "n": 420
+  }
+ },
+ "other": {
+  "crops": [
+   "Mango",
+   "Rice",
+   "Tomato"
+  ],
+  "collections": [
+   "CDDM",
+   "LeafNet",
+   "SBRD"
+  ],
+  "n": 180,
+  "hit": 86.11111111111111,
+  "sage": 41.66666666666667,
+  "mace": 62.77777777777778,
+  "h_sage": 37.77777777777778,
+  "h_mace": 59.44444444444444,
+  "dino": 54.99999999999999,
+  "sonnet": {
+   "name": "s",
+   "est": 21.111111111111107,
+   "ci": [
+    13.8888888888889,
+    27.791666666666597
+   ],
+   "p_boot": 0.0005,
+   "n": 180
+  },
+  "haiku": {
+   "name": "h",
+   "est": 21.666666666666664,
+   "ci": [
+    14.999999999999986,
+    28.888888888888893
+   ],
+   "p_boot": 0.0005,
+   "n": 180
+  },
+  "sonnet_vs_dino": {
+   "name": "sd",
+   "est": 7.777777777777786,
+   "ci": [
+    -1.1111111111111072,
+    16.66666666666668
+   ],
+   "p_boot": 0.0855,
+   "n": 180
+  },
+  "haiku_vs_dino": {
+   "name": "hd",
+   "est": 4.44444444444445,
+   "ci": [
+    -4.444444444444443,
+    13.333333333333336
+   ],
+   "p_boot": 0.3535,
+   "n": 180
+  }
+ },
+ "by_collection_sonnet": {
+  "Bugwood": 0.0,
+  "CDDM": 5.0,
+  "LeafNet": 25.0,
+  "SBRD": 33.3
+ },
+ "by_collection_haiku": {
+  "Bugwood": 6.4,
+  "CDDM": 18.3,
+  "LeafNet": 26.7,
+  "SBRD": 20.0
+ },
+ "hero_iid_same_crops": {
+  "bugwood": {
+   "sonnet": {
+    "name": "s",
+    "est": 18.714285714285722,
+    "ci": [
+     15.285714285714292,
+     22.285714285714278
+    ],
+    "p_boot": 0.0005,
+    "n": 700
+   },
+   "haiku": {
+    "name": "h",
+    "est": 18.42857142857143,
+    "ci": [
+     14.857142857142861,
+     21.999999999999993
+    ],
+    "p_boot": 0.0005,
+    "n": 700
+   }
+  },
+  "other": {
+   "sonnet": {
+    "name": "s",
+    "est": 21.000000000000007,
+    "ci": [
+     16.000000000000007,
+     26.333333333333343
+    ],
+    "p_boot": 0.0005,
+    "n": 300
+   },
+   "haiku": {
+    "name": "h",
+    "est": 18.666666666666664,
+    "ci": [
+     13.666666666666664,
+     24.000000000000007
+    ],
+    "p_boot": 0.0005,
+    "n": 300
+   }
+  }
+ }
+}
