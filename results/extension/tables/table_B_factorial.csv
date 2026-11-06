@@ -1,0 +1,5 @@
+Retrieval,Evidence,IID,Held-out
+BM25,Labels,"55.8 [52.9, 58.8]","54.8 [51.0, 58.7]"
+BM25,Labels + captions,"62.2 [59.3, 65.0]","57.0 [53.2, 60.7]"
+DINOv2,Labels,"55.2 [52.2, 58.2]","55.8 [51.8, 59.7]"
+DINOv2,Labels + captions,"61.5 [58.6, 64.3]","56.3 [52.5, 60.0]"

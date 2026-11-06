@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\caption{Collection shift by crop (Sonnet 5.5, percent). Gain is MACE minus SAGE; Hit is true disease among four retrieved items; Cov. is the share of IID queries whose disease remains in the other-collection bank; Std and Other are IID accuracy with standard and other-collection banks; Gap is mean DINOv2 nearest-bank similarity, IID minus held-out.}
+\label{tab:table_D_summary}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Crop & Held-out & Gain IID & Gain HO & Hit IID & Hit HO & Cov. & Std & Other & Gap \\
+\midrule
+Potato & Bugwood & +18.0 & -6.7 & 100.0 & 86.7 & 50.0 & 84.0 & 69.0 & 0.20 \\
+Apple & Bugwood & +15.0 & -5.0 & 85.0 & 66.7 & 51.0 & 73.0 & 53.0 & 0.30 \\
+Grape & Bugwood & +17.0 & -3.3 & 90.0 & 68.3 & 67.0 & 63.0 & 51.0 & 0.28 \\
+Wheat & Bugwood & +18.0 & -1.7 & 93.0 & 86.7 & 71.0 & 77.0 & 72.0 & 0.21 \\
+Soybean & Bugwood & +12.0 & +0.0 & 63.0 & 56.7 & 39.0 & 45.0 & 29.0 & 0.03 \\
+Corn & Bugwood & +23.0 & +5.0 & 65.0 & 36.7 & 19.0 & 45.0 & 20.0 & 0.06 \\
+Tomato & CDDM & +12.0 & +5.0 & 62.0 & 75.0 & 55.0 & 34.0 & 24.0 & -0.06 \\
+Cucumber & Bugwood & +28.0 & +11.7 & 97.0 & 73.3 & 38.0 & 70.0 & 52.0 & 0.20 \\
+Mango & LeafNet & +34.0 & +25.0 & 93.0 & 93.3 & 100.0 & 77.0 & 71.0 & 0.01 \\
+Rice & SBRD & +17.0 & +33.3 & 83.0 & 90.0 & 64.0 & 54.0 & 53.0 & 0.02 \\
+\bottomrule
+\end{tabular}
+\end{table}

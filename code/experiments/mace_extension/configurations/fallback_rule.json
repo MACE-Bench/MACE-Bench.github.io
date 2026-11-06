@@ -1,0 +1,35 @@
+{
+ "chosen_on": "calibration rows only",
+ "always_mace_cal": 50.83333333333333,
+ "always_sage_cal": 41.66666666666667,
+ "rule": {
+  "signal": "dino_top1",
+  "kind": "crop_quantile",
+  "value": 0.1,
+  "cal_score": 51.25,
+  "cal_fallback": 0.09999999999999998,
+  "thresholds": {
+   "Apple": 0.49761532843112943,
+   "Corn": 0.49533900022506716,
+   "Cucumber": 0.31905543953180315,
+   "Grape": 0.5777891635894775,
+   "Mango": 0.4949133455753326,
+   "Potato": 0.1517920434474945,
+   "Rice": 0.5591982364654541,
+   "Soybean": 0.22209307551383972,
+   "Tomato": 0.2767673909664154,
+   "Wheat": 0.4887496590614319
+  }
+ },
+ "beats_always_mace": true,
+ "by_bank": {
+  "mixed": {
+   "mem": 57.666666666666664,
+   "sage": 41.66666666666667
+  },
+  "other": {
+   "mem": 43.99999999999999,
+   "sage": 41.66666666666667
+  }
+ }
+}

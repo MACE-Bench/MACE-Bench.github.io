@@ -1,0 +1,270 @@
+{
+ "generated_utc": "2026-11-06T05:57:30.087705+00:00",
+ "code_base_commit": "e1df176fe845aeab5205ac2a3e1788500904fa64",
+ "uncommitted_paths": [
+  "M agmem/llm.py",
+  " M mace10/build_submission.py",
+  " M mace10/conditions.py",
+  " M mace10/paper_src/main.tex",
+  "?? experiments/"
+ ],
+ "python": "3.12.14",
+ "platform": "macOS-26.6-arm64-arm-64bit",
+ "access": "Claude Code CLI headless login; no API key stored or logged",
+ "fixed": {
+  "seed": 0,
+  "K": 4,
+  "retrieved_items": 4,
+  "bootstrap_B": 2000,
+  "benchmark": "frozen release v2.1",
+  "captions": "frozen Sonnet 5.5 captions",
+  "sampling": "CLI does not expose temperature"
+ },
+ "budget": {
+  "ledger_start_usd": 657.35,
+  "ledger_end_usd": 723.8342,
+  "extension_usd": 66.4835,
+  "soft_stop_usd": 822.82,
+  "hard_stop_usd": 872.82,
+  "cost_basis": "CLI list-price estimates"
+ },
+ "frozen_rule": {
+  "file": "configurations/fallback_rule.json",
+  "sha256": "dd96bb8ebbd69a7b2616f227a99a540034a534e748e6b56dc569c81b08ff6111",
+  "note": "hash recorded before hero scoring in configurations/fallback_rule.sha256"
+ },
+ "runs": [
+  {
+   "name": "E1_haiku",
+   "use": "confirmatory",
+   "rows": 4800,
+   "jobs_selected": 4800,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-haiku-5-5"
+   ],
+   "conditions": [
+    "labels",
+    "mace",
+    "sage"
+   ],
+   "new_calls": 4776,
+   "cache_hits": 24,
+   "incurred_usd": 4.1353,
+   "ledger_after_usd": 716.696,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T04:33:01.461773+00:00",
+   "last_row_utc": "2026-11-06T05:20:03.030469+00:00",
+   "predictions_sha256": "2f9523bda928540a67f7f14edaa22a6f14ad6e3408afe3989b7204b4d417b76b"
+  },
+  {
+   "name": "E2",
+   "use": "confirmatory",
+   "rows": 1600,
+   "jobs_selected": 1600,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "dino_mace"
+   ],
+   "new_calls": 1585,
+   "cache_hits": 15,
+   "incurred_usd": 20.7604,
+   "ledger_after_usd": 678.9278,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T04:00:23.746901+00:00",
+   "last_row_utc": "2026-11-06T04:10:46.742384+00:00",
+   "predictions_sha256": "879e6f75b4230e92cbb3784c5cf4ef3105c258fc6f90441764592d3b5ff82927"
+  },
+  {
+   "name": "E3cal",
+   "use": "calibration",
+   "rows": 1800,
+   "jobs_selected": 1800,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "mace",
+    "mace_other",
+    "sage"
+   ],
+   "new_calls": 1682,
+   "cache_hits": 118,
+   "incurred_usd": 21.9203,
+   "ledger_after_usd": 712.5607,
+   "unknown_predictions": 1,
+   "first_row_utc": "2026-11-06T04:19:38.208985+00:00",
+   "last_row_utc": "2026-11-06T04:30:51.102443+00:00",
+   "predictions_sha256": "c0b016a21d420c24828d12a20e784eb1847dccfc8c3be4106c58453c6585d77a"
+  },
+  {
+   "name": "E4other",
+   "use": "confirmatory",
+   "rows": 1000,
+   "jobs_selected": 1000,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "other_source"
+   ],
+   "new_calls": 769,
+   "cache_hits": 231,
+   "incurred_usd": 10.111,
+   "ledger_after_usd": 689.0388,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T04:11:07.812960+00:00",
+   "last_row_utc": "2026-11-06T04:16:31.816333+00:00",
+   "predictions_sha256": "1c135d3865d51e88cc4ff127e14cf7c84e287721f53ac2f5714cc6f880b6d11a"
+  },
+  {
+   "name": "E4family",
+   "use": "confirmatory",
+   "rows": 153,
+   "jobs_selected": 153,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "family_disjoint"
+   ],
+   "new_calls": 119,
+   "cache_hits": 34,
+   "incurred_usd": 1.6017,
+   "ledger_after_usd": 690.6404,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T04:16:44.905087+00:00",
+   "last_row_utc": "2026-11-06T04:17:35.717960+00:00",
+   "predictions_sha256": "a5d2e57b75915977592d071a90958ed8cd55b3d2e8dca910c7fce3cc9f0a8bc2"
+  },
+  {
+   "name": "E4matched",
+   "use": "confirmatory, added after E4 results",
+   "rows": 1000,
+   "jobs_selected": 1000,
+   "complete": true,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "size_matched"
+   ],
+   "new_calls": 510,
+   "cache_hits": 490,
+   "incurred_usd": 7.1382,
+   "ledger_after_usd": 723.8342,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T05:39:46.268796+00:00",
+   "last_row_utc": "2026-11-06T05:43:27.561812+00:00",
+   "predictions_sha256": "d27b0c0fff9ea846ecae3b05523b29beb12b55bdab15d846ad956996354b3e7e"
+  },
+  {
+   "name": "E1_haiku_smoke",
+   "use": "smoke, excluded from all results",
+   "rows": 24,
+   "jobs_selected": 24,
+   "complete": false,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-haiku-5-5"
+   ],
+   "conditions": [
+    "labels",
+    "mace",
+    "sage"
+   ],
+   "new_calls": 24,
+   "cache_hits": 0,
+   "incurred_usd": 0.021,
+   "ledger_after_usd": 657.3717,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T03:47:54.753110+00:00",
+   "last_row_utc": "2026-11-06T03:48:10.014878+00:00",
+   "predictions_sha256": "4b3cdc2ab701c5da2349d18ebf93f241c30f9434a9937c30ff01716fcd02057f"
+  },
+  {
+   "name": "E1_opus_smoke",
+   "use": "smoke, excluded from all results",
+   "rows": 24,
+   "jobs_selected": 24,
+   "complete": false,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-opus-5-5"
+   ],
+   "conditions": [
+    "labels",
+    "mace",
+    "sage"
+   ],
+   "new_calls": 24,
+   "cache_hits": 0,
+   "incurred_usd": 0.6502,
+   "ledger_after_usd": 658.022,
+   "unknown_predictions": 1,
+   "first_row_utc": "2026-11-06T03:51:20.494399+00:00",
+   "last_row_utc": "2026-11-06T03:51:39.891903+00:00",
+   "predictions_sha256": "910e221f77e827661febfd81a6ccf74c28540e4a93608762be5c70266f05b963"
+  },
+  {
+   "name": "E2_smoke",
+   "use": "smoke, excluded from all results",
+   "rows": 12,
+   "jobs_selected": 12,
+   "complete": false,
+   "stop": null,
+   "failures_file": false,
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "conditions": [
+    "dino_mace"
+   ],
+   "new_calls": 12,
+   "cache_hits": 0,
+   "incurred_usd": 0.1454,
+   "ledger_after_usd": 658.1674,
+   "unknown_predictions": 0,
+   "first_row_utc": "2026-11-06T03:54:53.815442+00:00",
+   "last_row_utc": "2026-11-06T03:54:58.679177+00:00",
+   "predictions_sha256": "2a0e3b3cb34125ac66227917f22823ed909a980a112bc850279eccae13ce0458"
+  }
+ ],
+ "statistics": {
+  "extension_results.json": "4792dff9cf0d018d8e67c3c09f719577a1213bda49b787172275b28f6fa67817",
+  "robustness_posthoc.json": "334720a91777503e0512d8bb768f7e40dcb2dd2c4195c69f8adf0336703831bf"
+ },
+ "scripts": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "analyze.py": "12cca52950bfde6fd52e0f0b7db2af7e204eb4b8fddd576f004be7daaea300b0",
+  "build_outputs.py": "51654a4607d09409f7b0fae967d44930c60644448215de6057946d14d052b5a1",
+  "embed_extra.py": "3aeece40caac596b114d47c68ca0dc049897af47058e5bf2f85f352ef731d8f5",
+  "export_site.py": "d45a69a69dfb99edab15f0f3d830f6458706e9c02e3c7d2e9130982a5bbaf4be",
+  "jobs.py": "b9909614a6c3082f563f7175e6dd58aacdf42d2907f920b86b5ae0b09e3492a1",
+  "manifest.py": "8a706bf6e8de4b3934ffce194506cdf0581b237a6c89b374f281fff612e9e54b",
+  "queue.sh": "7dbb4801445ba050067e4e7730b5efafba67f6f3fcf41fddc79e5e5ce00cd6eb",
+  "robustness.py": "6bbdf6baa3437273843b457eafe01eddc3ff97cfcbd78562c59460d26aca80b4",
+  "run.py": "13d66dee9358bf5dad6cf6570853739bbfc76d58523905ddf86bcd96e5d62f24",
+  "verify_extension.py": "32a033729eba5a9ec750944c16e1fd3aa0a1118359108ac12699eb15053c6edb"
+ }
+}

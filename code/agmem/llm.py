@@ -7,6 +7,7 @@ list-price estimate. Identical requests are served from the cache at zero cost.
 from __future__ import annotations
 
 import base64
+import contextlib
 import hashlib
 import io
 import json
@@ -19,8 +20,23 @@ from pathlib import Path
 from . import config as C
 
 _lock = threading.Lock()
+_tl = threading.local()   # per-thread diagnosis model override; unset means C.MODEL, so existing cache keys do not change
 _budget = {"usd": 0.0}
 LEDGER = C.RUNS / "cost_ledger.jsonl"
+
+
+def active_model() -> str:
+    return getattr(_tl, "model", None) or C.MODEL
+
+
+@contextlib.contextmanager
+def use_model(model: str | None):
+    """Run the calls of this thread on another model. Cache keys carry the model, so replies never mix across models."""
+    prev = getattr(_tl, "model", None); _tl.model = model
+    try:
+        yield
+    finally:
+        _tl.model = prev
 
 
 class BudgetExceeded(RuntimeError):
@@ -90,7 +106,7 @@ def image_block(path: str | Path, max_side: int = C.IMAGE_MAX_SIDE) -> dict:
 
 
 def _cli(system: str, content: list[dict]) -> dict:
-    cmd = ["claude", "-p", "--model", C.MODEL, "--input-format", "stream-json", "--output-format", "stream-json", "--verbose",
+    cmd = ["claude", "-p", "--model", active_model(), "--input-format", "stream-json", "--output-format", "stream-json", "--verbose",
            "--no-session-persistence", "--tools", "", "--strict-mcp-config", "--setting-sources", "", "--system-prompt", system]
     env = {k: v for k, v in os.environ.items() if not k.startswith(("CLAUDE", "CURSOR", "MCP_CONNECTION", "VSCODE", "ELECTRON"))}
     env["DISABLE_PROMPT_CACHING"] = "1"
@@ -126,7 +142,7 @@ def _ledger(row: dict) -> None:
 def call(system: str, content: list[dict], *, stage: str, tag: str = "", retries: int = 1, reserve_usd: float = 0.05) -> dict:
     """Cached call. Error and usage-limit answers are never cached; at most `retries` retries; each attempt is
     reserved against the budget before dispatch, and failed attempts that were charged are written to the ledger."""
-    key = sha({"m": C.MODEL, "s": system, "c": content})
+    key = sha({"m": active_model(), "s": system, "c": content})
     cp = C.CACHE / "llm" / f"{key}.json"
     if cp.exists():
         out = json.loads(cp.read_text())

@@ -70,10 +70,11 @@ def main(out):
     body = t[t.index(r"\author{"):]
     body = "\n".join(l for l in body.split("\n") if not l.lstrip().startswith("%"))
     prior = re.sub(r"^%.*\n", "", (SRC / "tables/t_prior.tex").read_text(), flags=re.M)
-    prior = re.sub(r"\\newcommand.*\n", "", prior).replace(r"\setlength{\tabcolsep}{2.4pt}", "").replace(r"\macelogo\ ", "").replace(r"\scriptsize", r"\footnotesize", 1)
+    prior = re.sub(r"\\newcommand.*\n", "", prior).replace(r"\setlength{\tabcolsep}{2.4pt}", "").replace(r"\macelogo\ ", "")
     prior = prior.replace(r"\begin{tabular}{@{}lccccc l@{}}", r"\begin{tabular}{@{}lccccc@{}}")
     prior = re.sub(r" & \\textbf\{Evidence at\} \\\\", r" \\\\", prior); prior = re.sub(r" & \\textbf\{test time\} \\\\", r" \\\\", prior)
     prior = re.sub(r"(\\mcite\{[^\n]*?|\\textbf\{MACE \(ours\)\}[^\n]*?) & (?:Image only|Feature cache|Example images|KB \+ images|\\textbf\{KB \+ labeled captions\}) \\\\", r"\1 \\\\", prior)
+    prior = prior.replace(r"\begin{tabular}", r"\resizebox{\columnwidth}{!}{\begin{tabular}").replace(r"\end{tabular}", r"\end{tabular}}")
     tm = (SRC / "tables/t_main.tex").read_text().replace(r"\macelogo\ ", "")
     tm = re.sub(r"\\setlength\{\\tabcolsep\}\{[^}]*\}", "", tm).replace(r"{\tiny[", r"{\scriptsize[").replace(r"\begin{tabular}{lcccc}", r"\begin{tabular}{lcc}").replace(r"\multicolumn{5}", r"\multicolumn{3}")
     rows = []
@@ -83,18 +84,27 @@ def main(out):
         rows.append(l)
     tm = "\n".join(rows).replace(r"\scriptsize", r"\footnotesize", 1).replace(" Green: best planned method.", " Green: best planned method.")
     body = body.replace(r"\input{tables/t_prior.tex}", prior).replace(r"\input{tables/t_main.tex}", tm)
-    body = body.replace(r"\resizebox{0.98\textwidth}{!}{\input{figures/overview_tikz.tex}}", r"\includegraphics[width=\textwidth]{figures/overview.pdf}")
-    body = re.sub(r"\\input\{figures/fig3_traces\.tex\}\s*\\vspace\{3pt\}\s*", r"\\includegraphics[width=\\textwidth]{figures/fig3_traces.pdf}\n\n", body)
+    body = body.replace(r"\resizebox{0.98\textwidth}{!}{\input{figures/overview_tikz.tex}}", r"\includegraphics[width=0.92\textwidth]{figures/overview.pdf}")
+    body = re.sub(r"\\input\{figures/fig3_traces\.tex\}\s*\\vspace\{3pt\}\s*", r"\\includegraphics[width=0.92\\textwidth]{figures/fig3_traces.pdf}\n\n", body)
     body = body.replace("tirtho@iastate.edu, soumiks@iastate.edu\\\\[2pt]\n\\weblink{https://mace-bench.github.io/}{\\faGlobe\\ mace-bench.github.io}\n", "tirtho@iastate.edu, soumiks@iastate.edu\n")
-    body = body.replace("\\end{abstract}\n", "\\end{abstract}\n\n\\begin{links}\n  \\link{Website}{https://mace-bench.github.io/}\n  \\link{Code}{https://github.com/MACE-Bench/MACE-Bench.github.io}\n\\end{links}\n", 1)
+    body = body.replace("\\end{abstract}\n", "\\end{abstract}\n\n\\begin{links}\n  \\link{Website}{https://mace-bench.github.io/}\n\\end{links}\n", 1)
     body = body.replace(r"\weblink{https://mace-bench.github.io/#license}{per-image credits are online}", r"per-image credits are on the website")
     for k in sorted(M, key=len, reverse=True):
         body = re.sub(r"\\" + k + r"(\{\})?(?![A-Za-z])", lambda _: M[k], body)
     body = re.sub(r"\n{3,}", "\n\n", body)
     (out / "main.tex").write_text(PRE + "\n" + body)
-    bib = (SRC / "references.bib").read_text()
-    while r"\weblink{" in bib:
-        bib = re.sub(r"\\weblink\{[^{}]*\}\{((?:[^{}]|\{[^{}]*\})*)\}", r"\1", bib)
+    # bioMoR reference style: each entry prints its URL. No hyperref, so nothing is embedded; viewers still detect printed URLs.
+    bib = (SRC / "references.bib").read_text(); ents = []
+    for e in re.split(r"(?=^@)", bib, flags=re.M):
+        m = re.search(r"\\weblink\{([^{}]*)\}\{((?:[^{}]|\{[^{}]*\})*)\}", e)
+        if m:
+            e = e.replace(m.group(0), m.group(2))
+            e = re.sub(r",?\s*\}\s*$", lambda _: ",\n  note={\\url{" + m.group(1) + "}}\n}\n\n", e)
+        if "arxiv.org/abs" in e:   # the printed URL already gives the arXiv id
+            e2 = re.sub(r"^\s*(journal|booktitle)\s*=\s*\{arXiv preprint[^\n]*\n", "", e, flags=re.M)
+            e = re.sub(r"^@\w+\{", "@misc{", e2) if e2 != e else e
+        ents.append(e)
+    bib = "".join(ents)
     (out / "references.bib").write_text(bib)
     for f in ("aaai2027.sty", "aaai2027.bst"):
         shutil.copy(SRC / f, out / f)

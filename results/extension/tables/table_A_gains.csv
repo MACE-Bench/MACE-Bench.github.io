@@ -1,0 +1,5 @@
+Contrast,Split,Sonnet (reference),Haiku (new),Haiku Holm p,Sonnet fixed/broken %,Haiku fixed/broken %
+MACE minus SAGE,IID,"+19.4 [+16.6, +22.3]","+18.5 [+15.7, +21.4]",0.002,22.6 / 3.2,22.2 / 3.7
+MACE minus SAGE,Held-out,"+6.3 [+3.2, +9.7]","+11.0 [+7.3, +14.8]",0.002,12.3 / 6.0,18.5 / 7.5
+MACE minus labels,IID,"+6.4 [+4.1, +8.9]","+6.4 [+3.9, +8.8]",0.002,11.1 / 4.7,11.0 / 4.6
+MACE minus labels,Held-out,"+2.2 [-0.8, +5.2]","+3.2 [-0.5, +6.8]",0.082,8.2 / 6.0,12.2 / 9.0

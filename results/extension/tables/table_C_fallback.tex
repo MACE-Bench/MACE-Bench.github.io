@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering\small
+\caption{Retrieval-confidence fallback. The rule was frozen on 600 unused IID calibration images and scored once. The oracle uses ground truth and is an upper bound, not a method.}
+\label{tab:table_C_fallback}
+\begin{tabular}{lcc}
+\toprule
+Method & IID & Held-out \\
+\midrule
+SAGE & 42.8 [39.8, 46.0] & 50.7 [46.8, 54.3] \\
+MACE & 62.2 [59.3, 65.0] & 57.0 [53.2, 60.7] \\
+Fallback rule & 61.8 [58.9, 64.6] & 57.8 [54.2, 61.5] \\
+Labeled oracle (bound) & 63.4 [60.5, 66.2] & 59.3 [55.5, 63.2] \\
+IID: fallback rate; harms avoided / gains lost & 4.1\% & 2 / 6 of 32 harms \\
+Held-out: fallback rate; harms avoided / gains lost & 19.2\% & 11 / 6 of 36 harms \\
+\bottomrule
+\end{tabular}
+\end{table}

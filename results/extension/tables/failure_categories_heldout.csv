@@ -1,0 +1,11 @@
+crop,correct,hit_overruled_elsewhere,hit_overruled_to_memory,miss_followed_memory,miss_other,harm,rescued
+Apple,37,4,9,7,3,5,2
+Corn,12,3,11,22,12,3,6
+Cucumber,38,8,5,6,3,2,9
+Grape,40,2,6,10,2,5,3
+Mango,47,3,7,3,0,0,15
+Potato,37,7,8,5,3,7,3
+Rice,40,8,7,3,2,1,21
+Soybean,28,1,10,13,8,7,7
+Tomato,26,9,12,8,5,4,7
+Wheat,37,10,7,5,1,2,1

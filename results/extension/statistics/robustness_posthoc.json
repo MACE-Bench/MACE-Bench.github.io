@@ -1,0 +1,1046 @@
+{
+ "matched": {
+  "rows": 1000,
+  "family": [
+   {
+    "name": "matched_minus_other_covered",
+    "est": 5.503665061189118,
+    "ci": [
+     1.9241634772318394,
+     9.13194796471381
+    ],
+    "p_boot": 0.0025,
+    "n": 554,
+    "p_holm": 0.0075
+   },
+   {
+    "name": "matched_minus_other_all",
+    "est": 3.0,
+    "ci": [
+     0.9000000000000057,
+     4.999999999999979
+    ],
+    "p_boot": 0.0035,
+    "n": 1000,
+    "p_holm": 0.0075
+   },
+   {
+    "name": "standard_minus_matched_covered",
+    "est": -0.5172357226234396,
+    "ci": [
+     -2.8394412353097747,
+     2.045471000668615
+    ],
+    "p_boot": 0.7004999999999999,
+    "n": 554,
+    "p_holm": 0.7004999999999999
+   }
+  ],
+  "acc": {
+   "all": {
+    "sage": 42.800000000000004,
+    "mace": 62.19999999999999,
+    "matched": 52.39999999999999,
+    "other_full": 49.39999999999999
+   },
+   "covered": {
+    "sage": 43.166059970592045,
+    "mace": 60.671478238817656,
+    "matched": 61.188713961441096,
+    "other_full": 55.68504890025198
+   },
+   "not_covered": {
+    "sage": 40.57381443762192,
+    "mace": 58.47962268684862,
+    "matched": 37.65598115660034,
+    "other_full": 37.28844030479197
+   }
+  },
+  "hit": {
+   "all": {
+    "m_hit": 47.60000000000001,
+    "other_hit": 42.2,
+    "hit": 83.10000000000001
+   },
+   "covered": {
+    "m_hit": 83.70017325383601,
+    "other_hit": 73.31809834863336,
+    "hit": 81.96755694426876
+   }
+  },
+  "matched_minus_sage_covered": {
+   "name": "matched_minus_sage_covered",
+   "est": 18.02265399084905,
+   "ci": [
+    13.314808087133803,
+    22.33959095468167
+   ],
+   "p_boot": 0.0005,
+   "n": 554
+  },
+  "top4_same_collection_pct": 34.150000000000006,
+  "per_crop_covered": {
+   "Apple": {
+    "matched": 72.54901960784314,
+    "other": 64.70588235294117,
+    "standard": 70.58823529411765,
+    "n": 51
+   },
+   "Corn": {
+    "matched": 31.57894736842105,
+    "other": 15.789473684210526,
+    "standard": 31.57894736842105,
+    "n": 19
+   },
+   "Cucumber": {
+    "matched": 60.526315789473685,
+    "other": 65.78947368421053,
+    "standard": 63.1578947368421,
+    "n": 38
+   },
+   "Grape": {
+    "matched": 62.68656716417911,
+    "other": 52.23880597014925,
+    "standard": 62.68656716417911,
+    "n": 67
+   },
+   "Mango": {
+    "matched": 77.0,
+    "other": 71.0,
+    "standard": 77.0,
+    "n": 100
+   },
+   "Potato": {
+    "matched": 76.0,
+    "other": 72.0,
+    "standard": 76.0,
+    "n": 50
+   },
+   "Rice": {
+    "matched": 70.3125,
+    "other": 71.875,
+    "standard": 65.625,
+    "n": 64
+   },
+   "Soybean": {
+    "matched": 43.58974358974359,
+    "other": 35.8974358974359,
+    "standard": 41.02564102564102,
+    "n": 39
+   },
+   "Tomato": {
+    "matched": 34.54545454545455,
+    "other": 27.27272727272727,
+    "standard": 34.54545454545455,
+    "n": 55
+   },
+   "Wheat": {
+    "matched": 83.09859154929578,
+    "other": 80.28169014084507,
+    "standard": 84.50704225352112,
+    "n": 71
+   }
+  },
+  "crop_level_matched_minus_other_covered": {
+   "est": 5.503665061189116,
+   "ci": [
+    1.2433288982556183,
+    9.764001224122612
+   ]
+  },
+  "n_unchanged_top4_note": "rows with cache_hit true reused an identical prompt",
+  "cache_hits": 490
+ },
+ "crop_level": {
+  "sonnet_mace_minus_sage_iid": {
+   "est": 19.4,
+   "ci": [
+    14.373235439750605,
+    24.426764560249392
+   ],
+   "p_signflip": 0.001953125
+  },
+  "sonnet_mace_minus_labels_iid": {
+   "est": 6.399999999999999,
+   "ci": [
+    1.9491742436898916,
+    10.850825756310105
+   ],
+   "p_signflip": 0.0078125
+  },
+  "haiku_mace_minus_sage_iid": {
+   "est": 18.5,
+   "ci": [
+    11.257563321002243,
+    25.742436678997755
+   ],
+   "p_signflip": 0.001953125
+  },
+  "haiku_mace_minus_labels_iid": {
+   "est": 6.4,
+   "ci": [
+    2.626723057972191,
+    10.17327694202781
+   ],
+   "p_signflip": 0.0078125
+  },
+  "sonnet_mace_minus_sage_ood": {
+   "est": 6.333333333333334,
+   "ci": [
+    -3.2179969095924186,
+    15.884663576259086
+   ],
+   "p_signflip": 0.21875
+  },
+  "sonnet_mace_minus_labels_ood": {
+   "est": 2.1666666666666665,
+   "ci": [
+    -3.8879665512595376,
+    8.22129988459287
+   ],
+   "p_signflip": 0.5390625
+  },
+  "haiku_mace_minus_sage_ood": {
+   "est": 10.999999999999996,
+   "ci": [
+    4.157900765570151,
+    17.842099234429842
+   ],
+   "p_signflip": 0.0078125
+  },
+  "haiku_mace_minus_labels_ood": {
+   "est": 3.1666666666666665,
+   "ci": [
+    -2.409979979512134,
+    8.743313312845467
+   ],
+   "p_signflip": 0.26171875
+  }
+ },
+ "subgroups": {
+  "groups": {
+   "all_10": [
+    "Apple",
+    "Corn",
+    "Cucumber",
+    "Grape",
+    "Mango",
+    "Potato",
+    "Rice",
+    "Soybean",
+    "Tomato",
+    "Wheat"
+   ],
+   "bugwood_7": [
+    "Apple",
+    "Corn",
+    "Cucumber",
+    "Grape",
+    "Potato",
+    "Soybean",
+    "Wheat"
+   ],
+   "non_bugwood_3": [
+    "Mango",
+    "Rice",
+    "Tomato"
+   ],
+   "excl_mango_rice_8": [
+    "Apple",
+    "Corn",
+    "Cucumber",
+    "Grape",
+    "Potato",
+    "Soybean",
+    "Tomato",
+    "Wheat"
+   ]
+  },
+  "ood": {
+   "all_10": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 6.333333333333336,
+     "ci": [
+      3.1666666666666643,
+      9.666666666666657
+     ],
+     "p_boot": 0.0005,
+     "n": 600
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 2.166666666666657,
+     "ci": [
+      -0.8333333333333428,
+      5.166666666666664
+     ],
+     "p_boot": 0.1795,
+     "n": 600
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 10.999999999999993,
+     "ci": [
+      7.33333333333335,
+      14.833333333333329
+     ],
+     "p_boot": 0.0005,
+     "n": 600
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 3.1666666666666643,
+     "ci": [
+      -0.4999999999999929,
+      6.833333333333329
+     ],
+     "p_boot": 0.0815,
+     "n": 600
+    }
+   },
+   "bugwood_7": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 0.0,
+     "ci": [
+      -3.809523809523803,
+      3.80952380952381
+     ],
+     "p_boot": 1.0,
+     "n": 420
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": -0.4761904761904603,
+     "ci": [
+      -3.80952380952381,
+      2.857142857142854
+     ],
+     "p_boot": 0.8344999999999999,
+     "n": 420
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 6.428571428571438,
+     "ci": [
+      1.6666666666666643,
+      10.952380952380963
+     ],
+     "p_boot": 0.0025,
+     "n": 420
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": -0.7142857142857082,
+     "ci": [
+      -5.0,
+      3.333333333333343
+     ],
+     "p_boot": 0.7444999999999999,
+     "n": 420
+    }
+   },
+   "non_bugwood_3": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 21.111111111111107,
+     "ci": [
+      13.8888888888889,
+      27.791666666666597
+     ],
+     "p_boot": 0.0005,
+     "n": 180
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 8.333333333333329,
+     "ci": [
+      2.7777777777777786,
+      14.444444444444443
+     ],
+     "p_boot": 0.006500000000000001,
+     "n": 180
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 21.666666666666664,
+     "ci": [
+      14.999999999999986,
+      28.888888888888893
+     ],
+     "p_boot": 0.0005,
+     "n": 180
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 12.222222222222229,
+     "ci": [
+      5.0,
+      19.444444444444443
+     ],
+     "p_boot": 0.0005,
+     "n": 180
+    }
+   },
+   "excl_mango_rice_8": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 0.6250000000000071,
+     "ci": [
+      -2.9166666666666643,
+      3.9583333333333215
+     ],
+     "p_boot": 0.7705,
+     "n": 480
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": -0.2083333333333357,
+     "ci": [
+      -3.3333333333333286,
+      2.9166666666666643
+     ],
+     "p_boot": 0.9215,
+     "n": 480
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 7.916666666666664,
+     "ci": [
+      3.3333333333333357,
+      12.499999999999993
+     ],
+     "p_boot": 0.0015,
+     "n": 480
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 0.2083333333333428,
+     "ci": [
+      -3.749999999999993,
+      4.375
+     ],
+     "p_boot": 0.9604999999999999,
+     "n": 480
+    }
+   }
+  },
+  "iid_same_crops": {
+   "all_10": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 19.399999999999984,
+     "ci": [
+      16.6,
+      22.299999999999997
+     ],
+     "p_boot": 0.0005,
+     "n": 1000
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 6.399999999999984,
+     "ci": [
+      4.099999999999994,
+      8.899999999999999
+     ],
+     "p_boot": 0.0005,
+     "n": 1000
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 18.499999999999993,
+     "ci": [
+      15.699999999999996,
+      21.4
+     ],
+     "p_boot": 0.0005,
+     "n": 1000
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 6.399999999999999,
+     "ci": [
+      3.9000000000000057,
+      8.802500000000004
+     ],
+     "p_boot": 0.0005,
+     "n": 1000
+    }
+   },
+   "bugwood_7": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 18.714285714285722,
+     "ci": [
+      15.285714285714292,
+      22.285714285714278
+     ],
+     "p_boot": 0.0005,
+     "n": 700
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 6.428571428571431,
+     "ci": [
+      3.714285714285708,
+      9.289285714285722
+     ],
+     "p_boot": 0.0005,
+     "n": 700
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 18.42857142857143,
+     "ci": [
+      14.857142857142861,
+      21.999999999999993
+     ],
+     "p_boot": 0.0005,
+     "n": 700
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 5.142857142857139,
+     "ci": [
+      2.4285714285714164,
+      7.999999999999993
+     ],
+     "p_boot": 0.0005,
+     "n": 700
+    }
+   },
+   "non_bugwood_3": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 21.000000000000007,
+     "ci": [
+      16.000000000000007,
+      26.333333333333343
+     ],
+     "p_boot": 0.0005,
+     "n": 300
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 6.333333333333336,
+     "ci": [
+      2.3333333333333286,
+      10.666666666666671
+     ],
+     "p_boot": 0.0055,
+     "n": 300
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 18.666666666666664,
+     "ci": [
+      13.666666666666664,
+      24.000000000000007
+     ],
+     "p_boot": 0.0005,
+     "n": 300
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 9.333333333333329,
+     "ci": [
+      5.0,
+      13.666666666666671
+     ],
+     "p_boot": 0.0005,
+     "n": 300
+    }
+   },
+   "excl_mango_rice_8": {
+    "sonnet_mace_minus_sage": {
+     "name": "sonnet_mace_minus_sage",
+     "est": 17.875000000000007,
+     "ci": [
+      14.75,
+      21.0
+     ],
+     "p_boot": 0.0005,
+     "n": 800
+    },
+    "sonnet_mace_minus_labels": {
+     "name": "sonnet_mace_minus_labels",
+     "est": 5.874999999999993,
+     "ci": [
+      3.3718749999999864,
+      8.628124999999997
+     ],
+     "p_boot": 0.0005,
+     "n": 800
+    },
+    "haiku_mace_minus_sage": {
+     "name": "haiku_mace_minus_sage",
+     "est": 17.5,
+     "ci": [
+      14.371874999999987,
+      20.625
+     ],
+     "p_boot": 0.0005,
+     "n": 800
+    },
+    "haiku_mace_minus_labels": {
+     "name": "haiku_mace_minus_labels",
+     "est": 5.0,
+     "ci": [
+      2.374999999999993,
+      7.624999999999993
+     ],
+     "p_boot": 0.0005,
+     "n": 800
+    }
+   }
+  },
+  "leave_one_crop_out": {
+   "Apple": {
+    "sonnet_mace_minus_sage": 7.592592592592595,
+    "sonnet_mace_minus_labels": 2.592592592592588,
+    "haiku_mace_minus_sage": 11.481481481481481,
+    "haiku_mace_minus_labels": 2.5925925925926023
+   },
+   "Corn": {
+    "sonnet_mace_minus_sage": 6.481481481481488,
+    "sonnet_mace_minus_labels": 2.037037037037038,
+    "haiku_mace_minus_sage": 11.666666666666657,
+    "haiku_mace_minus_labels": 3.1481481481481453
+   },
+   "Cucumber": {
+    "sonnet_mace_minus_sage": 5.740740740740733,
+    "sonnet_mace_minus_labels": 2.2222222222222143,
+    "haiku_mace_minus_sage": 10.185185185185176,
+    "haiku_mace_minus_labels": 3.8888888888888786
+   },
+   "Grape": {
+    "sonnet_mace_minus_sage": 7.407407407407405,
+    "sonnet_mace_minus_labels": 2.037037037037024,
+    "haiku_mace_minus_sage": 12.777777777777771,
+    "haiku_mace_minus_labels": 3.7037037037037095
+   },
+   "Mango": {
+    "sonnet_mace_minus_sage": 4.2592592592592595,
+    "sonnet_mace_minus_labels": 0.0,
+    "haiku_mace_minus_sage": 9.259259259259245,
+    "haiku_mace_minus_labels": 1.8518518518518476
+   },
+   "Potato": {
+    "sonnet_mace_minus_sage": 7.777777777777786,
+    "sonnet_mace_minus_labels": 3.518518518518519,
+    "haiku_mace_minus_sage": 11.111111111111128,
+    "haiku_mace_minus_labels": 4.259259259259281
+   },
+   "Rice": {
+    "sonnet_mace_minus_sage": 3.333333333333343,
+    "sonnet_mace_minus_labels": 2.2222222222222285,
+    "haiku_mace_minus_sage": 10.0,
+    "haiku_mace_minus_labels": 1.8518518518518547
+   },
+   "Soybean": {
+    "sonnet_mace_minus_sage": 7.037037037037031,
+    "sonnet_mace_minus_labels": 1.6666666666666643,
+    "haiku_mace_minus_sage": 11.851851851851848,
+    "haiku_mace_minus_labels": 3.8888888888888857
+   },
+   "Tomato": {
+    "sonnet_mace_minus_sage": 6.481481481481467,
+    "sonnet_mace_minus_labels": 2.2222222222222143,
+    "haiku_mace_minus_sage": 10.185185185185183,
+    "haiku_mace_minus_labels": 2.7777777777777644
+   },
+   "Wheat": {
+    "sonnet_mace_minus_sage": 7.222222222222207,
+    "sonnet_mace_minus_labels": 3.148148148148138,
+    "haiku_mace_minus_sage": 11.481481481481467,
+    "haiku_mace_minus_labels": 3.7037037037036953
+   }
+  }
+ },
+ "nearest": {
+  "by_crop": {
+   "Apple": {
+    "iid": {
+     "clip_mean": 0.8378635954856872,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7239652293920517,
+     "nn_collections": {
+      "CDDM": 67,
+      "PlantWild": 17,
+      "PlantDoc": 6
+     }
+    },
+    "ood": {
+     "clip_mean": 0.7118612557649613,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.42284123295297227,
+     "nn_collections": {
+      "CDDM": 30,
+      "PlantWild": 19,
+      "PlantDoc": 5
+     }
+    }
+   },
+   "Corn": {
+    "iid": {
+     "clip_mean": 0.8512914669513703,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7704779654741287,
+     "nn_collections": {
+      "Corn_Disease": 81,
+      "BDCropVegeta": 6,
+      "LeafNet": 5
+     }
+    },
+    "ood": {
+     "clip_mean": 0.8125548789898555,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7055621183166901,
+     "nn_collections": {
+      "Corn_Disease": 52,
+      "LeafNet": 3,
+      "PlantDoc": 2
+     }
+    }
+   },
+   "Cucumber": {
+    "iid": {
+     "clip_mean": 0.8519519591331481,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7543453741073608,
+     "nn_collections": {
+      "Cucumber_Zen": 44,
+      "LeafNet": 29,
+      "PlantWild": 27
+     }
+    },
+    "ood": {
+     "clip_mean": 0.7522225697835286,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.5540625609457492,
+     "nn_collections": {
+      "Cucumber_Zen": 24,
+      "PlantWild": 20,
+      "LeafNet": 16
+     }
+    }
+   },
+   "Grape": {
+    "iid": {
+     "clip_mean": 0.8408079087734223,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7642586439847946,
+     "nn_collections": {
+      "PlantWild": 38,
+      "LeafNet": 17,
+      "RadyPlantDis": 15
+     }
+    },
+    "ood": {
+     "clip_mean": 0.7290226896603902,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.48362851291894915,
+     "nn_collections": {
+      "PlantWild": 30,
+      "LeafNet": 16,
+      "RadyPlantDis": 11
+     }
+    }
+   },
+   "Mango": {
+    "iid": {
+     "clip_mean": 0.8272929376363755,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7188409528136254,
+     "nn_collections": {
+      "BDCropVegeta": 78,
+      "Mango_Leaf": 22
+     }
+    },
+    "ood": {
+     "clip_mean": 0.8416935433944066,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7086314414938291,
+     "nn_collections": {
+      "Mango_Leaf": 40,
+      "BDCropVegeta": 20
+     }
+    }
+   },
+   "Potato": {
+    "iid": {
+     "clip_mean": 0.8220047718286514,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.6881984317302704,
+     "nn_collections": {
+      "BDCropVegeta": 50,
+      "PlantWild": 27,
+      "New_Plant_Di": 8
+     }
+    },
+    "ood": {
+     "clip_mean": 0.7222263514995575,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.48649083053072295,
+     "nn_collections": {
+      "BDCropVegeta": 26,
+      "PlantWild": 19,
+      "PlantDoc": 6
+     }
+    }
+   },
+   "Rice": {
+    "iid": {
+     "clip_mean": 0.8363655692338944,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7027668863534927,
+     "nn_collections": {
+      "BDCropVegeta": 35,
+      "CDDM": 28,
+      "PlantWild": 18
+     }
+    },
+    "ood": {
+     "clip_mean": 0.8233146240313848,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.6818787733713786,
+     "nn_collections": {
+      "BDCropVegeta": 25,
+      "CDDM": 25,
+      "PlantWild": 10
+     }
+    }
+   },
+   "Soybean": {
+    "iid": {
+     "clip_mean": 0.840927220582962,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7079304260015488,
+     "nn_collections": {
+      "Soybean_Dise": 84,
+      "PlantWild": 7,
+      "Soybean_PNAS": 6
+     }
+    },
+    "ood": {
+     "clip_mean": 0.8154859850804012,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.6826810580988725,
+     "nn_collections": {
+      "Soybean_Dise": 57,
+      "PlantWild": 3
+     }
+    }
+   },
+   "Tomato": {
+    "iid": {
+     "clip_mean": 0.8280537396669387,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.6703545519709587,
+     "nn_collections": {
+      "Bugwood": 45,
+      "VQAPlantDise": 14,
+      "A2H0H0R1Plan": 8
+     }
+    },
+    "ood": {
+     "clip_mean": 0.8461695343255997,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.7271180341641108,
+     "nn_collections": {
+      "New_Plant_Di": 17,
+      "VQAPlantDise": 12,
+      "A2H0H0R1Plan": 9
+     }
+    }
+   },
+   "Wheat": {
+    "iid": {
+     "clip_mean": 0.7979495471715927,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.6920282705128193,
+     "nn_collections": {
+      "PlantWild": 48,
+      "CDDM": 33,
+      "Wheat_Diseas": 8
+     }
+    },
+    "ood": {
+     "clip_mean": 0.6984780242045721,
+     "clip_same_ge_090_pct": 0.0,
+     "clip_same_ge_095_pct": 0.0,
+     "dino_mean": 0.48150901421904563,
+     "nn_collections": {
+      "CDDM": 30,
+      "PlantWild": 25,
+      "VQAPlantDise": 3
+     }
+    }
+   }
+  },
+  "standard_bank_collections": {
+   "Soybean": {
+    "Soybean_Dise": 85,
+    "Soybean_PNAS": 8,
+    "PlantWild": 6,
+    "VQAPlantDise": 5
+   },
+   "Corn": {
+    "Corn_Disease": 93,
+    "LeafNet": 8,
+    "BDCropVegeta": 4,
+    "PlantWild": 4,
+    "CDDM": 4,
+    "RadyPlantDis": 3,
+    "New_Plant_Di": 2,
+    "PlantDoc": 2,
+    "A2H0H0R1Plan": 1,
+    "PlantVillage": 1,
+    "AvinashPlant": 1,
+    "VQAPlantDise": 1
+   },
+   "Tomato": {
+    "Bugwood": 41,
+    "A2H0H0R1Plan": 7,
+    "PlantWild": 6,
+    "VQAPlantDise": 6,
+    "RadyPlantDis": 5,
+    "PlantDoc": 4,
+    "AvinashPlant": 4,
+    "New_Plant_Di": 3,
+    "LeafNet": 3,
+    "PlantVillage": 1
+   },
+   "Cucumber": {
+    "Cucumber_Zen": 14,
+    "PlantWild": 10,
+    "LeafNet": 8
+   },
+   "Wheat": {
+    "PlantWild": 13,
+    "CDDM": 11,
+    "VQAPlantDise": 2,
+    "BDCropVegeta": 1,
+    "Wheat_Diseas": 1
+   },
+   "Mango": {
+    "BDCropVegeta": 14,
+    "Mango_Leaf": 6
+   },
+   "Apple": {
+    "CDDM": 21,
+    "PlantWild": 5,
+    "PlantDoc": 2,
+    "VQAPlantDise": 1,
+    "New_Plant_Di": 1,
+    "A2H0H0R1Plan": 1,
+    "PlantVillage": 1
+   },
+   "Grape": {
+    "PlantWild": 11,
+    "LeafNet": 4,
+    "A2H0H0R1Plan": 3,
+    "RadyPlantDis": 3,
+    "CDDM": 1,
+    "PlantDoc": 1,
+    "VQAPlantDise": 1
+   },
+   "Rice": {
+    "BDCropVegeta": 9,
+    "Bugwood": 8,
+    "CDDM": 8,
+    "PlantWild": 6,
+    "VQAPlantDise": 1
+   },
+   "Potato": {
+    "BDCropVegeta": 8,
+    "PlantWild": 4,
+    "A2H0H0R1Plan": 2,
+    "AvinashPlant": 1,
+    "PlantDoc": 1
+   }
+  }
+ },
+ "family": {
+  "covered_other": 554,
+  "covered_family": 513,
+  "lost_coverage": 41,
+  "changed_rows": 153,
+  "changed_by_crop": {
+   "Cucumber": 73,
+   "Grape": 34,
+   "Tomato": 27,
+   "Corn": 9,
+   "Potato": 6,
+   "Apple": 4
+  },
+  "family_minus_other_coverage_kept": {
+   "name": "family_minus_other_kept",
+   "est": -3.4690799396681697,
+   "ci": [
+    -6.154668860551212,
+    -0.9792129439188123
+   ],
+   "p_boot": 0.0035,
+   "n": 513
+  },
+  "lost_rows_acc": {
+   "other": 56.09756097560976,
+   "family": 17.073170731707318
+  },
+  "changed_kept_raw": {
+   "n": 67,
+   "other": 44.776119402985074,
+   "family": 35.82089552238806
+  }
+ },
+ "size": {
+  "hit_standard_on_covered": 81.96755694426876,
+  "hit_other_on_covered": 73.31809834863336,
+  "std_bank_mean": 49.2,
+  "other_bank_mean": 33.159,
+  "hit_full": 83.10000000000001,
+  "hit_size_matched_random": 77.53000000000002,
+  "coverage_size_matched_random": 96.505,
+  "hit_other_actual": 42.2,
+  "coverage_other_actual": 55.400000000000006
+ },
+ "calibration": {
+  "n": 600,
+  "overlap_hero": 0,
+  "in_a_hero_run_bank": 93,
+  "in_own_run_bank": 0,
+  "self_retrieved": 0,
+  "fallback_by_cal_bank_pct": {
+   "mixed": 3.7,
+   "other": 16.3
+  },
+  "cal_mem_minus_sage_on_fallback": {
+   "mixed": 0.0,
+   "other": -5.1020408163265305
+  },
+  "candidates": 60,
+  "candidates_beating_always_mace": 4
+ }
+}

@@ -8,6 +8,7 @@ schema as SAGE and MACE; only the memory part of the packet (or the attached ref
   random      four locked random captions from the same bank, true labels
   imageref    the same four retrieved items as images (label shown), captions withheld
   dino_labels labels only, of the four memory images nearest by DINOv2 instead of BM25 over captions (amendment 2026-11-05)
+  dino_mace   labels and captions of those same four DINOv2 items, in MACE's line format (experiments/mace_extension)
 KB claims for every variant are the ones selected for the MACE packet of the same query, so the KB part is identical
 across variants; total prompt length is not matched exactly (labels-only is shorter).
 """
@@ -20,6 +21,7 @@ from agmem import config as C, packet
 HEADERS = {
     "labels": "### Labelled reference observations (labels of the most similar memory images; descriptions withheld)",
     "dino_labels": "### Labelled reference observations (labels of the most similar memory images; descriptions withheld)",
+    "dino_mace": "### Labelled reference observations (text descriptions of memory images; not source claims)",
     "masked": "### Reference observations (text descriptions of memory images; labels withheld; not source claims)",
     "shuffled": "### Labelled reference observations (text descriptions of memory images; not source claims)",
     "random": "### Labelled reference observations (text descriptions of memory images; not source claims)",

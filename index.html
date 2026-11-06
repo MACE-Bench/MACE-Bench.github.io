@@ -32,7 +32,7 @@
   <div class="inner">
     <a class="brand" href="#top" aria-label="MACE home"><img src="static/images/mace_wordmark.png" alt="MACE"></a>
     <div class="links">
-      <a href="#tldr">TL;DR</a><a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#findings">Findings</a><a href="#figures">Figures</a><a href="#results">Results</a><a href="#discussion">Discussion</a><a href="#team">Team</a><a href="#BibTeX">BibTeX</a><a href="#license">License</a>
+      <a href="#tldr">TL;DR</a><a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#findings">Findings</a><a href="#figures">Figures</a><a href="#results">Results</a><a href="#followup">Follow-up</a><a href="#discussion">Discussion</a><a href="#team">Team</a><a href="#BibTeX">BibTeX</a><a href="#license">License</a>
     </div>
   </div>
 </nav>
@@ -89,7 +89,7 @@
   <div class="container"><div class="hypo">
     <div class="hd"><i class="fas fa-lightbulb"></i> Central Hypothesis</div>
     <div class="bd">Caption memory adds diagnostic information beyond label lookup. A frozen vision-language model (VLM) with a few retrieved, labeled captions should therefore exceed both our earlier SAGE system and a nearest-neighbor label lookup, in distribution and on image collections it has never seen.
-      <div class="tldr"><b class="k">TL;DR</b> The hypothesis holds in part. MACE reaches <b>62.2%</b> in distribution and <b>57.0%</b> on held-out collections, above SAGE (42.8% and 50.7%) and DINOv2 label lookup (52.5% and 38.2%). Retrieved labels account for most of the gain, caption text adds 6.4 points in distribution in a post hoc test, and accuracy falls below SAGE when the true disease is not retrieved.</div>
+      <div class="tldr"><b class="k">TL;DR</b> The hypothesis holds in part. MACE reaches <b>62.2%</b> in distribution and <b>57.0%</b> on held-out collections, above SAGE (42.8% and 50.7%) and DINOv2 label lookup (52.5% and 38.2%). Retrieved labels account for about two thirds of the gain, caption text adds 6.4 points in distribution in a post hoc test, and accuracy falls below SAGE when the true disease is not retrieved. A second Claude model keeps the method order, a confidence fallback did not help, and the held-out gain is uneven: Sonnet gains nothing on the seven crops that hold out one collection.</div>
     </div>
   </div></div>
 </section>
@@ -97,7 +97,7 @@
 <section class="section" id="abstract">
   <div class="container is-max-desktop">
     <div class="has-text-centered"><span class="sec-kicker">Overview</span><h2 class="title is-3">Abstract</h2></div>
-    <div class="content has-text-justified"><p>Crop disease diagnosis is critical for food security, yet labeled disease images are limited and models trained on curated images generalize poorly to field images. We showed in AgEval that general-purpose vision-language models (VLMs) adapt to plant stress tasks from a few annotated examples, and we gave frozen VLMs source-grounded symptom knowledge for 335 crops in SAGE. Building on both studies, we introduce <b>MACE</b> (Memory-Augmented Crop-Disease Evaluation), a training-free method that adds a caption memory to SAGE. Each labeled reference image is described once as text, and the four most relevant labeled captions are retrieved for each test image. We evaluate MACE against label lookup on ten crops and 1,600 queries, with near-copies removed and one image collection held out per crop. With four memory images per disease, MACE reaches <b>62.2%</b> accuracy in distribution and <b>57.0%</b> on held-out collections, compared with 42.8% and 50.7% for SAGE (<b>+19.4</b> and <b>+6.3 points</b>) and 52.5% and 38.2% for nearest-neighbor label lookup with DINOv2. MACE corrects SAGE on 22.6% of in-distribution queries and errs where SAGE is correct on 3.2%. The retrieved labels account for most of the gain, and a post hoc test on all queries shows that caption text adds 6.4 points in distribution. MACE falls below SAGE when the true disease is not retrieved. MACE adds $0.0014 per query over SAGE and, at about one fifth of the price, reaches higher accuracy than an agent reading the same captions.</p></div>
+    <div class="content has-text-justified"><p>Crop disease diagnosis is critical for food security, yet labeled disease images are limited and models trained on curated images generalize poorly to field images. We showed in AgEval that general-purpose vision-language models (VLMs) adapt to plant stress tasks from a few annotated examples, and we gave frozen VLMs source-grounded symptom knowledge for 335 crops in SAGE. Building on both studies, we introduce <b>MACE</b> (Memory-Augmented Crop-Disease Evaluation), a training-free method that adds a caption memory to SAGE. Each labeled reference image is described once as text, and the four most relevant labeled captions are retrieved for each test image. We evaluate MACE against label lookup on ten crops and 1,600 queries, with near-copies removed and one image collection held out per crop. With four memory images per disease, MACE reaches <b>62.2%</b> accuracy in distribution and <b>57.0%</b> on held-out collections, compared with 42.8% and 50.7% for SAGE (<b>+19.4</b> and <b>+6.3 points</b>) and 52.5% and 38.2% for nearest-neighbor label lookup with DINOv2. MACE corrects SAGE on 22.6% of in-distribution queries and errs where SAGE is correct on 3.2%. Retrieved labels account for about two thirds of the gain, and in post hoc tests caption text adds 6.4 points in distribution, and 6.3 when an image encoder selects the captions. A second Claude model reproduces the method order. The held-out gain is uneven: Sonnet shows no gain on the seven crops that hold out one collection. MACE falls below SAGE when the true disease is not retrieved, and a retrieval-confidence fallback did not improve accuracy. MACE adds $0.0014 per query over SAGE and, at about one fifth of the price, reaches higher accuracy than an agent reading the same captions.</p></div>
   </div>
 </section>
 
@@ -120,20 +120,20 @@
       <div class="rq"><div class="rq-head"><span class="rq-id">Q1</span><span class="rq-topic">Across crops</span><span class="ans good">Yes, on crop means</span></div>
         <h3>Does MACE improve diagnosis across crops and under collection shift?</h3>
         <div class="big"><span class="v">42.8<span class="arr">&rarr;</span>62.2</span><span class="cap">SAGE to MACE accuracy (%), in distribution</span></div>
-        <p>The held-out gain is smaller and varies by crop. On held-out collections, MACE is higher than SAGE on five crops, equal on one and lower on four. MACE is higher than DINOv2 lookup on all ten held-out collections.</p>
+        <p>The held-out gain is smaller and varies by crop. On held-out collections, MACE is higher than SAGE on five crops, equal on one and lower on four. In a post hoc grouping, the gain is 0.0 points on the seven crops that hold out Bugwood and +21.1 on the other three. MACE is higher than DINOv2 lookup on all ten held-out collections.</p>
         <div class="chips"><span class="chip">+6.3 points over SAGE, held-out</span><span class="chip">+18.8 points over DINOv2, held-out</span></div></div>
       <div class="rq"><div class="rq-head"><span class="rq-id">Q2</span><span class="rq-topic">Evidence</span><span class="ans mixed">Mostly labels</span></div>
         <h3>Which evidence produces the gain?</h3>
         <div class="minis"><div class="mini"><div class="v">63.0</div><div class="l">Captions and labels</div></div><div class="mini"><div class="v">60.0</div><div class="l">Labels only</div></div><div class="mini"><div class="v bad">46.5</div><div class="l">Captions only</div></div></div>
-        <p>Accuracy (%) on 400 ablation queries, in distribution. On those queries, labels only did not differ from MACE. A post hoc test on all queries shows that caption text adds 6.4 points in distribution; the held-out difference is inconclusive.</p></div>
+        <p>Accuracy (%) on 400 ablation queries, in distribution. On those queries, labels only did not differ from MACE. A post hoc test on all queries shows that caption text adds 6.4 points in distribution; the held-out difference is inconclusive. Captions add +6.3 points when DINOv2 selects the memory.</p></div>
       <div class="rq"><div class="rq-head"><span class="rq-id">Q3</span><span class="rq-topic">Single answers</span><span class="ans good">More fixed than broken</span></div>
         <h3>How does memory change single answers?</h3>
         <div class="big"><span class="v">22.6%<span class="arr">vs</span>3.2%</span><span class="cap">SAGE errors corrected against new errors, in distribution</span></div>
         <p>When the true disease is not retrieved, MACE falls below SAGE: 16.0% against 23.1% in distribution, and 24.4% against 33.1% on held-out collections.</p></div>
-      <div class="rq"><div class="rq-head"><span class="rq-id">Q4</span><span class="rq-topic">Robustness</span><span class="ans good">Stable</span></div>
+      <div class="rq"><div class="rq-head"><span class="rq-id">Q4</span><span class="rq-topic">Robustness</span><span class="ans mixed">Depends on memory</span></div>
         <h3>How robust is the gain?</h3>
         <div class="big"><span class="v">1.7</span><span class="cap">Points of SD across three memory selections, in distribution</span></div>
-        <p>Accuracy rises with memory size, from 53.5% to 65.5% in distribution between one and sixteen images per disease. Memory from the same collection still helps by +6.7 points, so shared acquisition conditions contribute.</p></div>
+        <p>Accuracy rises with memory size, from 53.5% to 65.5% in distribution between one and sixteen images per disease. A second Claude model keeps the method order. Memory from the same collection still helps, by +5.5 points at equal bank size and disease mix; the cause is unknown.</p></div>
       <div class="rq wide"><div class="rq-head"><span class="rq-id">Q5</span><span class="rq-topic">Price</span><span class="ans good">Small increase</span></div>
         <h3>What does the gain cost?</h3>
         <div class="minis"><div class="mini"><div class="v sm">57.5% at $0.017</div><div class="l">MACE retrieval</div></div><div class="mini"><div class="v sm">48.5% at $0.020</div><div class="l">Image references</div></div><div class="mini"><div class="v sm">48.0% at $0.091</div><div class="l">MACE agentic</div></div></div>
@@ -179,13 +179,51 @@
   </div></div>
 </section>
 
+<section class="section is-tint" id="followup">
+  <div class="container"><div class="res-wrap">
+    <div class="has-text-centered" style="margin-bottom:1.2rem"><span class="sec-kicker">Follow-up tests</span><h2 class="title is-3">Stress tests of the main result</h2></div>
+    <div class="table-container"><table class="table res is-fullwidth">
+      <thead><tr><th>Test</th><th class="has-text-right">In distribution</th><th class="has-text-right">Held-out</th></tr></thead>
+      <tbody>
+<tr class="grp"><td colspan="3">Second diagnosis model: Claude Haiku 5.5, same Sonnet captions</td></tr>
+<tr><td class="model">SAGE</td><td class="num">37.0 <small>[34.0, 39.9]</small></td><td class="num">42.5 <small>[38.8, 46.2]</small></td></tr>
+<tr><td class="model">Labels only</td><td class="num">49.1 <small>[46.2, 52.3]</small></td><td class="num">50.3 <small>[46.5, 54.0]</small></td></tr>
+<tr class="best"><td class="model">MACE</td><td class="num">55.5 <small>[52.5, 58.5]</small></td><td class="num">53.5 <small>[49.8, 57.2]</small></td></tr>
+<tr class="grp"><td colspan="3">Retrieval and evidence, Sonnet 5.5</td></tr>
+<tr><td class="model">DINOv2 retrieval with captions</td><td class="num">61.5 <small>[58.6, 64.3]</small></td><td class="num">56.3 <small>[52.5, 60.0]</small></td></tr>
+<tr class="grp"><td colspan="3">Fallback to SAGE at low retrieval confidence, Sonnet 5.5</td></tr>
+<tr><td class="model">Frozen fallback rule</td><td class="num">61.8 <small>[58.9, 64.6]</small></td><td class="num">57.8 <small>[54.2, 61.5]</small></td></tr>
+<tr><td class="model">Labeled oracle (upper bound only)</td><td class="num">63.4 <small>[60.5, 66.2]</small></td><td class="num">59.3 <small>[55.5, 63.2]</small></td></tr>
+<tr class="grp"><td colspan="3">Memory source, 554 in-distribution queries with the true disease in memory, Sonnet 5.5</td></tr>
+<tr><td class="model">Standard memory</td><td class="num">60.7 <small>[56.5, 64.9]</small></td><td class="num">not run</td></tr>
+<tr><td class="model">Same size and disease mix</td><td class="num">61.2 <small>[56.9, 65.3]</small></td><td class="num">not run</td></tr>
+<tr><td class="model">Other collections only</td><td class="num">55.7 <small>[51.6, 59.6]</small></td><td class="num">not run</td></tr>
+      </tbody></table></div>
+    <p class="table-legend">Equal-crop accuracy (%) with 95% bootstrap intervals. All tests were added after the main results and are not preregistered.</p>
+    <div class="disc" style="margin-top:1.4rem">
+      <div class="box"><h4><span class="icon"><i class="fas fa-exchange-alt"></i></span>Second model</h4><p>Haiku keeps the method order. MACE exceeds SAGE by +18.5 points in distribution and +11.0 held-out. Both models are Claude models that read Sonnet captions, so this says nothing about other model families.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-th-large"></i></span>Captions as evidence</h4><p>Captions add +6.3 points in distribution when DINOv2 selects the memory, close to the +6.4 under BM25. Held-out caption effects are inconclusive under both retrievers.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-undo"></i></span>Fallback did not help</h4><p>A rule frozen on 600 separate images changed accuracy by &minus;0.4 [&minus;1.0, +0.1] in distribution and +0.8 [&minus;0.5, +2.2] held-out. Even an oracle would add only 1.2 and 2.3 points.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-layer-group"></i></span>Memory source matters</h4><p>Removing same-collection images costs 12.8 points, mostly because 45% of queries lose their disease from memory. With the disease kept, a bank of equal size recovers the 5.0-point loss (+5.5 [+1.9, +9.1]). The cause is unknown: it may be a shortcut such as shared background, or closer disease appearance.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-exclamation-circle"></i></span>Uneven held-out gain (post hoc)</h4><p>Sonnet gains 0.0 [&minus;3.8, +3.8] on the seven crops that hold out Bugwood and +21.1 [+13.9, +27.8] on the other three. With crops as the unit, the +6.3 held-out interval is [&minus;3.2, +15.9].</p></div>
+    </div>
+    <div style="margin-top:1.4rem">
+      <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/ext_models.png" target="_blank"><img src="static/images/figures/ext_models.png" alt="Accuracy by Claude model, and per-crop gains" loading="lazy"></a><p class="description has-text-centered">Two Claude models, with per-crop gains.</p></div>
+      <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/ext_factorial.png" target="_blank"><img src="static/images/figures/ext_factorial.png" alt="Retrieval by evidence accuracy, and caption effect by crop" loading="lazy"></a><p class="description has-text-centered">Retrieval by evidence, with caption effects by crop.</p></div>
+      <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/ext_fallback.png" target="_blank"><img src="static/images/figures/ext_fallback.png" alt="Fallback calibration and final accuracy" loading="lazy"></a><p class="description has-text-centered">Fallback threshold sensitivity and final accuracy.</p></div>
+      <div class="fig-card" style="margin-top:1.1rem"><a href="static/images/figures/ext_collections.png" target="_blank"><img src="static/images/figures/ext_collections.png" alt="Accuracy by memory source, and held-out gain against image shift" loading="lazy"></a><p class="description has-text-centered">Memory source by crop, and held-out gain against image shift.</p></div>
+    </div>
+    <p class="table-legend" style="margin-top:1rem">Data, statistics and the full report are in <a href="https://github.com/MACE-Bench/MACE-Bench.github.io/tree/main/results/extension" target="_blank" rel="noopener">results/extension</a>.</p>
+  </div></div>
+</section>
+
 <section class="section is-tint" id="discussion">
   <div class="container">
     <div class="has-text-centered" style="margin-bottom:1.6rem"><span class="sec-kicker">Discussion</span><h2 class="title is-3">What this means</h2></div>
     <div class="disc">
-      <div class="box"><h4><span class="icon"><i class="fas fa-search"></i></span>Retrieval failure</h4><p>MACE gains 24.8 and 11.8 points over SAGE on retrieval hits and loses 7.1 and 8.8 points on misses. Deployment would require a signal for retrieval failure, which we did not test.</p></div>
-      <div class="box"><h4><span class="icon"><i class="fas fa-tags"></i></span>Roles of a caption</h4><p>Caption text added accuracy in distribution. DINOv2 retrieval matched caption retrieval in distribution, so captions were not required for retrieval there. Later work should separate the caption as an index from the caption as evidence.</p></div>
-      <div class="box"><h4><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>Limitations</h4><ul><li>The tests of caption text and DINOv2 retrieval are post hoc.</li><li>Each result is one run of one VLM.</li><li>Ten crops do not represent all of agriculture.</li><li>No plant pathologist reviewed the labels or recorded cases.</li></ul></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-search"></i></span>Retrieval failure</h4><p>MACE gains 24.8 and 11.8 points over SAGE on retrieval hits and loses 7.1 and 8.8 points on misses. A label-free fallback to SAGE at low retrieval confidence did not detectably change accuracy, and even an oracle would add at most 2.3 points.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-tags"></i></span>Roles of a caption</h4><p>Caption text added accuracy in distribution. Captions added as much after DINOv2 retrieval as after BM25, so in distribution the caption acts mainly as evidence and not as an index.</p></div>
+      <div class="box"><h4><span class="icon"><i class="fas fa-exclamation-triangle"></i></span>Limitations</h4><ul><li>The caption, DINOv2, second-model, fallback and collection tests are post hoc.</li><li>Each result is one run, and both VLMs are Claude models sharing Sonnet captions.</li><li>Seven crops share one held-out collection, so crop and collection shift remain confounded.</li><li>Ten crops do not represent all of agriculture.</li><li>No plant pathologist reviewed the labels or recorded cases.</li></ul></div>
     </div>
   </div>
 </section>

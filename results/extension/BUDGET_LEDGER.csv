@@ -1,0 +1,10 @@
+package,use,model,new_calls,cache_hits,usd,ledger_after_usd
+E1_haiku,confirmatory,claude-haiku-5-5,4776,24,4.1353,716.696
+E2,confirmatory,claude-sonnet-5-5,1585,15,20.7604,678.9278
+E3cal,calibration,claude-sonnet-5-5,1682,118,21.9203,712.5607
+E4other,confirmatory,claude-sonnet-5-5,769,231,10.111,689.0388
+E4family,confirmatory,claude-sonnet-5-5,119,34,1.6017,690.6404
+E4matched,"confirmatory, added after E4 results",claude-sonnet-5-5,510,490,7.1382,723.8342
+E1_haiku_smoke,"smoke, excluded from all results",claude-haiku-5-5,24,0,0.021,657.3717
+E1_opus_smoke,"smoke, excluded from all results",claude-opus-5-5,24,0,0.6502,658.022
+E2_smoke,"smoke, excluded from all results",claude-sonnet-5-5,12,0,0.1454,658.1674

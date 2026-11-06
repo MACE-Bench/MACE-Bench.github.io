@@ -1,0 +1,2 @@
+{"rule": "Connected components of collection pairs with at least 10% of their combined IID images having a cross-collection OpenCLIP neighbour at cosine >= 0.88, computed on metadata and embeddings only, before any extension result. Suspected shared origin, not proven.",
+ "families": [["Cucumber_Zen", "LeafNet", "RadyPlantDis"], ["AvinashPlant", "New_Plant_Di"], ["PlantVillage", "VQAPlantDise"]]}
