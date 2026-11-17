@@ -1,7 +1,7 @@
 # License and copyright
 
-Copyright (c) 2026 the MACE authors: Tirtho Roy, Shreyan Ganguly, Muhammad Arbab Arshad, Nikhil Bhattacharya,
-Asheesh K. Singh, Baskar Ganapathysubramanian, Chinmay Hegde, Arti Singh and Soumik Sarkar.
+Copyright (c) 2026 the MACE authors: Tirtho Roy, Shreyan Ganguly, Muhammad Arbab Arshad, Nikhil Bhattacharya
+and Soumik Sarkar.
 
 This repository contains material under several licenses. Each item keeps its own terms.
 
