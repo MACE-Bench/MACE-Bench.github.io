@@ -373,3 +373,7 @@ tr.grp td { background:var(--tint); font-style:italic; color:var(--muted); font-
 .team { display:flex; flex-wrap:wrap; justify-content:center; gap:1.4rem 0; }
 .team .member { flex:0 0 25%; padding:0 .5rem; }
 @media (max-width:768px){ .team .member { flex-basis:50%; } }
+
+/* Team: five members in rows of 2, 2, 1 (last centered) */
+.team { max-width: 520px; }
+.team .member { flex: 0 0 50%; }
