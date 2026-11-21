@@ -449,3 +449,6 @@ tr.grp td { background:var(--tint); font-style:italic; color:var(--muted); font-
 .team { display:flex !important; flex-wrap:nowrap !important; justify-content:center; gap:1rem !important; max-width:1100px !important; }
 .team .member { flex:1 1 0 !important; padding:0 .3rem !important; min-width:0; }
 @media (max-width:700px){ .team { flex-wrap:wrap !important; } .team .member { flex:0 0 45% !important; } }
+.lead-1 { max-width:760px; margin:.6rem auto 0; color:#555; font-size:1.02rem; }
+.story p.take { font-size:1.02rem; color:#444; margin:.1rem 0 .4rem; text-align:center; }
+.story h3.sub { text-align:center; }
