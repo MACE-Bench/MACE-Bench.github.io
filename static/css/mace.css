@@ -452,3 +452,14 @@ tr.grp td { background:var(--tint); font-style:italic; color:var(--muted); font-
 .lead-1 { max-width:760px; margin:.6rem auto 0; color:#555; font-size:1.02rem; }
 .story p.take { font-size:1.02rem; color:#444; margin:.1rem 0 .4rem; text-align:center; }
 .story h3.sub { text-align:center; }
+/* funding (same design as the SAGE site) */
+.funders { display:grid; grid-template-columns:1fr 1fr; gap:1rem; max-width:780px; margin:0 auto; }
+.funder { position:relative; display:flex; flex-direction:column; align-items:center; text-align:center; background:#fff; border:1px solid var(--line); border-radius:16px; padding:1.1rem 1rem 1rem; overflow:hidden; color:#2b2b2b; transition:transform .15s, box-shadow .15s; }
+.funder::before { content:""; position:absolute; left:0; right:0; top:0; height:5px; background:linear-gradient(90deg,#2f7d32,#e3ad3c,#c0603a); }
+.funder:hover { transform:translateY(-3px); box-shadow:0 16px 32px rgba(59,42,28,.14); color:#2b2b2b; }
+.funder img { height:56px; width:auto; max-width:100%; object-fit:contain; margin:.4rem 0 .8rem; }
+.funder img.tall { height:86px; margin-top:0; margin-bottom:.6rem; }
+.funder .fname { font-family:'Google Sans',sans-serif; font-weight:700; font-size:.9rem; line-height:1.35; }
+.funder .fid { margin-top:.45rem; display:inline-block; font-size:.8rem; font-weight:700; color:#2f6b2a; background:#eef6e6; border-radius:999px; padding:.2rem .7rem; }
+.fund-text { max-width:780px; margin:1.1rem auto 0; text-align:center; font-size:.86rem; color:#777; line-height:1.6; }
+@media (max-width:768px){ .funders { grid-template-columns:1fr; } }
