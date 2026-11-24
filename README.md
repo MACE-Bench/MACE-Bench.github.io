@@ -4,6 +4,8 @@ Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models.
 
 **Project page:** https://mace-bench.github.io/
 
+**Paper:** https://arxiv.org/abs/2611.28573
+
 MACE adds a caption memory to a frozen vision-language model. Each labeled reference image is described once as text, and the four most relevant labeled captions are retrieved for each test image.
 
 ## Results
